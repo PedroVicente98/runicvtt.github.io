@@ -1,0 +1,18 @@
+<map id="NetworkManager::handleFogCreate" name="NetworkManager::handleFogCreate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,97,215,137"/>
+<area shape="rect" id="Node000002" href="$db/d4b/classSerializer.html#a5eb5ab1b9f7566eaf2486df0e536d82b" title=" " alt="" coords="265,5,479,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,94,199,66,262,39,287,32,289,37,264,45,201,71,148,99"/>
+<area shape="rect" id="Node000004" href="$db/d4b/classSerializer.html#a24d123353bde4bfadc162b244ee4e9d5" title=" " alt="" coords="277,55,467,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,94,290,80,291,85,215,100"/>
+<area shape="rect" id="Node000005" href="$db/d4b/classSerializer.html#abc991f78f5490e60783620ab4c3444e6" title=" " alt="" coords="269,104,475,129"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="215,114,256,114,256,119,215,119"/>
+<area shape="rect" id="Node000006" href="$db/d4b/classSerializer.html#a2defbb75a244dc241a5eb1b342ba50ac" title=" " alt="" coords="263,153,481,179"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="215,134,291,148,290,153,214,139"/>
+<area shape="rect" id="Node000008" href="$d3/df0/classMessageQueue.html#ae18e8febb6e78fadd1fc56332a4b7ba2" title=" " alt="" coords="291,203,453,228"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="148,134,202,162,264,187,294,197,292,202,262,193,200,166,146,139"/>
+<area shape="rect" id="Node000003" href="$db/d4b/classSerializer.html#a4281872677d0169f97044b8708014adb" title=" " alt="" coords="529,31,724,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="480,26,516,30,515,35,479,31"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="467,56,515,51,516,56,467,61"/>
+<area shape="rect" id="Node000007" href="$db/d4b/classSerializer.html#a6fded0442115eb736f46d377cf37c563" title=" " alt="" coords="531,153,722,179"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="482,163,517,163,517,169,482,169"/>
+</map>

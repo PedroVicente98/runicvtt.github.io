@@ -1,0 +1,11 @@
+<map id="Camera::getProjectionMatrix" name="Camera::getProjectionMatrix">
+<area shape="rect" id="Node000001" title=" " alt="" coords="557,55,767,80"/>
+<area shape="rect" id="Node000002" href="$d9/dff/classBoardManager.html#a211d671937d1b0b2494b1d2810f0ad23" title=" " alt="" coords="293,5,499,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="579,55,465,33,466,28,580,50"/>
+<area shape="rect" id="Node000003" href="$d1/df0/classCamera.html#a86b2cb8f56895695f38f952521091d89" title=" " alt="" coords="283,55,509,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="543,70,510,70,510,65,543,65"/>
+<area shape="rect" id="Node000004" href="$d1/df0/classCamera.html#aae36d44ca5d8fa2712278d2a1d1d9fd9" title=" " alt="" coords="283,104,509,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="580,85,466,107,465,101,579,80"/>
+<area shape="rect" id="Node000005" href="$d9/dff/classBoardManager.html#a764873bdfd49e6b2a150a33f0eacff99" title=" " alt="" coords="5,104,235,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="269,119,235,119,235,114,269,114"/>
+</map>

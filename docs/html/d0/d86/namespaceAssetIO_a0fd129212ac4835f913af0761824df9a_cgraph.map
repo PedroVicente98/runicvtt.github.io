@@ -1,0 +1,22 @@
+<map id="AssetIO::importFromPicker" name="AssetIO::importFromPicker">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,200,155"/>
+<area shape="rect" id="Node000002" href="$d0/d86/namespaceAssetIO.html#a2dde48f62f629e1a03ca0835f8a80908" title=" " alt="" coords="262,92,446,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,127,254,117,255,122,189,132"/>
+<area shape="rect" id="Node000009" href="$d0/d86/namespaceAssetIO.html#a5cba712df34d43b377cd1ccf1c17b5b2" title=" " alt="" coords="248,153,460,179"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="200,149,235,152,234,157,200,154"/>
+<area shape="rect" id="Node000003" href="$d0/d86/namespaceAssetIO.html#a8f3732300c549d06588e8fb8e0b08c4b" title=" " alt="" coords="519,29,660,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="402,89,527,56,528,61,403,95"/>
+<area shape="rect" id="Node000007" href="$d0/d86/namespaceAssetIO.html#acf8b171b169e716e2c2fbf610f8ef1b2" title=" " alt="" coords="528,79,651,104"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="446,97,514,93,514,98,446,102"/>
+<area shape="rect" id="Node000008" href="$d0/d86/namespaceAssetIO.html#a8eaed1f8d660f69ca123e48b89432ef8" title=" " alt="" coords="508,128,671,153"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="438,115,495,124,494,129,437,120"/>
+<area shape="rect" id="Node000004" href="$d8/dec/classPathManager.html#ae75b72eb67617d77136a829eb73c7e8f" title=" " alt="" coords="727,5,926,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="660,32,713,27,714,32,661,38"/>
+<area shape="rect" id="Node000006" href="$d8/dec/classPathManager.html#a220ff032714c927e1a2a8ea81d863331" title=" " alt="" coords="719,55,935,80"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="661,47,705,52,705,57,660,52"/>
+<area shape="rect" id="Node000005" href="$d8/dec/classPathManager.html#a467b459b77c73cbc7544551b53911fcd" title=" " alt="" coords="983,31,1220,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="926,24,969,28,969,34,926,30"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="934,55,969,52,969,58,935,61"/>
+<area shape="rect" id="Node000010" href="$df/d63/structAssetIO_1_1ComInit.html#ad05d9709a6ecc066bf1f221f80260184" title=" " alt="" coords="512,177,667,203"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="460,174,499,178,498,183,460,179"/>
+</map>

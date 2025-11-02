@@ -1,0 +1,7 @@
+<map id="Serializer::deserializeBoard" name="Serializer::deserializeBoard">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,205,31"/>
+<area shape="rect" id="Node000002" href="$db/d4b/classSerializer.html#a47d1b2e09aaa99426b40f965ef2bf284" title=" " alt="" coords="253,5,453,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,15,240,15,240,21,205,21"/>
+<area shape="rect" id="Node000003" href="$db/d4b/classSerializer.html#a45c8b78e8467c6f7dba85fd7a21c8781" title=" " alt="" coords="501,5,680,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="454,15,487,15,487,21,454,21"/>
+</map>

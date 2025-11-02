@@ -1,0 +1,20 @@
+<map id="BoardManager::renderToolbar" name="BoardManager::renderToolbar">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,67,220,92"/>
+<area shape="rect" id="Node000002" href="$d9/dff/namespaceUiTypingGuard.html#ae821948ccc636af7863b13c235bb8fa2" title=" " alt="" coords="288,9,467,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,64,304,35,305,40,173,69"/>
+<area shape="rect" id="Node000003" href="$d9/dff/classBoardManager.html#aa78dbda1a719e20ebd433c876451bf59" title=" " alt="" coords="268,59,487,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,77,255,77,255,82,220,82"/>
+<area shape="rect" id="Node000008" href="$d9/dff/classBoardManager.html#aa3991452f739c572a483f72672382fa9" title=" " alt="" coords="280,134,475,174"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="160,90,293,128,292,133,158,95"/>
+<area shape="rect" id="Node000004" href="$d1/df0/classCamera.html#a811613828473f845ff5ab6b38a3492a9" title=" " alt="" coords="584,5,724,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="459,57,534,39,574,31,576,36,535,45,461,62"/>
+<area shape="rect" id="Node000005" href="$d9/dff/classBoardManager.html#aa8cc85933ca8f36804277702fa568079" title=" " alt="" coords="549,55,759,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="487,72,536,70,536,75,487,77"/>
+<area shape="rect" id="Node000007" href="$d1/df0/classCamera.html#a2c2387705de7f2189756fe55b4e4ca2c" title=" " alt="" coords="829,104,967,129"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="487,85,535,89,815,108,815,114,534,94,487,90"/>
+<area shape="rect" id="Node000006" href="$d1/df0/classCamera.html#a68011392c392f16827b18793f5d8272a" title=" " alt="" coords="821,55,975,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="759,65,807,65,807,70,759,70"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="718,77,821,99,820,104,717,83"/>
+<area shape="rect" id="Node000009" href="$d9/dff/classBoardManager.html#ac5a6f3a919fb3fdb4fef2511117069aa" title=" " alt="" coords="535,155,773,195"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="475,159,521,162,521,168,475,164"/>
+</map>

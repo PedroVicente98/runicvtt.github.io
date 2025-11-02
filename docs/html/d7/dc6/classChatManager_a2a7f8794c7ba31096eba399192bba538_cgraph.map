@@ -1,0 +1,20 @@
+<map id="ChatManager::renderEditGroupPopup" name="ChatManager::renderEditGroupPopup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,137,228,177"/>
+<area shape="rect" id="Node000002" href="$d7/dc6/classChatManager.html#a727bf7136a525639a887a400f45f28d7" title=" " alt="" coords="276,61,509,87"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,134,335,88,337,93,185,139"/>
+<area shape="rect" id="Node000007" href="$d7/dc6/classChatManager.html#a19ecba5f58757b7ce91ad2f3b57f87a3" title=" " alt="" coords="574,169,751,195"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="228,150,363,149,510,155,582,164,582,170,509,161,363,154,228,155"/>
+<area shape="rect" id="Node000008" href="$d7/dc6/classChatManager.html#aeff98e92f11b66ee90059fcdbf28b44b" title=" " alt="" coords="281,169,504,195"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="229,164,268,168,267,173,228,170"/>
+<area shape="rect" id="Node000009" href="$d9/dff/namespaceUiTypingGuard.html#a63a23afb57376e34f2fac5999eb9f1d9" title=" " alt="" coords="299,219,486,259"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="179,174,277,205,305,213,304,218,275,210,178,179"/>
+<area shape="rect" id="Node000003" href="$d7/dc6/classChatManager.html#aecdeceb9be9b9b14c31f11526dbfd5a7" title=" " alt="" coords="569,5,757,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="454,59,587,31,588,36,455,64"/>
+<area shape="rect" id="Node000004" href="$d5/d64/namespacemsg.html#a24e8339bdeb6b6a9847b7134e8e016ad" title=" " alt="" coords="557,55,768,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="510,68,544,68,544,73,510,74"/>
+<area shape="rect" id="Node000006" href="$d7/dc6/classChatManager.html#a355992faeefc4f8695bfe76f2c7f295e" title=" " alt="" coords="565,105,760,145"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="462,84,552,101,551,106,461,89"/>
+<area shape="rect" id="Node000005" href="$d5/d64/namespacemsg.html#ad8139941ca11d8369f89b262890dad33" title=" " alt="" coords="816,55,964,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="768,65,803,65,803,70,768,70"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="504,179,560,179,560,185,504,185"/>
+</map>

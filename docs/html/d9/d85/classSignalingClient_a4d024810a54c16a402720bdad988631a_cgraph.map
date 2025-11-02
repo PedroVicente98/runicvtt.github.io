@@ -1,0 +1,14 @@
+<map id="SignalingClient::connect" name="SignalingClient::connect">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,184,88"/>
+<area shape="rect" id="Node000002" href="$d5/d64/namespacemsg.html#ae3fbd79c8bd666c72f9953fdab5e6b34" title=" " alt="" coords="271,5,395,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,60,266,31,267,37,149,65"/>
+<area shape="rect" id="Node000003" href="$dd/d71/classNetworkUtilities.html#a7b9b352f171d45961ea91a8fe0772ac8" title=" " alt="" coords="233,55,434,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,73,219,73,219,78,184,78"/>
+<area shape="rect" id="Node000004" href="$d9/d85/classSignalingClient.html#a957143d66873fe4b3b5c94ee9ae0b326" title=" " alt="" coords="232,120,435,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,85,267,114,266,119,148,91"/>
+<area shape="rect" id="Node000005" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="483,83,612,108"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="406,117,468,106,469,112,407,123"/>
+<area shape="rect" id="Node000006" href="$db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="500,156,595,181"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="410,143,487,156,486,161,409,148"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="512,158,505,148,509,138,523,132,547,129,577,133,589,142,586,146,575,138,547,135,525,137,513,142,510,147,517,154"/>
+</map>

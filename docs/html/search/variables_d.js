@@ -1,0 +1,18 @@
+var searchData=
+[
+  ['name_0',['name',['../d7/d3a/structmsg_1_1MarkerMeta.html#a97aeb7e1e9187efa75f4d70cf271b0a3',1,'msg::MarkerMeta::name'],['../da/d01/structmsg_1_1ReadyMessage.html#ab719e8cbe914b1e1d4e9eebbaba65c9c',1,'msg::ReadyMessage::name'],['../d9/d6c/structPendingImage.html#afb6466a69bf3515b98a8fcd42e1ac9b9',1,'PendingImage::name'],['../d5/da8/structChatGroupModel.html#a8c629064bc6ee9ad58d55ffe1001e88b',1,'ChatGroupModel::name'],['../d7/d7d/namespacemsg_1_1chatkey.html#a1247357663b874cc371aed8771be90fb',1,'msg::chatkey::Name']]],
+  ['namecolorcache_5f_1',['nameColorCache_',['../d7/dc6/classChatManager.html#a898a15ea4626c577147fc7f2e28b37e9',1,'ChatManager']]],
+  ['network_5f_2',['network_',['../d7/dc6/classChatManager.html#afb806438ab2c8366d0b65417cbd33529',1,'ChatManager']]],
+  ['network_5fmanager_3',['network_manager',['../d9/dff/classBoardManager.html#abdf7eaef60d9f3975ad01b928a577dc3',1,'BoardManager::network_manager'],['../da/d28/classGameTableManager.html#a98404d1ffdc6c40a5da90d0c5b7d6c63',1,'GameTableManager::network_manager'],['../db/d08/classPeerLink.html#a7beccd2af9e63c3d0d6bbbc39dcbbeab',1,'PeerLink::network_manager'],['../d9/d85/classSignalingClient.html#a3041e26dfd48f71c363a4e1fc671ddf8',1,'SignalingClient::network_manager'],['../d6/d0b/classSignalingServer.html#ad5d3508991dc5043c01a7a9643efb997',1,'SignalingServer::network_manager']]],
+  ['network_5fpassword_4',['network_password',['../d6/d6f/classNetworkManager.html#ab2786cf9f172101a59c39769ac9ede1d',1,'NetworkManager']]],
+  ['newgroupname_5f_5',['newGroupName_',['../d7/dc6/classChatManager.html#acf033fca35cc1d1c3bb774954539b674',1,'ChatManager']]],
+  ['newgroupsel_5f_6',['newGroupSel_',['../d7/dc6/classChatManager.html#a472673f867e250252d07ef1be6c58d34',1,'ChatManager']]],
+  ['next_5fid_5f_7',['next_id_',['../d8/db3/classImGuiToaster.html#a254efe528b0a82227b74c8ea1eb17f10',1,'ImGuiToaster']]],
+  ['nextsinkid_5f_8',['nextSinkId_',['../db/d67/classLogger.html#af36fedfb4431684cdc126f017badbaa6',1,'Logger']]],
+  ['normalized_9',['normalized',['../dc/dab/structVertexBufferElement.html#aa5216544514d8d4c9baab824d6e48c06',1,'VertexBufferElement']]],
+  ['note_5feditor_5fui_10',['note_editor_ui',['../d8/d43/classApplicationHandler.html#aabdce273e79b2d92dc68ea436228a0b1',1,'ApplicationHandler']]],
+  ['notes_11',['notes',['../d5/d03/structNotes.html#a89d6b2ac4d76a282aab472253f615d05',1,'Notes::notes'],['../db/dc6/namespacemsg_1_1dc_1_1name.html#aaa910c83fe09f995487b1f0d52a372ef',1,'msg::dc::name::Notes']]],
+  ['notes_5fmanager_12',['notes_manager',['../d8/d43/classApplicationHandler.html#a5461a32723c0a5412537a8dd61789832',1,'ApplicationHandler::notes_manager'],['../dc/de9/classNoteEditorUI.html#ac58b0aebdd0532db35300195ede858dd',1,'NoteEditorUI::notes_manager']]],
+  ['notesbyid_5f_13',['notesById_',['../d6/d22/classNotesManager.html#af57378bb6279330e63df873c60d14ee0',1,'NotesManager']]],
+  ['notesbyuuid_5f_14',['notesByUuid_',['../d6/d22/classNotesManager.html#a632fae3b727628fb538a807aa5b6575b',1,'NotesManager']]]
+];

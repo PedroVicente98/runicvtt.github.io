@@ -1,0 +1,18 @@
+<map id="NetworkManager::handleGridUpdate" name="NetworkManager::handleGridUpdate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,123,219,163"/>
+<area shape="rect" id="Node000002" href="$db/d4b/classSerializer.html#a49904ddf8105f688d32b366b5090a36a" title=" " alt="" coords="300,56,489,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,121,266,91,308,82,309,87,267,97,171,126"/>
+<area shape="rect" id="Node000006" href="$db/d4b/classSerializer.html#abc991f78f5490e60783620ab4c3444e6" title=" " alt="" coords="292,105,497,131"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="219,131,278,126,278,131,219,136"/>
+<area shape="rect" id="Node000007" href="$d6/d6f/classNetworkManager.html#aed1ae9bdd229ea45245fc0b540187779" title=" " alt="" coords="267,155,523,180"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="219,150,253,153,253,158,219,155"/>
+<area shape="rect" id="Node000008" href="$d3/df0/classMessageQueue.html#ae18e8febb6e78fadd1fc56332a4b7ba2" title=" " alt="" coords="314,204,475,229"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="171,161,267,190,305,199,304,204,266,195,169,166"/>
+<area shape="rect" id="Node000003" href="$db/d4b/classSerializer.html#a6fded0442115eb736f46d377cf37c563" title=" " alt="" coords="572,5,763,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="463,53,584,31,585,36,464,59"/>
+<area shape="rect" id="Node000004" href="$db/d4b/classSerializer.html#a4281872677d0169f97044b8708014adb" title=" " alt="" coords="812,81,1007,107"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="490,71,798,86,798,91,490,76"/>
+<area shape="rect" id="Node000005" href="$db/d4b/classSerializer.html#ab8d82b453f8566db58a5f2e335924ff8" title=" " alt="" coords="571,107,764,132"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="464,79,585,101,584,107,463,84"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="764,107,798,103,799,108,765,112"/>
+</map>

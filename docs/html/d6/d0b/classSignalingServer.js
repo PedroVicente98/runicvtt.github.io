@@ -1,0 +1,27 @@
+var classSignalingServer =
+[
+    [ "SignalingServer", "d6/d0b/classSignalingServer.html#a1d22525a018668d24ffff96ab8474586", null ],
+    [ "~SignalingServer", "d6/d0b/classSignalingServer.html#a257d9fcbdd01ef29c2c4b093a79b023a", null ],
+    [ "authClients", "d6/d0b/classSignalingServer.html#a4f8a97c040193abbf21d1e74a45ac2ab", null ],
+    [ "broadcast", "d6/d0b/classSignalingServer.html#a2630087e21a05bf01d3cd4b799183bd5", null ],
+    [ "broadcastShutdown", "d6/d0b/classSignalingServer.html#ab53bb53bb4837a9fcffefb8200a6ee7b", null ],
+    [ "disconnectAllClients", "d6/d0b/classSignalingServer.html#a70aa13890f08f63bd8497e8bc366ccfa", null ],
+    [ "disconnectClient", "d6/d0b/classSignalingServer.html#a356ce79fb5caa47939e578edd9cb3ba0", null ],
+    [ "isAuthenticated", "d6/d0b/classSignalingServer.html#a2c6fdfc468ee96cdb28722a11664845a", null ],
+    [ "isRunning", "d6/d0b/classSignalingServer.html#ae18b5b3e48feb909ebac7feb50621099", null ],
+    [ "moveToAuthenticated", "d6/d0b/classSignalingServer.html#a8d9fc20c0e4d459bb2c4058c2de70a74", null ],
+    [ "onConnect", "d6/d0b/classSignalingServer.html#a64ed3edfe61396c7d723022cddf9db61", null ],
+    [ "onMessage", "d6/d0b/classSignalingServer.html#a1bff9775c26724fe03a5bac447e0dd3b", null ],
+    [ "sendTo", "d6/d0b/classSignalingServer.html#adf87cd0f47619053b3b8d14d3793028a", null ],
+    [ "setPendingAuthTimeout", "d6/d0b/classSignalingServer.html#a7c71120199f53c4f15362d48c65704ed", null ],
+    [ "start", "d6/d0b/classSignalingServer.html#abafab7138b02b0587351d777f3ece30e", null ],
+    [ "stop", "d6/d0b/classSignalingServer.html#ad1eb7f34bf1ee45ab24d16020ffcb889", null ],
+    [ "authClients_", "d6/d0b/classSignalingServer.html#ad689a80d65386807c2135adac7a095b3", null ],
+    [ "authUsernames_", "d6/d0b/classSignalingServer.html#ab46678f3ca7c0ed4a5904fbee1b24141", null ],
+    [ "is_running", "d6/d0b/classSignalingServer.html#ab86a69361f5adc75790e3950d9d1fb05", null ],
+    [ "network_manager", "d6/d0b/classSignalingServer.html#ad5d3508991dc5043c01a7a9643efb997", null ],
+    [ "pendingClients_", "d6/d0b/classSignalingServer.html#a587867b4ac354e5fe9a773f480532225", null ],
+    [ "pendingTimeout_", "d6/d0b/classSignalingServer.html#a341c2adc26fc442e15c8a6ef7029a8c8", null ],
+    [ "pendingUsernames_", "d6/d0b/classSignalingServer.html#aeb43f7de6d12927b72d05839583af2fc", null ],
+    [ "server", "d6/d0b/classSignalingServer.html#a1611acc9b2e5e74f3ec59f27ad96c851", null ]
+];

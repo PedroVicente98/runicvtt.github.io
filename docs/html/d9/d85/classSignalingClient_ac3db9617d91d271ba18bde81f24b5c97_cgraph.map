@@ -1,0 +1,10 @@
+<map id="SignalingClient::close" name="SignalingClient::close">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,168,68"/>
+<area shape="rect" id="Node000002" href="$dd/d71/classNetworkUtilities.html#ac24b451c3d4b386916a1062480656c00" title=" " alt="" coords="216,35,416,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,53,202,53,202,58,169,58"/>
+<area shape="rect" id="Node000003" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="464,5,593,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="416,35,450,29,451,34,417,40"/>
+<area shape="rect" id="Node000004" href="$db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="481,79,576,104"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="417,70,468,78,467,84,416,75"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="494,80,487,70,491,60,505,54,529,52,558,56,570,65,566,69,556,61,529,57,506,59,494,64,492,70,498,77"/>
+</map>

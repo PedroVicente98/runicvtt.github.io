@@ -1,0 +1,12 @@
+<map id="ApplicationHandler::renderActiveGametable" name="ApplicationHandler::renderActiveGametable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,37,191,77"/>
+<area shape="rect" id="Node000002" href="$d8/d43/classApplicationHandler.html#abdc6fcc7be0a7375c54b920f263f42af" title=" " alt="" coords="239,5,385,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,41,224,36,225,41,191,46"/>
+<area shape="rect" id="Node000003" href="$d8/d43/classApplicationHandler.html#ad75b179ef62024ae231903d789d019a8" title=" " alt="" coords="239,69,385,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,69,225,74,224,79,190,74"/>
+<area shape="rect" id="Node000004" href="$d8/d43/classApplicationHandler.html#a7655937c9f7a9b730af137a5ad1d9953" title=" " alt="" coords="433,40,580,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="385,76,419,70,420,76,386,81"/>
+<area shape="rect" id="Node000005" href="$d8/d43/classApplicationHandler.html#a1a100fed6275d5d36ae5ff35a278ed18" title=" " alt="" coords="628,69,775,109"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="386,89,433,89,580,89,614,89,614,94,580,95,433,95,386,94"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="580,68,615,74,614,79,580,74"/>
+</map>

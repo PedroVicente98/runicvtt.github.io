@@ -1,0 +1,10 @@
+<map id="NetworkManager::connectToPeer" name="NetworkManager::connectToPeer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,33,241,59"/>
+<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#ac8d84a7d1efb6af7ee6c6b3b667dfff2" title=" " alt="" coords="588,5,824,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,31,230,20,289,11,437,4,574,7,574,12,437,10,290,17,231,25,177,36"/>
+<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a9188d6597282861e87fbc7ff1c50a158" title=" " alt="" coords="289,26,540,66"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="242,43,276,43,276,49,242,49"/>
+<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#ad2a4c0314a66c36cc2db8ca73aca0f8c" title=" " alt="" coords="306,90,523,130"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="183,56,311,84,309,90,181,61"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="540,31,574,28,575,33,540,37"/>
+</map>

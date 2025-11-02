@@ -1,0 +1,7 @@
+<map id="ChatManager" name="ChatManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="45,148,315,1476"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,205,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,99,118,148,113,148,108,100"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="229,13,280,78"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="254,78,249,132,244,131,249,78"/>
+</map>

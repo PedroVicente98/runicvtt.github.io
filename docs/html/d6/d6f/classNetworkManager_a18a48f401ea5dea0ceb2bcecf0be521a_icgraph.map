@@ -1,0 +1,11 @@
+<map id="NetworkManager::getMyPeerId" name="NetworkManager::getMyPeerId">
+<area shape="rect" id="Node000001" title=" " alt="" coords="515,63,739,88"/>
+<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#a8f69585b1ab17b144a1301942789af4c" title=" " alt="" coords="236,5,463,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="551,62,411,33,412,28,552,57"/>
+<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a9b53362bce9f94b5d75f8b0ccae52cc7" title=" " alt="" coords="233,55,465,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="501,78,466,78,466,73,501,73"/>
+<area shape="rect" id="Node000005" href="$d6/d6f/classNetworkManager.html#a00095029e8bf9bf6520ae4f3383f29cf" title=" " alt="" coords="232,119,467,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="558,94,437,122,436,117,557,89"/>
+<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#a0f4f9de49973a81889e18034343a512e" title=" " alt="" coords="5,63,184,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="220,78,184,78,184,73,220,73"/>
+</map>
