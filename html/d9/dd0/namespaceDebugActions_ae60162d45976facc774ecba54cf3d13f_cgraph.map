@@ -1,8 +1,0 @@
-<map id="DebugActions::PingLogChanged" name="DebugActions::PingLogChanged">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,233,68"/>
-<area shape="rect" id="Node000002" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="281,5,411,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,40,268,28,268,33,198,45"/>
-<area shape="rect" id="Node000003" href="$db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="299,79,393,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,65,286,79,285,84,199,71"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="309,80,301,70,305,60,321,54,346,52,378,56,390,65,387,69,376,61,346,57,322,59,309,64,306,70,313,77"/>
-</map>

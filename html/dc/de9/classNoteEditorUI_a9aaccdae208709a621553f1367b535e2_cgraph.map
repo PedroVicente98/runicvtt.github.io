@@ -1,7 +1,0 @@
-<map id="NoteEditorUI::openNoteTab" name="NoteEditorUI::openNoteTab">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,204,31"/>
-<area shape="rect" id="Node000002" href="$dc/de9/classNoteEditorUI.html#ae6cdb065e2d7f4eb4633cf81c21d8cad" title=" " alt="" coords="252,5,471,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,15,238,15,238,21,204,21"/>
-<area shape="rect" id="Node000003" href="$dc/de9/classNoteEditorUI.html#a818ddcd070082f3d89964a77ec669601" title=" " alt="" coords="519,5,744,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="471,15,505,15,505,21,471,21"/>
-</map>

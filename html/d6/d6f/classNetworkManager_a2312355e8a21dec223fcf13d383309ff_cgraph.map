@@ -1,7 +1,0 @@
-<map id="NetworkManager::buildCommitBoardFrame" name="NetworkManager::buildCommitBoardFrame">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,232,63"/>
-<area shape="rect" id="Node000002" href="$db/d4b/classSerializer.html#a60889622ee4e36ea28a284e99bbdf4e5" title=" " alt="" coords="280,5,469,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,29,266,26,266,31,232,35"/>
-<area shape="rect" id="Node000003" href="$db/d4b/classSerializer.html#a3c3d58eaacc5f3c6f19cfde75424e9cc" title=" " alt="" coords="284,55,465,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,51,270,55,270,60,232,57"/>
-</map>

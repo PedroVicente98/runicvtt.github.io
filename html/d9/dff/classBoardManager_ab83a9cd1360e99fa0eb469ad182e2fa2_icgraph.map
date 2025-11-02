@@ -1,7 +1,0 @@
-<map id="BoardManager::setActiveBoard" name="BoardManager::setActiveBoard">
-<area shape="rect" id="Node000001" title=" " alt="" coords="257,35,481,60"/>
-<area shape="rect" id="Node000002" href="$d9/dff/classBoardManager.html#affc264c3aa09dea984656e304658eb34" title=" " alt="" coords="5,5,209,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,36,209,32,210,27,244,31"/>
-<area shape="rect" id="Node000003" href="$d9/dff/classBoardManager.html#ae3c8d16dfa3b0e954475b6cf8e5e52f2" title=" " alt="" coords="10,55,205,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,63,205,68,204,62,243,58"/>
-</map>

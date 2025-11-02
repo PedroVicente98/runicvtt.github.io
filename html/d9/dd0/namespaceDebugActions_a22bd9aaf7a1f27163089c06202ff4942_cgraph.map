@@ -1,8 +1,0 @@
-<map id="DebugActions::MouseCircleChanged" name="DebugActions::MouseCircleChanged">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,205,75"/>
-<area shape="rect" id="Node000002" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="253,5,383,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,35,239,29,240,34,206,40"/>
-<area shape="rect" id="Node000003" href="$db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="271,79,365,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,70,257,78,256,84,205,75"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="283,80,276,70,280,60,294,54,318,52,347,56,359,65,356,69,345,61,318,57,296,59,284,64,281,70,288,77"/>
-</map>

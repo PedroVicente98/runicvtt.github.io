@@ -1,9 +1,0 @@
-<map id="NetworkManager::debugIdentitySnapshot" name="NetworkManager::debugIdentitySnapshot">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,237,103"/>
-<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#a2127afec206b45126dff36ca21ffde3d" title=" " alt="" coords="285,5,517,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,60,289,46,290,51,220,65"/>
-<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a1278e316ee962616fcae67294d53fac0" title=" " alt="" coords="303,70,500,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,80,289,80,289,85,237,85"/>
-<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#a18a48f401ea5dea0ceb2bcecf0be521a" title=" " alt="" coords="289,119,513,145"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="236,100,316,114,315,120,235,105"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="PathManager::isAbsolutePath" name="PathManager::isAbsolutePath">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,216,56"/>
-<area shape="rect" id="Node000002" href="$d8/dec/classPathManager.html#acb7f23b0e5687c88e3e32146cfcf315d" title=" " alt="" coords="264,5,483,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,31,250,27,251,32,217,36"/>
-<area shape="rect" id="Node000003" href="$d8/dec/classPathManager.html#ab4625f00b403df325617c2af592e186f" title=" " alt="" coords="296,55,451,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,50,282,56,282,62,216,56"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="DebugConsole::renderLeftPanel_" name="DebugConsole::renderLeftPanel_">
-<area shape="rect" id="Node000001" title=" " alt="" coords="549,5,740,45"/>
-<area shape="rect" id="Node000002" href="$da/d4c/classDebugConsole.html#adeb68f1f7a629e5f8550872c30fd0b8b" title=" " alt="" coords="331,13,501,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="535,28,501,28,501,23,535,23"/>
-<area shape="rect" id="Node000003" href="$d8/d43/classApplicationHandler.html#afaf00f4f20eca3fec59f8f02f76ef2ce" title=" " alt="" coords="108,13,283,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="317,28,283,28,283,23,317,23"/>
-<area shape="rect" id="Node000004" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,60,38"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="95,28,60,28,60,23,95,23"/>
-</map>

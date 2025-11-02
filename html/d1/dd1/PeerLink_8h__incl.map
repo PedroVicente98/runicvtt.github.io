@@ -1,9 +1,0 @@
-<map id="include/network/PeerLink.h" name="include/network/PeerLink.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="62,5,261,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,93,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,33,81,73,78,69,142,28"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="118,79,205,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,31,164,65,159,65,159,31"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="229,79,288,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="179,29,233,68,230,72,175,33"/>
-</map>

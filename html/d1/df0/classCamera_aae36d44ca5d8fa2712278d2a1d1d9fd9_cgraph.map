@@ -1,7 +1,0 @@
-<map id="Camera::worldToScreenPosition" name="Camera::worldToScreenPosition">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,232,56"/>
-<area shape="rect" id="Node000002" href="$d1/df0/classCamera.html#a3bb21fdfb8bd8974c880a33741a549df" title=" " alt="" coords="280,5,489,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,30,266,27,267,32,232,35"/>
-<area shape="rect" id="Node000003" href="$d1/df0/classCamera.html#a2f90e661a78172675ca06ea69667b531" title=" " alt="" coords="297,55,473,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,51,283,56,283,61,232,56"/>
-</map>

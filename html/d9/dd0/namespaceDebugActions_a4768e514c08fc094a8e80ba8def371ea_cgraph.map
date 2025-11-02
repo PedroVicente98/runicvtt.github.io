@@ -1,8 +1,0 @@
-<map id="DebugActions::ToasterChanged" name="DebugActions::ToasterChanged">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,229,68"/>
-<area shape="rect" id="Node000002" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="277,5,407,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,40,263,28,264,34,195,45"/>
-<area shape="rect" id="Node000003" href="$db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="295,79,389,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,65,281,79,280,84,197,71"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="305,80,298,70,302,60,317,54,342,52,374,56,386,65,382,69,372,61,342,57,318,59,305,64,303,70,310,77"/>
-</map>

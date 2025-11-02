@@ -1,9 +1,0 @@
-<map id="NoteEditorUI::actCreateNote_" name="NoteEditorUI::actCreateNote_">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,220,60"/>
-<area shape="rect" id="Node000002" href="$dc/de9/classNoteEditorUI.html#ae6cdb065e2d7f4eb4633cf81c21d8cad" title=" " alt="" coords="268,5,487,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,33,254,29,255,34,220,38"/>
-<area shape="rect" id="Node000004" href="$d9/dff/namespaceUiTypingGuard.html#a63a23afb57376e34f2fac5999eb9f1d9" title=" " alt="" coords="284,55,471,95"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="220,56,271,61,270,67,220,61"/>
-<area shape="rect" id="Node000003" href="$dc/de9/classNoteEditorUI.html#a818ddcd070082f3d89964a77ec669601" title=" " alt="" coords="535,5,760,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="487,15,521,15,521,21,487,21"/>
-</map>

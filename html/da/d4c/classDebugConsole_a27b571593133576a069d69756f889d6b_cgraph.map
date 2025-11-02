@@ -1,8 +1,0 @@
-<map id="DebugConsole::setLocalTunnelHandlers" name="DebugConsole::setLocalTunnelHandlers">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,225,75"/>
-<area shape="rect" id="Node000002" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="273,5,403,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,34,259,28,260,34,226,40"/>
-<area shape="rect" id="Node000003" href="$db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="291,79,385,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,70,277,79,276,84,225,76"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="302,80,294,70,298,60,313,54,338,52,369,56,381,65,378,69,367,61,338,57,314,59,302,64,299,70,306,77"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="Logger::OstreamRedirect" name="Logger::OstreamRedirect">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,459,241,776"/>
-<area shape="rect" id="Node000002" href="$d1/dd5/classLogger_1_1LineToLoggerBuf.html" title=" " alt="" coords="10,148,237,396"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,396,126,442,121,442,121,396"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="17,5,126,71"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,84,98,147,93,149,79,85"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="150,5,201,71"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="171,72,157,133,152,131,166,70"/>
-</map>

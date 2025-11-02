@@ -1,9 +1,0 @@
-<map id="NetworkUtilities::httpGet" name="NetworkUtilities::httpGet">
-<area shape="rect" id="Node000001" title=" " alt="" coords="573,31,759,56"/>
-<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#ac26153ac2e3b37ed6bedffc50c37038f" title=" " alt="" coords="308,23,525,63"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="560,46,526,46,526,41,560,41"/>
-<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a257fc3a28028db256b35ecd70ec74264" title=" " alt="" coords="11,5,254,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="294,35,254,31,254,26,294,30"/>
-<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#a7d2349d09390e513119bdbceb61675b2" title=" " alt="" coords="5,55,260,80"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="294,56,261,59,260,54,294,51"/>
-</map>

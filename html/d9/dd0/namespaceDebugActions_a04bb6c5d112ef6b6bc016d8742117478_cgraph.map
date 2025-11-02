@@ -1,8 +1,0 @@
-<map id="DebugActions::FpsOverlayChanged" name="DebugActions::FpsOverlayChanged">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,200,75"/>
-<area shape="rect" id="Node000002" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="248,5,377,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,35,234,29,235,34,201,41"/>
-<area shape="rect" id="Node000003" href="$db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="265,79,360,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,69,252,78,251,84,200,75"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="279,80,271,70,275,60,289,54,313,52,342,56,353,65,350,69,340,61,313,57,291,59,279,64,276,70,283,77"/>
-</map>
