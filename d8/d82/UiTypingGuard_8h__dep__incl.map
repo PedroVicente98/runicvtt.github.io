@@ -1,0 +1,28 @@
+<map id="include/UiTypingGuard.h" name="include/UiTypingGuard.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="533,5,713,31"/>
+<area shape="rect" id="Node000002" href="$d4/d97/ChatManager_8h.html" title=" " alt="" coords="477,79,647,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="606,43,574,80,570,77,602,40"/>
+<area shape="rect" id="Node000003" href="$da/d5b/GameTableManager_8h.html" title=" " alt="" coords="244,159,459,185"/>
+<area shape="poly" id="edge12_Node000001_Node000003" title=" " alt="" coords="570,37,518,56,466,81,407,123,365,161,361,157,404,118,463,76,516,51,568,32"/>
+<area shape="rect" id="Node000009" href="$d3/d39/NoteEditorUI_8h.html" title=" " alt="" coords="666,152,813,192"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="643,40,727,150,723,153,638,43"/>
+<area shape="rect" id="Node000012" href="$d0/ddd/BoardManager_8cpp.html" title=" " alt="" coords="723,79,889,104"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="666,33,777,76,775,81,664,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="519,111,383,162,381,157,517,106"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="601,107,698,149,696,154,599,112"/>
+<area shape="rect" id="Node000011" href="$d2/dae/ChatManager_8cpp.html" title=" " alt="" coords="483,159,641,185"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="565,118,565,159,559,159,559,118"/>
+<area shape="rect" id="Node000004" href="$df/d64/ApplicationHandler_8h.html" title=" " alt="" coords="495,247,703,273"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="399,187,567,245,565,250,397,192"/>
+<area shape="rect" id="Node000007" href="$d6/ddb/GameTableManager_8cpp.html" title=" " alt="" coords="5,247,207,273"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="306,192,140,250,138,245,304,187"/>
+<area shape="rect" id="Node000008" href="$d2/ddd/NetworkManager_8cpp.html" title=" " alt="" coords="231,247,471,273"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="354,199,354,247,349,247,349,199"/>
+<area shape="rect" id="Node000005" href="$d1/d2a/ApplicationHandler_8cpp.html" title=" " alt="" coords="414,328,609,353"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="578,284,526,330,523,326,575,280"/>
+<area shape="rect" id="Node000006" href="$df/d0a/main_8cpp.html" title=" " alt="" coords="633,328,739,353"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="624,280,675,326,671,330,621,284"/>
+<area shape="poly" id="edge9_Node000009_Node000004" title=" " alt="" coords="698,201,619,250,617,245,696,197"/>
+<area shape="rect" id="Node000010" href="$de/d4b/NoteEditorUI_8cpp.html" title=" " alt="" coords="727,240,919,280"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="769,200,807,238,803,242,765,204"/>
+</map>

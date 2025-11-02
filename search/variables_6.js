@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['g_5fdockspace_5finitialized_0',['g_dockspace_initialized',['../d8/d43/classApplicationHandler.html#adacc235494ef86a944ecdd8e4db9e2f9',1,'ApplicationHandler']]],
+  ['g_5fdraw_5fdebug_5fcircle_1',['g_draw_debug_circle',['../d8/d43/classApplicationHandler.html#a3a2e745323a92c8e38f4823876f75b39',1,'ApplicationHandler']]],
+  ['g_5fistyping_2',['g_isTyping',['../d9/dff/namespaceUiTypingGuard.html#ac5f6721dfe35805042b8859f36584650',1,'UiTypingGuard']]],
+  ['game_3',['Game',['../db/dc6/namespacemsg_1_1dc_1_1name.html#a0d585ade777534fda49e59da75a1b182',1,'msg::dc::name']]],
+  ['game_5ftable_5fmanager_4',['game_table_manager',['../d8/d43/classApplicationHandler.html#a03599a69b6564b13ed7793f3c188ddc3',1,'ApplicationHandler']]],
+  ['game_5ftable_5fname_5',['game_table_name',['../da/d28/classGameTableManager.html#a107520641ac3129d0077f38fa3d72e66',1,'GameTableManager']]],
+  ['gametable_5fmanager_6',['gametable_manager',['../d6/d6f/classNetworkManager.html#a46d53fba7dece4f6093d6f41c40408c6',1,'NetworkManager']]],
+  ['gametablename_7',['gameTableName',['../de/dca/structGameTable.html#aa067ef0c7317b16091484e9c548372d4',1,'GameTable']]],
+  ['gametablesrootdir_8',['gameTablesRootDir',['../db/de3/structNotesManagerConfig.html#abfe3e45ff83ac839eac2374352abf015',1,'NotesManagerConfig']]],
+  ['genablefpsoverlay_9',['gEnableFpsOverlay',['../d9/dd0/namespaceDebugActions.html#afc1941c720f27e33f1d6559b5b5d9ed1',1,'DebugActions']]],
+  ['genablemousecircle_10',['gEnableMouseCircle',['../d9/dd0/namespaceDebugActions.html#a8d791b0077044d3d869868ab9d4aee8e',1,'DebugActions']]],
+  ['genablepinglog_11',['gEnablePingLog',['../d9/dd0/namespaceDebugActions.html#ad487a5984dce2c53e27a56f68f9163b6',1,'DebugActions']]],
+  ['genabletoastertest_12',['gEnableToasterTest',['../d9/dd0/namespaceDebugActions.html#a5c9ba6233b9d69419e9036a1aa256355',1,'DebugActions']]],
+  ['generalgroupid_5f_13',['generalGroupId_',['../d7/dc6/classChatManager.html#abbf4dac8812289193134a68ea832a603',1,'ChatManager']]],
+  ['global_5fsize_5fslider_14',['global_size_slider',['../d1/d07/classDirectoryWindow.html#abd4e3b28f012a39910b8835bc488caa6',1,'DirectoryWindow']]],
+  ['globalnotesdir_15',['globalNotesDir',['../db/de3/structNotesManagerConfig.html#ad71e94a7d1e8060fe256e21450b7c069',1,'NotesManagerConfig']]],
+  ['gmasterenabled_16',['gMasterEnabled',['../d9/dd0/namespaceDebugActions.html#a52a1100b2f743ac2f22735f40cbebb87',1,'DebugActions']]],
+  ['gmid_17',['GmId',['../de/d1c/namespacemsg_1_1key.html#a42c2bdbfe3c2877249e3b64d83502f78',1,'msg::key']]],
+  ['gmpeerid_5f_18',['gmPeerId_',['../d6/d6f/classNetworkManager.html#a146dba2ab6432230e9e79a7119777dd8',1,'NetworkManager']]],
+  ['gpinglast_19',['gPingLast',['../d9/dd0/namespaceDebugActions.html#a6017629dbaa3ee729027fb639702ef58',1,'DebugActions']]],
+  ['grid_20',['grid',['../da/d01/structmsg_1_1ReadyMessage.html#a79d52b62174e4d1cd40cadbf247ba069',1,'msg::ReadyMessage::grid'],['../d1/d9f/structmsg_1_1BoardMeta.html#a638d1efbe001564b8c2b87070f2c4274',1,'msg::BoardMeta::grid']]],
+  ['grid_5fentity_21',['grid_entity',['../d9/dff/classBoardManager.html#a1c60db958b290af20bd3958a62873198',1,'BoardManager']]],
+  ['groupid_22',['GroupId',['../d7/d7d/namespacemsg_1_1chatkey.html#afd361074bb80961cd569df4ab665607d',1,'msg::chatkey']]],
+  ['groups_5f_23',['groups_',['../d7/dc6/classChatManager.html#abafe07b7deac391cfeca3104ea368878',1,'ChatManager']]],
+  ['gtoasterlast_24',['gToasterLast',['../d9/dd0/namespaceDebugActions.html#acd4c4c0dd86a4f80da5859d62107d938',1,'DebugActions']]]
+];

@@ -1,0 +1,32 @@
+<map id="NoteEditorUI::render" name="NoteEditorUI::render">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,147,160,172"/>
+<area shape="rect" id="Node000002" href="$dc/de9/classNoteEditorUI.html#a4b6d90e40bab36d5a965d577e9761142" title=" " alt="" coords="463,151,639,176"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,158,450,160,450,165,160,163"/>
+<area shape="rect" id="Node000003" href="$dc/de9/classNoteEditorUI.html#ae6cdb065e2d7f4eb4633cf81c21d8cad" title=" " alt="" coords="973,154,1192,179"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="99,170,146,209,176,229,209,247,405,337,489,373,568,399,648,413,689,414,731,411,776,404,822,392,924,352,950,337,974,319,1014,275,1046,229,1067,190,1072,193,1050,232,1019,278,977,322,953,341,926,357,824,397,777,409,732,417,689,419,648,418,567,404,487,378,402,342,207,251,174,234,143,213,96,175"/>
+<area shape="rect" id="Node000005" href="$dc/de9/classNoteEditorUI.html#a51f8b15563300d06e71d3c40f6f9446b" title=" " alt="" coords="440,42,663,67"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="100,145,147,115,207,88,262,73,318,63,426,53,427,58,319,68,263,78,209,93,149,120,103,149"/>
+<area shape="rect" id="Node000007" href="$d9/dff/namespaceUiTypingGuard.html#a63a23afb57376e34f2fac5999eb9f1d9" title=" " alt="" coords="725,89,911,129"/>
+<area shape="poly" id="edge17_Node000001_Node000007" title=" " alt="" coords="160,146,208,141,479,121,710,110,711,115,480,126,208,146,161,151"/>
+<area shape="rect" id="Node000008" href="$dc/de9/classNoteEditorUI.html#a3ea6ba49489a982beddb2ed1c4e46cf3" title=" " alt="" coords="208,197,392,237"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="132,170,211,191,210,196,131,175"/>
+<area shape="rect" id="Node000004" href="$dc/de9/classNoteEditorUI.html#a818ddcd070082f3d89964a77ec669601" title=" " alt="" coords="1240,154,1465,179"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1192,164,1226,164,1226,169,1192,169"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="588,39,654,21,739,6,786,3,834,4,881,11,926,24,971,47,1010,78,1042,111,1066,141,1062,144,1038,115,1006,82,968,52,924,29,880,16,833,9,786,8,740,12,655,26,590,44"/>
+<area shape="rect" id="Node000006" href="$dc/de9/classNoteEditorUI.html#a82b355724ddd9de4f031fdb5fde4b22f" title=" " alt="" coords="723,39,913,64"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="663,50,709,50,709,55,663,56"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="614,64,711,84,710,90,613,70"/>
+<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="392,195,477,177,478,182,393,200"/>
+<area shape="rect" id="Node000009" href="$dc/de9/classNoteEditorUI.html#a41e928a368befa223a486e3417e26382" title=" " alt="" coords="446,204,657,230"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="392,214,432,214,432,220,392,220"/>
+<area shape="poly" id="edge16_Node000009_Node000007" title=" " alt="" coords="621,202,661,185,676,174,685,163,694,151,709,139,721,132,724,137,712,143,698,154,689,166,679,178,664,190,623,207"/>
+<area shape="rect" id="Node000010" href="$dc/de9/classNoteEditorUI.html#a1bf409f46d4db716685a06b0474edf72" title=" " alt="" coords="717,203,919,228"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="657,214,703,214,703,219,657,219"/>
+<area shape="rect" id="Node000011" href="$dc/de9/classNoteEditorUI.html#aecb8f4275999ce387668ca2db3acd2e5" title=" " alt="" coords="711,154,925,179"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="618,202,736,179,737,184,619,207"/>
+<area shape="rect" id="Node000012" href="$d6/d22/classNotesManager.html#adc59a0ee5716f09b1ed47e0c0fe5f4ec" title=" " alt="" coords="712,252,924,278"/>
+<area shape="poly" id="edge14_Node000009_Node000012" title=" " alt="" coords="623,227,734,247,733,252,622,232"/>
+<area shape="rect" id="Node000013" href="$dc/de9/classNoteEditorUI.html#a443c48e18d7f3f4ad45f36263805b700" title=" " alt="" coords="724,302,912,342"/>
+<area shape="poly" id="edge15_Node000009_Node000013" title=" " alt="" coords="579,227,639,257,712,288,733,295,731,300,710,293,636,261,576,232"/>
+<area shape="poly" id="edge13_Node000011_Node000003" title=" " alt="" coords="926,164,960,164,960,169,926,169"/>
+</map>

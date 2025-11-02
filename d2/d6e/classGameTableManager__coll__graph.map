@@ -1,0 +1,7 @@
+<map id="GameTableManager" name="GameTableManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="89,163,335,1273"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,248,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,99,144,162,139,162,131,99"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="272,13,323,78"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="296,78,287,146,282,146,291,78"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="ChatManager::ensureGeneral" name="ChatManager::ensureGeneral">
+<area shape="rect" id="Node000001" title=" " alt="" coords="728,23,940,48"/>
+<area shape="rect" id="Node000002" href="$d7/dc6/classChatManager.html#a2bd172979a809d742db08764a60b3378" title=" " alt="" coords="271,23,464,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="757,23,680,13,596,8,512,13,427,25,427,20,512,7,596,3,680,7,758,18"/>
+<area shape="rect" id="Node000003" href="$d7/dc6/classChatManager.html#a6bf284d1ba8a95c8963efa930ac2c571" title=" " alt="" coords="5,41,223,81"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="753,53,680,62,558,69,434,71,223,68,223,63,434,66,557,64,680,57,753,48"/>
+<area shape="rect" id="Node000004" href="$d7/dc6/classChatManager.html#accb252df2461a07682a79f73f50e2c34" title=" " alt="" coords="512,23,680,48"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="714,38,680,38,680,33,714,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="257,49,223,53,222,47,257,44"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="498,38,464,38,464,33,498,33"/>
+</map>

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['active_5fboard_0',['active_board',['../d9/dff/classBoardManager.html#adf88ff6beeb38a834afad46865d47b5d',1,'BoardManager']]],
+  ['active_5fgame_5ftable_1',['active_game_table',['../da/d28/classGameTableManager.html#adf2a6258e72536cf9e37640fb8e85bc0',1,'GameTableManager']]],
+  ['activechannel_5f_2',['activeChannel_',['../da/d4c/classDebugConsole.html#a5d221cf1f14475a0ad02910cbe059251',1,'DebugConsole']]],
+  ['activegroupid_5f_3',['activeGroupId_',['../d7/dc6/classChatManager.html#a9496c2ea9546deb9105691bc253a19b5',1,'ChatManager']]],
+  ['allowallplayersmove_4',['allowAllPlayersMove',['../df/d84/structMarkerComponent.html#a97bc1567eeb63f70de8ac258b80f3d5c',1,'MarkerComponent']]],
+  ['anchorpivot_5',['anchorPivot',['../d9/dad/structImGuiToaster_1_1Config.html#a0b51fbbfad65a96b26a731eca38daa3d',1,'ImGuiToaster::Config']]],
+  ['answer_6',['Answer',['../dc/d03/namespacemsg_1_1signaling.html#a6a6cae249606b22626cfffa0653a7e35',1,'msg::signaling']]],
+  ['auth_7',['Auth',['../dc/d03/namespacemsg_1_1signaling.html#abdfcb043c8b892117d8462e6b43b6c66',1,'msg::signaling']]],
+  ['authclients_5f_8',['authClients_',['../d6/d0b/classSignalingServer.html#ad689a80d65386807c2135adac7a095b3',1,'SignalingServer']]],
+  ['authmsg_9',['AuthMsg',['../de/d1c/namespacemsg_1_1key.html#ac114c53bb525d4c73ec21365c38d35ab',1,'msg::key']]],
+  ['authok_10',['AuthOk',['../de/d1c/namespacemsg_1_1key.html#a781d5aeb98151172d6f5e658d8653e63',1,'msg::key']]],
+  ['author_11',['author',['../d4/ddb/structNoteComponent.html#ad9b51d0696cf1df80e862dcb300ecbf3',1,'NoteComponent::author'],['../db/dfe/structNote.html#a7ffe61f9f6c27ae537214bace0ddab3f',1,'Note::author']]],
+  ['authresponse_12',['AuthResponse',['../dc/d03/namespacemsg_1_1signaling.html#a73ec863b54cb69b859dafbdfd9b9a031',1,'msg::signaling']]],
+  ['authtoken_13',['AuthToken',['../de/d1c/namespacemsg_1_1key.html#a00337b9bc32d259aca874c4c827213ab',1,'msg::key']]],
+  ['authusernames_5f_14',['authUsernames_',['../d6/d0b/classSignalingServer.html#ab46678f3ca7c0ed4a5904fbee1b24141',1,'SignalingServer']]],
+  ['autoresize_15',['autoResize',['../d9/dad/structImGuiToaster_1_1Config.html#a5de6229878382f25655711686b9a98cd',1,'ImGuiToaster::Config']]],
+  ['autoscroll_5f_16',['autoScroll_',['../da/d4c/classDebugConsole.html#a264ffe7537d4c52c4998de0dc6e300d3',1,'DebugConsole']]]
+];

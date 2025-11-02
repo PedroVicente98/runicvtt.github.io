@@ -1,0 +1,9 @@
+<map id="NoteEditorUI" name="NoteEditorUI">
+<area shape="rect" id="Node000001" title=" " alt="" coords="87,767,323,1892"/>
+<area shape="rect" id="Node000002" href="$de/d26/classMarkdownRenderer.html" title=" " alt="" coords="5,120,239,704"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,704,155,750,150,750,146,705"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="83,5,161,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,84,125,120,119,120,119,84"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="263,379,314,445"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="288,445,260,750,255,750,283,445"/>
+</map>
