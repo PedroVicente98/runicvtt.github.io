@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['imguitoaster_0',['imguitoaster',['../d8/db3/classImGuiToaster.html#a7273e38b9b9339a031b459f9e771088f',1,'ImGuiToaster::ImGuiToaster(const Config &amp;cfg)'],['../d8/db3/classImGuiToaster.html#afeb80f1ca6b427b014cad170d2f41641',1,'ImGuiToaster::ImGuiToaster()=default']]],
+  ['imguitoaster_0',['ImGuiToaster',['../d8/db3/classImGuiToaster.html#afeb80f1ca6b427b014cad170d2f41641',1,'ImGuiToaster::ImGuiToaster()=default'],['../d8/db3/classImGuiToaster.html#a7273e38b9b9339a031b459f9e771088f',1,'ImGuiToaster::ImGuiToaster(const Config &amp;cfg)']]],
   ['importfrompath_1',['importFromPath',['../d0/d86/namespaceAssetIO.html#a2dde48f62f629e1a03ca0835f8a80908',1,'AssetIO']]],
   ['importfrompicker_2',['importFromPicker',['../d0/d86/namespaceAssetIO.html#a0fd129212ac4835f913af0761824df9a',1,'AssetIO']]],
   ['importfromurl_3',['importFromUrl',['../d0/d86/namespaceAssetIO.html#a59ef49474071594c07f8c4620b60ba92',1,'AssetIO']]],
@@ -13,10 +13,10 @@ var searchData=
   ['instance_10',['instance',['../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f',1,'Logger']]],
   ['isabsolutepath_11',['isAbsolutePath',['../d8/dec/classPathManager.html#abc27ded79e24f01da862f4e920ff57af',1,'PathManager']]],
   ['isauthenticated_12',['isAuthenticated',['../d6/d0b/classSignalingServer.html#a2c6fdfc468ee96cdb28722a11664845a',1,'SignalingServer']]],
-  ['isboardactive_13',['isboardactive',['../d9/dff/classBoardManager.html#aa566076d67c14846fae87c6d3fbf4c2d',1,'BoardManager::isBoardActive()'],['../da/d28/classGameTableManager.html#afc78b5f6708c67259bca12556fe7b0b2',1,'GameTableManager::isBoardActive()']]],
+  ['isboardactive_13',['isBoardActive',['../d9/dff/classBoardManager.html#aa566076d67c14846fae87c6d3fbf4c2d',1,'BoardManager::isBoardActive()'],['../da/d28/classGameTableManager.html#afc78b5f6708c67259bca12556fe7b0b2',1,'GameTableManager::isBoardActive()']]],
   ['isclosedorfailed_14',['isClosedOrFailed',['../db/d08/classPeerLink.html#a7fc074e0e97e42610e035d5036759525',1,'PeerLink']]],
   ['iscomplete_15',['isComplete',['../d9/d6c/structPendingImage.html#afcf04f2859cd52e8861329424185ae28',1,'PendingImage']]],
-  ['isconnected_16',['isconnected',['../db/d08/classPeerLink.html#a4d0c2f75fcadd38944fc3e789c09e973',1,'PeerLink::isConnected()'],['../d6/d6f/classNetworkManager.html#a74b0f1f9ba9ae4b498c46b47f130773d',1,'NetworkManager::isConnected()'],['../da/d28/classGameTableManager.html#aa2029c473aa1785ec39cc1130eff7ec7',1,'GameTableManager::isConnected()']]],
+  ['isconnected_16',['isConnected',['../da/d28/classGameTableManager.html#aa2029c473aa1785ec39cc1130eff7ec7',1,'GameTableManager::isConnected()'],['../d6/d6f/classNetworkManager.html#a74b0f1f9ba9ae4b498c46b47f130773d',1,'NetworkManager::isConnected()'],['../db/d08/classPeerLink.html#a4d0c2f75fcadd38944fc3e789c09e973',1,'PeerLink::isConnected()']]],
   ['iscreatingfog_17',['isCreatingFog',['../d9/dff/classBoardManager.html#ad0abcd1d545cbf24b7ab0a3abf037a7c',1,'BoardManager']]],
   ['isdatachannelopen_18',['isDataChannelOpen',['../db/d08/classPeerLink.html#a08d9a89307586870599cc948a538f888',1,'PeerLink']]],
   ['isdebugexecenabled_19',['isDebugExecEnabled',['../da/d4c/classDebugConsole.html#aefe8b69430161f807580a579f201924e',1,'DebugConsole']]],
@@ -38,5 +38,5 @@ var searchData=
   ['istype_35',['isType',['../d5/d64/namespacemsg.html#ae7abacc91a9100a513f73c56ad864596',1,'msg']]],
   ['istyping_36',['IsTyping',['../d9/dff/namespaceUiTypingGuard.html#ae821948ccc636af7863b13c235bb8fa2',1,'UiTypingGuard']]],
   ['isunc_37',['isUNC',['../d8/dec/classPathManager.html#ab4625f00b403df325617c2af592e186f',1,'PathManager']]],
-  ['isvisible_38',['isvisible',['../da/d4c/classDebugConsole.html#a3d770310d0b1c21e14ce2925228fc756',1,'DebugConsole::isVisible()'],['../dc/de9/classNoteEditorUI.html#adcb5c4c675e915c5618a7fb4e082125d',1,'NoteEditorUI::isVisible()']]]
+  ['isvisible_38',['isVisible',['../da/d4c/classDebugConsole.html#a3d770310d0b1c21e14ce2925228fc756',1,'DebugConsole::isVisible()'],['../dc/de9/classNoteEditorUI.html#adcb5c4c675e915c5618a7fb4e082125d',1,'NoteEditorUI::isVisible()']]]
 ];

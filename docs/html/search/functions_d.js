@@ -2,7 +2,7 @@ var searchData=
 [
   ['ok_0',['ok',['../df/d63/structAssetIO_1_1ComInit.html#ad05d9709a6ecc066bf1f221f80260184',1,'AssetIO::ComInit']]],
   ['onconnect_1',['onConnect',['../d6/d0b/classSignalingServer.html#a64ed3edfe61396c7d723022cddf9db61',1,'SignalingServer']]],
-  ['onmessage_2',['onmessage',['../d9/d85/classSignalingClient.html#a957143d66873fe4b3b5c94ee9ae0b326',1,'SignalingClient::onMessage()'],['../d6/d0b/classSignalingServer.html#a1bff9775c26724fe03a5bac447e0dd3b',1,'SignalingServer::onMessage()']]],
+  ['onmessage_2',['onMessage',['../d9/d85/classSignalingClient.html#a957143d66873fe4b3b5c94ee9ae0b326',1,'SignalingClient::onMessage()'],['../d6/d0b/classSignalingServer.html#a1bff9775c26724fe03a5bac447e0dd3b',1,'SignalingServer::onMessage()']]],
   ['onpeerchannelopen_3',['onPeerChannelOpen',['../d6/d6f/classNetworkManager.html#a1e4b5d0dbf725b649c4daf02522224e7',1,'NetworkManager']]],
   ['onpeerlocalcandidate_4',['onPeerLocalCandidate',['../d6/d6f/classNetworkManager.html#a0948166ce2018bd8603b033ac6b0319a',1,'NetworkManager']]],
   ['onpeerlocaldescription_5',['onPeerLocalDescription',['../d6/d6f/classNetworkManager.html#a70a4b940a6ceb973e2d8e4ffeeb62fe9',1,'NetworkManager']]],
@@ -15,6 +15,6 @@ var searchData=
   ['opentabbyuuid_12',['openTabByUuid',['../dc/de9/classNoteEditorUI.html#aecb8f4275999ce387668ca2db3acd2e5',1,'NoteEditorUI']]],
   ['openurlassetpopup_13',['openUrlAssetPopUp',['../d0/d86/namespaceAssetIO.html#a9745e8f40c71e624d1f3c2670108ff23',1,'AssetIO']]],
   ['operator_3d_14',['operator=',['../d4/dc8/classLogger_1_1OstreamRedirect.html#a2cd98de7202df62f7111be1cda925140',1,'Logger::OstreamRedirect::operator=(const OstreamRedirect &amp;)=delete'],['../d4/dc8/classLogger_1_1OstreamRedirect.html#a0ad66384410face5e58142d20ecfed64',1,'Logger::OstreamRedirect::operator=(OstreamRedirect &amp;&amp;)=delete']]],
-  ['ostreamredirect_15',['ostreamredirect',['../d4/dc8/classLogger_1_1OstreamRedirect.html#aa0e60ea446f40384ac88a15fb48efdb4',1,'Logger::OstreamRedirect::OstreamRedirect(std::ostream &amp;os, const std::string &amp;channel, std::optional&lt; Level &gt; forced=std::nullopt)'],['../d4/dc8/classLogger_1_1OstreamRedirect.html#a67779020b006d667ed73d5d53a3e1e4c',1,'Logger::OstreamRedirect::OstreamRedirect(const OstreamRedirect &amp;)=delete'],['../d4/dc8/classLogger_1_1OstreamRedirect.html#afb775f96cd59d0aea7cd0f08b4dce929',1,'Logger::OstreamRedirect::OstreamRedirect(OstreamRedirect &amp;&amp;)=delete']]],
+  ['ostreamredirect_15',['OstreamRedirect',['../d4/dc8/classLogger_1_1OstreamRedirect.html#aa0e60ea446f40384ac88a15fb48efdb4',1,'Logger::OstreamRedirect::OstreamRedirect(std::ostream &amp;os, const std::string &amp;channel, std::optional&lt; Level &gt; forced=std::nullopt)'],['../d4/dc8/classLogger_1_1OstreamRedirect.html#a67779020b006d667ed73d5d53a3e1e4c',1,'Logger::OstreamRedirect::OstreamRedirect(const OstreamRedirect &amp;)=delete'],['../d4/dc8/classLogger_1_1OstreamRedirect.html#afb775f96cd59d0aea7cd0f08b4dce929',1,'Logger::OstreamRedirect::OstreamRedirect(OstreamRedirect &amp;&amp;)=delete']]],
   ['overflow_16',['overflow',['../d1/dd5/classLogger_1_1LineToLoggerBuf.html#a92248ba0deff6e257595b422c5a4443d',1,'Logger::LineToLoggerBuf']]]
 ];

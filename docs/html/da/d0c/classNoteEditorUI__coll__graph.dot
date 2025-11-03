@@ -46,10 +46,10 @@ digraph "NoteEditorUI"
   Node2 -> Node1 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" ",label=" -md_",fontcolor="grey" ,arrowhead="odiamond"];
   Node2 [id="Node000002",shape=plain,label=<<TABLE CELLBORDER="0" BORDER="1"><TR><TD COLSPAN="2" CELLPADDING="1" CELLSPACING="0">MarkdownRenderer</TD></TR>
 <HR/>
-<TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">std::function&lt; void<BR ALIGN="LEFT"/>(const std::string &amp;url)<BR ALIGN="LEFT"/>&gt; onOpenExternal<BR ALIGN="LEFT"/></TD></TR>
-<TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">std::function&lt; void<BR ALIGN="LEFT"/>(const std::string &amp;expr)<BR ALIGN="LEFT"/>&gt; onRoll<BR ALIGN="LEFT"/></TD></TR>
-<TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">std::function&lt; void<BR ALIGN="LEFT"/>(const std::string &amp;uuid)<BR ALIGN="LEFT"/>&gt; onNoteOpen<BR ALIGN="LEFT"/></TD></TR>
-<TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">std::function&lt; std<BR ALIGN="LEFT"/>::string(const std::<BR ALIGN="LEFT"/>string &amp;ref)&gt; resolveNoteRef<BR ALIGN="LEFT"/></TD></TR>
+<TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">std::function&lt; void<BR ALIGN="LEFT"/>(const std::string &amp;url)<BR ALIGN="LEFT"/> onOpenExternal<BR ALIGN="LEFT"/></TD></TR>
+<TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">std::function&lt; void<BR ALIGN="LEFT"/>(const std::string &amp;expr)<BR ALIGN="LEFT"/> onRoll<BR ALIGN="LEFT"/></TD></TR>
+<TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">std::function&lt; void<BR ALIGN="LEFT"/>(const std::string &amp;uuid)<BR ALIGN="LEFT"/> onNoteOpen<BR ALIGN="LEFT"/></TD></TR>
+<TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">std::function&lt; std<BR ALIGN="LEFT"/>::string(const std::<BR ALIGN="LEFT"/>string &amp;ref) resolveNoteRef<BR ALIGN="LEFT"/></TD></TR>
 <HR/>
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">MarkdownRenderer()<BR ALIGN="LEFT"/>=default<BR ALIGN="LEFT"/></TD></TR>
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">void open_url() const<BR ALIGN="LEFT"/> override<BR ALIGN="LEFT"/></TD></TR>

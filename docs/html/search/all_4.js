@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ecs_0',['ecs',['../d9/dff/classBoardManager.html#ac0c77461923a3dbdf28d30c3d1f1ad6e',1,'BoardManager::ecs'],['../d8/d43/classApplicationHandler.html#aacf4b014017342f3a575907fe246c5a3',1,'ApplicationHandler::ecs'],['../d6/d6f/classNetworkManager.html#a8c56b86dae64901486664a6f990c6c3a',1,'NetworkManager::ecs'],['../da/d28/classGameTableManager.html#adb0d8d7d0062ab0bc13ff0fa0ae4be3b',1,'GameTableManager::ecs']]],
+  ['ecs_0',['ecs',['../d8/d43/classApplicationHandler.html#aacf4b014017342f3a575907fe246c5a3',1,'ApplicationHandler::ecs'],['../d9/dff/classBoardManager.html#ac0c77461923a3dbdf28d30c3d1f1ad6e',1,'BoardManager::ecs'],['../da/d28/classGameTableManager.html#adb0d8d7d0062ab0bc13ff0fa0ae4be3b',1,'GameTableManager::ecs'],['../d6/d6f/classNetworkManager.html#a8c56b86dae64901486664a6f990c6c3a',1,'NetworkManager::ecs']]],
   ['edgepadding_1',['edgePadding',['../d9/dad/structImGuiToaster_1_1Config.html#a4a700943a2904c7f3514e156f222aa3f',1,'ImGuiToaster::Config']]],
   ['edit_5fwindow_5fentity_2',['edit_window_entity',['../d9/dff/classBoardManager.html#a5a9c223a6f8b14211e10e30f3d3bc563',1,'BoardManager']]],
   ['editbuffer_3',['editBuffer',['../dc/d53/structNoteEditorUI_1_1TabState.html#a43d6a4e0b0509b61980f7fb2ef95cd17',1,'NoteEditorUI::TabState']]],
@@ -22,7 +22,7 @@ var searchData=
   ['epoch_19',['epoch',['../d3/ddf/structDragState.html#aa45d0e2a52b3c83c22b32b54cd3f9521',1,'DragState']]],
   ['epochopenedms_20',['epochOpenedMs',['../d3/ddf/structDragState.html#aac5b65d600758bf43936439b35fb83da',1,'DragState']]],
   ['erasepeer_21',['erasePeer',['../d8/d43/classIdentityManager.html#a3865c83acdb1586d0a3e1a9dd2f7c9fb',1,'IdentityManager']]],
-  ['error_22',['error',['../d8/db3/classImGuiToaster.html#a18c109941d29e1bd30a74029c8875b73',1,'ImGuiToaster::Error()'],['../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd',1,'Logger::Error'],['../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba902b0d55fddef6f8d651fe1035b7d4bd',1,'ImGuiToaster::Error']]],
+  ['error_22',['Error',['../d8/db3/classImGuiToaster.html#a18c109941d29e1bd30a74029c8875b73',1,'ImGuiToaster::Error()'],['../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd',1,'Logger::Error'],['../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba902b0d55fddef6f8d651fe1035b7d4bd',1,'ImGuiToaster::Error']]],
   ['event_23',['Event',['../de/d1c/namespacemsg_1_1key.html#a30c9e0fc6a1e9dcff5c0a764cee03ea6',1,'msg::key']]],
   ['events_5f_24',['events_',['../d6/d6f/classNetworkManager.html#ac466b1c92d506e3bf94e32595a55d402',1,'NetworkManager']]],
   ['executabledir_25',['executableDir',['../d8/dec/classPathManager.html#aa67ba5456e1f6d9367e3f5c515bfaf74',1,'PathManager']]],

@@ -12,8 +12,8 @@ var classMarkdownRenderer =
     [ "parseHref_", "de/d26/classMarkdownRenderer.html#ae095c02db567dbe7a6050d69efe60a0d", null ],
     [ "resolveNote_", "de/d26/classMarkdownRenderer.html#a51a347a6a77e068ca99755262fd88e29", null ],
     [ "soft_break", "de/d26/classMarkdownRenderer.html#adef9ca2d9af213741e38539412c35108", null ],
-    [ "onNoteOpen", "de/d26/classMarkdownRenderer.html#a9d97364eb1c984d8686bc2f3a14bffbc", null ],
-    [ "onOpenExternal", "de/d26/classMarkdownRenderer.html#a5b667f03f947e78f19b5a69bc8bb82e1", null ],
-    [ "onRoll", "de/d26/classMarkdownRenderer.html#a70fad1bad01b8c3735ecc1add05d783e", null ],
-    [ "resolveNoteRef", "de/d26/classMarkdownRenderer.html#a6e55246c466a4a47249eec428028eb47", null ]
+    [ "onNoteOpen", "de/d26/classMarkdownRenderer.html#ab489580eb95d639bf61bd5275b327eee", null ],
+    [ "onOpenExternal", "de/d26/classMarkdownRenderer.html#ab34caaa4b2f76dbe9961eee386493c8c", null ],
+    [ "onRoll", "de/d26/classMarkdownRenderer.html#a80ae80341274643f67966e83d8bb81c6", null ],
+    [ "resolveNoteRef", "de/d26/classMarkdownRenderer.html#a411e6c8088509eea7626dff9e50bae1b", null ]
 ];

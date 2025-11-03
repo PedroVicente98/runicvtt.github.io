@@ -67,7 +67,7 @@ var namespacemsg =
     [ "MarkerMeta", "d7/d3a/structmsg_1_1MarkerMeta.html", "d7/d3a/structmsg_1_1MarkerMeta" ],
     [ "NetEvent", "d6/d0f/structmsg_1_1NetEvent.html", "d6/d0f/structmsg_1_1NetEvent" ],
     [ "ReadyMessage", "da/d01/structmsg_1_1ReadyMessage.html", "da/d01/structmsg_1_1ReadyMessage" ],
-    [ "Json", "d5/d64/namespacemsg.html#acda725543293970d4f72ce2366f746b6", null ],
+    [ "Json", "d5/d64/namespacemsg.html#a754f31ce5d84f81c57c88ace6f76b133", null ],
     [ "DCType", "d5/d64/namespacemsg.html#a3b7d7dd1956713e5dac5aa8c27d7e258", [
       [ "Snapshot_GameTable", "d5/d64/namespacemsg.html#a3b7d7dd1956713e5dac5aa8c27d7e258a418bd7a262182488f398f935a1896777", null ],
       [ "Snapshot_Board", "d5/d64/namespacemsg.html#a3b7d7dd1956713e5dac5aa8c27d7e258af18a1b998b9701b778cb095e6184525c", null ],

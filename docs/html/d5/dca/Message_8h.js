@@ -5,7 +5,7 @@ var Message_8h =
     [ "msg::ReadyMessage", "da/d01/structmsg_1_1ReadyMessage.html", "da/d01/structmsg_1_1ReadyMessage" ],
     [ "msg::NetEvent", "d6/d0f/structmsg_1_1NetEvent.html", "d6/d0f/structmsg_1_1NetEvent" ],
     [ "msg::InboundRaw", "d2/d0a/structmsg_1_1InboundRaw.html", "d2/d0a/structmsg_1_1InboundRaw" ],
-    [ "Json", "d5/dca/Message_8h.html#acda725543293970d4f72ce2366f746b6", null ],
+    [ "Json", "d5/dca/Message_8h.html#a754f31ce5d84f81c57c88ace6f76b133", null ],
     [ "ConnectionType", "d5/dca/Message_8h.html#aa1f0e2efd52935fd01bfece0fbead81f", [
       [ "EXTERNAL", "d5/dca/Message_8h.html#aa1f0e2efd52935fd01bfece0fbead81fa3932d629fb5e2be9d09b3a4485b3cc9d", null ],
       [ "LOCAL", "d5/dca/Message_8h.html#aa1f0e2efd52935fd01bfece0fbead81fa54b4c4075463b2e02cd69f5cd139b5b2", null ],

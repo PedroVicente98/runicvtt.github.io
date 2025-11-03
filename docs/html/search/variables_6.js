@@ -20,7 +20,7 @@ var searchData=
   ['gmid_17',['GmId',['../de/d1c/namespacemsg_1_1key.html#a42c2bdbfe3c2877249e3b64d83502f78',1,'msg::key']]],
   ['gmpeerid_5f_18',['gmPeerId_',['../d6/d6f/classNetworkManager.html#a146dba2ab6432230e9e79a7119777dd8',1,'NetworkManager']]],
   ['gpinglast_19',['gPingLast',['../d9/dd0/namespaceDebugActions.html#a6017629dbaa3ee729027fb639702ef58',1,'DebugActions']]],
-  ['grid_20',['grid',['../da/d01/structmsg_1_1ReadyMessage.html#a79d52b62174e4d1cd40cadbf247ba069',1,'msg::ReadyMessage::grid'],['../d1/d9f/structmsg_1_1BoardMeta.html#a638d1efbe001564b8c2b87070f2c4274',1,'msg::BoardMeta::grid']]],
+  ['grid_20',['grid',['../d1/d9f/structmsg_1_1BoardMeta.html#a638d1efbe001564b8c2b87070f2c4274',1,'msg::BoardMeta::grid'],['../da/d01/structmsg_1_1ReadyMessage.html#a79d52b62174e4d1cd40cadbf247ba069',1,'msg::ReadyMessage::grid']]],
   ['grid_5fentity_21',['grid_entity',['../d9/dff/classBoardManager.html#a1c60db958b290af20bd3958a62873198',1,'BoardManager']]],
   ['groupid_22',['GroupId',['../d7/d7d/namespacemsg_1_1chatkey.html#afd361074bb80961cd569df4ab665607d',1,'msg::chatkey']]],
   ['groups_5f_23',['groups_',['../d7/dc6/classChatManager.html#abafe07b7deac391cfeca3104ea368878',1,'ChatManager']]],

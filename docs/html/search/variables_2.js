@@ -1,7 +1,7 @@
 var searchData=
 [
   ['camera_0',['camera',['../d9/dff/classBoardManager.html#a3dea61ec442109305ed55855baabd921',1,'BoardManager']]],
-  ['candidate_1',['candidate',['../de/d1c/namespacemsg_1_1key.html#ad12e958f4d3025dfd660592d09432d32',1,'msg::key::Candidate'],['../dc/d03/namespacemsg_1_1signaling.html#af2ab2434bbe037a6f649c4e5827d487c',1,'msg::signaling::Candidate']]],
+  ['candidate_1',['Candidate',['../de/d1c/namespacemsg_1_1key.html#ad12e958f4d3025dfd660592d09432d32',1,'msg::key::Candidate'],['../dc/d03/namespacemsg_1_1signaling.html#af2ab2434bbe037a6f649c4e5827d487c',1,'msg::signaling::Candidate']]],
   ['candmx_5f_2',['candMx_',['../db/d08/classPeerLink.html#a67b612bc319f55591748213c9517105d',1,'PeerLink']]],
   ['capacity_5f_3',['capacity_',['../db/d67/classLogger.html#aad9420d4c33539f6f276af6588b21fe0',1,'Logger']]],
   ['cell_5fsize_4',['cell_size',['../d5/d78/structGrid.html#a53b811b249129d9b74a3a64c09979db6',1,'Grid']]],

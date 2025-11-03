@@ -25,5 +25,5 @@ var searchData=
   ['logger_22',['Logger',['../db/d67/classLogger.html#ac45b6ef7069b222c094da3724d1aa8fb',1,'Logger']]],
   ['lookslikeshorthex_5f_23',['looksLikeShortHex_',['../d6/d22/classNotesManager.html#a133ea5cb0c5f0c01714c87e38d5868f7',1,'NotesManager']]],
   ['lookslikeshortid_5f_24',['looksLikeShortId_',['../de/d26/classMarkdownRenderer.html#ad9b867b0035cea2f5757cc4c009c78fa',1,'MarkdownRenderer']]],
-  ['lookslikeuuid_5f_25',['lookslikeuuid_',['../de/d26/classMarkdownRenderer.html#ae3b68ecd0ff19af580bda2cc0e21ff20',1,'MarkdownRenderer::looksLikeUuid_()'],['../d6/d22/classNotesManager.html#abe017a5fb56317502be71b06a1c3fc07',1,'NotesManager::looksLikeUuid_()']]]
+  ['lookslikeuuid_5f_25',['looksLikeUuid_',['../de/d26/classMarkdownRenderer.html#ae3b68ecd0ff19af580bda2cc0e21ff20',1,'MarkdownRenderer::looksLikeUuid_()'],['../d6/d22/classNotesManager.html#abe017a5fb56317502be71b06a1c3fc07',1,'NotesManager::looksLikeUuid_()']]]
 ];

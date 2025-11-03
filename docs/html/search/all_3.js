@@ -56,7 +56,7 @@ var searchData=
   ['directorykind_53',['DirectoryKind',['../de/d10/DirectoryWindow_8h.html#a0cb2990f5d283e8848ed9cd4f4bbc0d5',1,'DirectoryWindow.h']]],
   ['directoryname_54',['directoryName',['../d1/d07/classDirectoryWindow.html#ad2d5f6260a7726fef1e13446181b76dc',1,'DirectoryWindow']]],
   ['directorypath_55',['directoryPath',['../d1/d07/classDirectoryWindow.html#aaf5c6d0a01bcef65bda17b2df1b7f466',1,'DirectoryWindow']]],
-  ['directorywindow_56',['directorywindow',['../d1/d07/classDirectoryWindow.html',1,'DirectoryWindow'],['../d1/d07/classDirectoryWindow.html#af7b481e36ec85d72c2a6fb5b02d2cdac',1,'DirectoryWindow::DirectoryWindow()']]],
+  ['directorywindow_56',['DirectoryWindow',['../d1/d07/classDirectoryWindow.html',1,'DirectoryWindow'],['../d1/d07/classDirectoryWindow.html#af7b481e36ec85d72c2a6fb5b02d2cdac',1,'DirectoryWindow::DirectoryWindow()']]],
   ['directorywindow_2eh_57',['DirectoryWindow.h',['../de/d10/DirectoryWindow_8h.html',1,'']]],
   ['dirty_58',['dirty',['../db/dfe/structNote.html#a87532ed0e33505a4085ad1a4c958aa59',1,'Note']]],
   ['disallowport_59',['disallowPort',['../d6/d6f/classNetworkManager.html#ab2294606cbded76b7b09ced947bf92a8',1,'NetworkManager']]],

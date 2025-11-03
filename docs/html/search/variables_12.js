@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['saved_5flocally_0',['saved_locally',['../db/dfe/structNote.html#a6d7cb4bcd1ba70c561bd74a12dcca0b1',1,'Note::saved_locally'],['../d4/ddb/structNoteComponent.html#a4c119852d4eff7a20ce4e42b6e95d19f',1,'NoteComponent::saved_locally']]],
+  ['saved_5flocally_0',['saved_locally',['../d4/ddb/structNoteComponent.html#a4c119852d4eff7a20ce4e42b6e95d19f',1,'NoteComponent::saved_locally'],['../db/dfe/structNote.html#a6d7cb4bcd1ba70c561bd74a12dcca0b1',1,'Note::saved_locally']]],
   ['sdp_1',['Sdp',['../de/d1c/namespacemsg_1_1key.html#aaf25a7932664870334cee0231ca65dff',1,'msg::key']]],
   ['sdpmid_2',['SdpMid',['../de/d1c/namespacemsg_1_1key.html#ab67ad493019504885933eb40e2cd8ffe',1,'msg::key']]],
   ['searchbuf_5f_3',['searchBuf_',['../dc/de9/classNoteEditorUI.html#ad1300e9e7fcdf6ed4cb30b6c9a65dcc9',1,'NoteEditorUI']]],
@@ -14,7 +14,7 @@ var searchData=
   ['server_11',['server',['../d6/d0b/classSignalingServer.html#a1611acc9b2e5e74f3ec59f27ad96c851',1,'SignalingServer']]],
   ['serverdisconnect_12',['ServerDisconnect',['../dc/d03/namespacemsg_1_1signaling.html#a0951a4f31de36080a13fc1a046de4b41',1,'msg::signaling']]],
   ['shared_13',['shared',['../d4/ddb/structNoteComponent.html#ae978dcd70077a3578cb198c4762b96a3',1,'NoteComponent::shared'],['../db/dfe/structNote.html#a2810e708f71040636db3e95ce79c15af',1,'Note::shared']]],
-  ['shared_5ffrom_14',['shared_from',['../db/dfe/structNote.html#a16b6c19f178a209174596e57ed345cf4',1,'Note::shared_from'],['../d4/ddb/structNoteComponent.html#a2afa75f7c211dcc78c9a7e832f0cdef9',1,'NoteComponent::shared_from']]],
+  ['shared_5ffrom_14',['shared_from',['../d4/ddb/structNoteComponent.html#a2afa75f7c211dcc78c9a7e832f0cdef9',1,'NoteComponent::shared_from'],['../db/dfe/structNote.html#a16b6c19f178a209174596e57ed345cf4',1,'Note::shared_from']]],
   ['showborder_15',['showBorder',['../d9/dad/structImGuiToaster_1_1Config.html#ab0bd0e5aca3b1c7cc6f072e8f77c3114',1,'ImGuiToaster::Config']]],
   ['showcamerasettings_16',['showCameraSettings',['../d9/dff/classBoardManager.html#a6d026e7182d31f3767eee6344d5419b8',1,'BoardManager']]],
   ['showcreatepopup_5f_17',['showCreatePopup_',['../dc/de9/classNoteEditorUI.html#a971753e2209d320080d5c5207b3c137a',1,'NoteEditorUI']]],

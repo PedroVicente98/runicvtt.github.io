@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['bind_0',['bind',['../d9/d69/classShader.html#a5a5a24f72050f46f03cb839b41490527',1,'Shader::Bind()'],['../dd/df7/classIndexBuffer.html#ac8bdd0495f718173fb46691ad1b7e4af',1,'IndexBuffer::Bind()'],['../d7/d72/classVertexBuffer.html#a13019e8580ca3e369fad4166500ad2b9',1,'VertexBuffer::Bind()'],['../d6/d97/classTexture.html#a14a2a70d9f130ac91a5ac95c8a4c7831',1,'Texture::Bind()'],['../da/dd7/classVertexArray.html#ad5059455f0864327028636c628d5a661',1,'VertexArray::Bind()']]],
+  ['bind_0',['Bind',['../dd/df7/classIndexBuffer.html#ac8bdd0495f718173fb46691ad1b7e4af',1,'IndexBuffer::Bind()'],['../d9/d69/classShader.html#a5a5a24f72050f46f03cb839b41490527',1,'Shader::Bind()'],['../d6/d97/classTexture.html#a14a2a70d9f130ac91a5ac95c8a4c7831',1,'Texture::Bind()'],['../da/dd7/classVertexArray.html#ad5059455f0864327028636c628d5a661',1,'VertexArray::Bind()'],['../d7/d72/classVertexBuffer.html#a13019e8580ca3e369fad4166500ad2b9',1,'VertexBuffer::Bind()']]],
   ['bindpeer_1',['bindPeer',['../d8/d43/classIdentityManager.html#a22e3ee5efe1fc4e1df1363b9490390fb',1,'IdentityManager']]],
-  ['boardimagedata_2',['boardimagedata',['../dc/d36/structBoardImageData.html#a3a78d16745023a6e29d75875f311e268',1,'BoardImageData::BoardImageData()=default'],['../dc/d36/structBoardImageData.html#a9aad2f7e89fd6775f49ce703c05c0bcc',1,'BoardImageData::BoardImageData(GLuint id, glm::vec2 s, std::string p)']]],
+  ['boardimagedata_2',['BoardImageData',['../dc/d36/structBoardImageData.html#a3a78d16745023a6e29d75875f311e268',1,'BoardImageData::BoardImageData()=default'],['../dc/d36/structBoardImageData.html#a9aad2f7e89fd6775f49ce703c05c0bcc',1,'BoardImageData::BoardImageData(GLuint id, glm::vec2 s, std::string p)']]],
   ['boardmanager_3',['BoardManager',['../d9/dff/classBoardManager.html#a9ce250ffff6033dec94686456dcd3dab',1,'BoardManager']]],
   ['bootstrappeerifready_4',['bootstrapPeerIfReady',['../d6/d6f/classNetworkManager.html#ac5104e38077637eeeab41e078fa51a5b',1,'NetworkManager']]],
   ['bootstrapsent_5',['bootstrapSent',['../db/d08/classPeerLink.html#a7830a32a5870a040ec9604eefe756b40',1,'PeerLink']]],
