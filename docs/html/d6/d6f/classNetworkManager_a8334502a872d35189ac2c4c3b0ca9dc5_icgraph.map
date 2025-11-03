@@ -1,5 +1,5 @@
 <map id="NetworkManager::displayNameForPeer" name="NetworkManager::displayNameForPeer">
-<area shape="rect" id="Node000001" title=" " alt="" coords="285,5,513,45"/>
-<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#abb974f6f72379b0dddd86e0a79e5d86b" title=" " alt="" coords="5,5,237,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="272,28,238,28,238,23,272,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="360,5,637,31"/>
+<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#abb974f6f72379b0dddd86e0a79e5d86b" title=" " alt="" coords="5,5,312,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="346,21,312,21,312,15,346,15"/>
 </map>

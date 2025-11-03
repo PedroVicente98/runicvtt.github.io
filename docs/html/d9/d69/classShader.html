@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../RunicVTTIcon_64.png"/></td>
   <td id="projectalign">
-   <div id="projectname">RunicVTT
+   <div id="projectname">RunicVTT<span id="projectnumber">&#160;Open Source Virtual Tabletop for TTRPG using P2P</span>
    </div>
   </td>
  </tr>
@@ -106,12 +106,7 @@ $(function(){initNavTree('d9/d69/classShader.html','../../'); initResizable(); }
 <div class="dynheader">
 Collaboration diagram for Shader:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dba/classShader__coll__graph.png" border="0" usemap="#aShader_coll__map" alt="Collaboration graph"/></div>
-<map name="aShader_coll__map" id="aShader_coll__map">
-<area shape="rect" title=" " alt="" coords="5,133,267,767"/>
-<area shape="rect" title=" " alt="" coords="111,5,161,71"/>
-<area shape="poly" title=" " alt="" coords="139,71,139,117,133,117,133,71"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dba/classShader__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -175,19 +170,21 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00004">4</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">    4</span>                                        :</div>
+<div class="line"><span class="lineno">    5</span>    <a class="code hl_variable" href="#ac220dd4437fff5a20a20caecc10cf075">m_FilePath</a>(filepath), <a class="code hl_variable" href="#a1a5c07b2c962e5c31810cd7a5d93026d">m_RendererID</a>(0)</div>
+<div class="line"><span class="lineno">    6</span>{</div>
+<div class="line"><span class="lineno">    7</span>    <a class="code hl_struct" href="../../dc/d76/structShaderProgramSource.html">ShaderProgramSource</a> source = <a class="code hl_function" href="#af4a0151fa9ade8c81ac7ec6bc1aef0c5">ParseShader</a>(filepath);</div>
+<div class="line"><span class="lineno">    8</span>    <a class="code hl_variable" href="#a1a5c07b2c962e5c31810cd7a5d93026d">m_RendererID</a> = <a class="code hl_function" href="#adaa87b0351653de3b2e3d64c4edb9ada">CreateShader</a>(source.VertexSource, source.FragmentSource);</div>
+<div class="line"><span class="lineno">    9</span>}</div>
+<div class="ttc" id="aclassShader_html_a1a5c07b2c962e5c31810cd7a5d93026d"><div class="ttname"><a href="#a1a5c07b2c962e5c31810cd7a5d93026d">Shader::m_RendererID</a></div><div class="ttdeci">unsigned int m_RendererID</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dac/Shader_8h_source.html#l00018">Shader.h:18</a></div></div>
+<div class="ttc" id="aclassShader_html_ac220dd4437fff5a20a20caecc10cf075"><div class="ttname"><a href="#ac220dd4437fff5a20a20caecc10cf075">Shader::m_FilePath</a></div><div class="ttdeci">std::string m_FilePath</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dac/Shader_8h_source.html#l00019">Shader.h:19</a></div></div>
+<div class="ttc" id="aclassShader_html_adaa87b0351653de3b2e3d64c4edb9ada"><div class="ttname"><a href="#adaa87b0351653de3b2e3d64c4edb9ada">Shader::CreateShader</a></div><div class="ttdeci">unsigned int CreateShader(const std::string &amp;verxterShader, const std::string &amp;fragmentShader)</div><div class="ttdef"><b>Definition</b> <a href="../../dd/d84/Shader_8cpp_source.html#l00096">Shader.cpp:96</a></div></div>
+<div class="ttc" id="aclassShader_html_af4a0151fa9ade8c81ac7ec6bc1aef0c5"><div class="ttname"><a href="#af4a0151fa9ade8c81ac7ec6bc1aef0c5">Shader::ParseShader</a></div><div class="ttdeci">ShaderProgramSource ParseShader(const std::string &amp;filepath)</div><div class="ttdef"><b>Definition</b> <a href="../../dd/d84/Shader_8cpp_source.html#l00026">Shader.cpp:26</a></div></div>
+<div class="ttc" id="astructShaderProgramSource_html"><div class="ttname"><a href="../../dc/d76/structShaderProgramSource.html">ShaderProgramSource</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/dac/Shader_8h_source.html#l00009">Shader.h:10</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_a723ccb160694ce83183aff4a8daca0d0_cgraph.png" border="0" usemap="#ad9/d69/classShader_a723ccb160694ce83183aff4a8daca0d0_cgraph" alt=""/></div>
-<map name="ad9/d69/classShader_a723ccb160694ce83183aff4a8daca0d0_cgraph" id="ad9/d69/classShader_a723ccb160694ce83183aff4a8daca0d0_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,125,56"/>
-<area shape="rect" href="../../d9/d69/classShader.html#adaa87b0351653de3b2e3d64c4edb9ada" title=" " alt="" coords="173,5,336,31"/>
-<area shape="poly" title=" " alt="" coords="125,33,159,28,160,33,126,38"/>
-<area shape="rect" href="../../d9/d69/classShader.html#af4a0151fa9ade8c81ac7ec6bc1aef0c5" title=" " alt="" coords="177,55,332,80"/>
-<area shape="poly" title=" " alt="" coords="126,48,164,53,163,58,125,54"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a1900863bd04b0c682fddef6cdb2b16bd" title=" " alt="" coords="384,5,559,31"/>
-<area shape="poly" title=" " alt="" coords="336,15,371,15,371,21,336,21"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d69/classShader_a723ccb160694ce83183aff4a8daca0d0_cgraph.svg" width="564" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -208,7 +205,11 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00011">11</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   12</span>{</div>
+<div class="line"><span class="lineno">   13</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glDeleteProgram(<a class="code hl_variable" href="#a1a5c07b2c962e5c31810cd7a5d93026d">m_RendererID</a>));</div>
+<div class="line"><span class="lineno">   14</span>}</div>
+<div class="ttc" id="aRenderer_8h_html_a8cc1e1baeb83f3fa64a4aaa75baf3548"><div class="ttname"><a href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a></div><div class="ttdeci">#define GLCall(x)</div><div class="ttdef"><b>Definition</b> <a href="../../d8/db2/Renderer_8h_source.html#l00012">Renderer.h:12</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -228,24 +229,10 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00016">16</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_a5a5a24f72050f46f03cb839b41490527_icgraph.png" border="0" usemap="#ad9/d69/classShader_a5a5a24f72050f46f03cb839b41490527_icgraph" alt=""/></div>
-<map name="ad9/d69/classShader_a5a5a24f72050f46f03cb839b41490527_icgraph" id="ad9/d69/classShader_a5a5a24f72050f46f03cb839b41490527_icgraph">
-<area shape="rect" title=" " alt="" coords="481,56,585,81"/>
-<area shape="rect" href="../../d1/d52/classRenderer.html#aed7ac4a042cf7c73ef53a0488531fc3e" title=" " alt="" coords="285,5,407,31"/>
-<area shape="poly" title=" " alt="" coords="472,55,393,33,395,28,473,50"/>
-<area shape="rect" href="../../d9/dff/classBoardManager.html#a211d671937d1b0b2494b1d2810f0ad23" title=" " alt="" coords="5,31,211,56"/>
-<area shape="poly" title=" " alt="" coords="467,67,211,52,211,47,468,62"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#afaf00f4f20eca3fec59f8f02f76ef2ce" title=" " alt="" coords="259,107,433,132"/>
-<area shape="poly" title=" " alt="" coords="473,88,395,109,393,104,472,82"/>
-<area shape="poly" title=" " alt="" coords="271,29,211,35,211,30,270,23"/>
-<area shape="rect" href="../../df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="81,107,135,132"/>
-<area shape="poly" title=" " alt="" coords="245,122,135,122,135,117,245,117"/>
-</map>
-</div>
-
+<div class="fragment"><div class="line"><span class="lineno">   17</span>{</div>
+<div class="line"><span class="lineno">   18</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glUseProgram(<a class="code hl_variable" href="#a1a5c07b2c962e5c31810cd7a5d93026d">m_RendererID</a>));</div>
+<div class="line"><span class="lineno">   19</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1900863bd04b0c682fddef6cdb2b16bd" name="a1900863bd04b0c682fddef6cdb2b16bd"></a>
@@ -276,17 +263,34 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   71</span>{</div>
+<div class="line"><span class="lineno">   72</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span> = glCreateShader(type);</div>
+<div class="line"><span class="lineno">   73</span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* src = source.c_str();</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glShaderSource(<span class="keywordtype">id</span>, 1, &amp;src, <span class="keyword">nullptr</span>));</div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glCompileShader(<span class="keywordtype">id</span>));</div>
+<div class="line"><span class="lineno">   76</span> </div>
+<div class="line"><span class="lineno">   77</span>    <span class="keywordtype">int</span> result;</div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glGetShaderiv(<span class="keywordtype">id</span>, GL_COMPILE_STATUS, &amp;result));</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>    <span class="keywordflow">if</span> (result == GL_FALSE)</div>
+<div class="line"><span class="lineno">   81</span>    {</div>
+<div class="line"><span class="lineno">   82</span>        <span class="keywordtype">int</span> length;</div>
+<div class="line"><span class="lineno">   83</span>        <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glGetShaderiv(<span class="keywordtype">id</span>, GL_INFO_LOG_LENGTH, &amp;length));</div>
+<div class="line"><span class="lineno">   84</span>        <span class="keywordtype">char</span>* message = (<span class="keywordtype">char</span>*)alloca(length * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>));</div>
+<div class="line"><span class="lineno">   85</span>        <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glGetShaderInfoLog(<span class="keywordtype">id</span>, length, &amp;length, message));</div>
+<div class="line"><span class="lineno">   86</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Failed to compile &quot;</span> &lt;&lt; (type == GL_VERTEX_SHADER ? <span class="stringliteral">&quot;vertex&quot;</span> : <span class="stringliteral">&quot;fragment&quot;</span>) &lt;&lt; <span class="stringliteral">&quot; shader&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   87</span>        std::cout &lt;&lt; message &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>        <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glDeleteShader(<span class="keywordtype">id</span>));</div>
+<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   91</span>    }</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>    <span class="keywordflow">return</span> id;</div>
+<div class="line"><span class="lineno">   94</span>}</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_a1900863bd04b0c682fddef6cdb2b16bd_icgraph.png" border="0" usemap="#ad9/d69/classShader_a1900863bd04b0c682fddef6cdb2b16bd_icgraph" alt=""/></div>
-<map name="ad9/d69/classShader_a1900863bd04b0c682fddef6cdb2b16bd_icgraph" id="ad9/d69/classShader_a1900863bd04b0c682fddef6cdb2b16bd_icgraph">
-<area shape="rect" title=" " alt="" coords="384,5,559,31"/>
-<area shape="rect" href="../../d9/d69/classShader.html#adaa87b0351653de3b2e3d64c4edb9ada" title=" " alt="" coords="173,5,336,31"/>
-<area shape="poly" title=" " alt="" coords="370,21,336,21,336,15,370,15"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a723ccb160694ce83183aff4a8daca0d0" title=" " alt="" coords="5,5,125,31"/>
-<area shape="poly" title=" " alt="" coords="159,21,125,21,125,15,159,15"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d69/classShader_a1900863bd04b0c682fddef6cdb2b16bd_icgraph.svg" width="564" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -319,25 +323,32 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00096">96</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   97</span>{</div>
+<div class="line"><span class="lineno">   98</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> program = glCreateProgram();</div>
+<div class="line"><span class="lineno">   99</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> vs = <a class="code hl_function" href="#a1900863bd04b0c682fddef6cdb2b16bd">CompileShader</a>(GL_VERTEX_SHADER, verxterShader);</div>
+<div class="line"><span class="lineno">  100</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> fs = <a class="code hl_function" href="#a1900863bd04b0c682fddef6cdb2b16bd">CompileShader</a>(GL_FRAGMENT_SHADER, fragmentShader);</div>
+<div class="line"><span class="lineno">  101</span> </div>
+<div class="line"><span class="lineno">  102</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glAttachShader(program, vs));</div>
+<div class="line"><span class="lineno">  103</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glAttachShader(program, fs));</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glLinkProgram(program));</div>
+<div class="line"><span class="lineno">  106</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glValidateProgram(program));</div>
+<div class="line"><span class="lineno">  107</span> </div>
+<div class="line"><span class="lineno">  108</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glDeleteShader(vs));</div>
+<div class="line"><span class="lineno">  109</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glDeleteShader(fs));</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>    <span class="keywordflow">return</span> program;</div>
+<div class="line"><span class="lineno">  112</span>}</div>
+<div class="ttc" id="aclassShader_html_a1900863bd04b0c682fddef6cdb2b16bd"><div class="ttname"><a href="#a1900863bd04b0c682fddef6cdb2b16bd">Shader::CompileShader</a></div><div class="ttdeci">unsigned int CompileShader(unsigned int type, const std::string &amp;source)</div><div class="ttdef"><b>Definition</b> <a href="../../dd/d84/Shader_8cpp_source.html#l00070">Shader.cpp:70</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_adaa87b0351653de3b2e3d64c4edb9ada_cgraph.png" border="0" usemap="#ad9/d69/classShader_adaa87b0351653de3b2e3d64c4edb9ada_cgraph" alt=""/></div>
-<map name="ad9/d69/classShader_adaa87b0351653de3b2e3d64c4edb9ada_cgraph" id="ad9/d69/classShader_adaa87b0351653de3b2e3d64c4edb9ada_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,168,31"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a1900863bd04b0c682fddef6cdb2b16bd" title=" " alt="" coords="216,5,391,31"/>
-<area shape="poly" title=" " alt="" coords="168,15,203,15,203,21,168,21"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d69/classShader_adaa87b0351653de3b2e3d64c4edb9ada_cgraph.svg" width="396" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_adaa87b0351653de3b2e3d64c4edb9ada_icgraph.png" border="0" usemap="#ad9/d69/classShader_adaa87b0351653de3b2e3d64c4edb9ada_icgraph" alt=""/></div>
-<map name="ad9/d69/classShader_adaa87b0351653de3b2e3d64c4edb9ada_icgraph" id="ad9/d69/classShader_adaa87b0351653de3b2e3d64c4edb9ada_icgraph">
-<area shape="rect" title=" " alt="" coords="173,5,336,31"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a723ccb160694ce83183aff4a8daca0d0" title=" " alt="" coords="5,5,125,31"/>
-<area shape="poly" title=" " alt="" coords="159,21,125,21,125,15,159,15"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d69/classShader_adaa87b0351653de3b2e3d64c4edb9ada_icgraph.svg" width="342" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -366,35 +377,24 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00139">139</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  140</span>{</div>
+<div class="line"><span class="lineno">  141</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a4f349dc735c37337104a670f584ba706">m_UniformLocationCache</a>.find(name) != <a class="code hl_variable" href="#a4f349dc735c37337104a670f584ba706">m_UniformLocationCache</a>.end())</div>
+<div class="line"><span class="lineno">  142</span>    {</div>
+<div class="line"><span class="lineno">  143</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a4f349dc735c37337104a670f584ba706">m_UniformLocationCache</a>[name];</div>
+<div class="line"><span class="lineno">  144</span>    }</div>
+<div class="line"><span class="lineno">  145</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(<span class="keywordtype">int</span> location = glGetUniformLocation(<a class="code hl_variable" href="#a1a5c07b2c962e5c31810cd7a5d93026d">m_RendererID</a>, name.c_str()));</div>
+<div class="line"><span class="lineno">  146</span>    <span class="keywordflow">if</span> (location == -1)</div>
+<div class="line"><span class="lineno">  147</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;Warning: uniform &#39;&quot;</span> &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;&#39; doesn&#39;t exist!!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  148</span> </div>
+<div class="line"><span class="lineno">  149</span>    <a class="code hl_variable" href="#a4f349dc735c37337104a670f584ba706">m_UniformLocationCache</a>[name] = location;</div>
+<div class="line"><span class="lineno">  150</span> </div>
+<div class="line"><span class="lineno">  151</span>    <span class="keywordflow">return</span> location;</div>
+<div class="line"><span class="lineno">  152</span>}</div>
+<div class="ttc" id="aclassShader_html_a4f349dc735c37337104a670f584ba706"><div class="ttname"><a href="#a4f349dc735c37337104a670f584ba706">Shader::m_UniformLocationCache</a></div><div class="ttdeci">std::unordered_map&lt; std::string, int &gt; m_UniformLocationCache</div><div class="ttdef"><b>Definition</b> <a href="../../d2/dac/Shader_8h_source.html#l00020">Shader.h:20</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_a48bb7761c04154b523e0f3f67db7327d_icgraph.png" border="0" usemap="#ad9/d69/classShader_a48bb7761c04154b523e0f3f67db7327d_icgraph" alt=""/></div>
-<map name="ad9/d69/classShader_a48bb7761c04154b523e0f3f67db7327d_icgraph" id="ad9/d69/classShader_a48bb7761c04154b523e0f3f67db7327d_icgraph">
-<area shape="rect" title=" " alt="" coords="596,104,803,129"/>
-<area shape="rect" href="../../d9/d69/classShader.html#aa03bfc2c930f12462bcaf414f3350779" title=" " alt="" coords="373,55,536,80"/>
-<area shape="poly" title=" " alt="" coords="622,104,518,83,519,77,623,99"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a90001fce693c6b597754403eb313c2ee" title=" " alt="" coords="374,104,535,129"/>
-<area shape="poly" title=" " alt="" coords="582,119,536,119,536,114,582,114"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a222acf5d6d47b38bc622261dcf317d71" title=" " alt="" coords="373,153,536,179"/>
-<area shape="poly" title=" " alt="" coords="623,135,519,156,518,151,622,129"/>
-<area shape="rect" href="../../d9/d69/classShader.html#af52dfd9564e8a995f5fcca29e5a65669" title=" " alt="" coords="373,203,536,228"/>
-<area shape="poly" title=" " alt="" coords="665,139,611,167,549,194,513,205,512,200,547,189,609,162,663,134"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a2b3d2ee70c7afff3c6b48773ea6721b7" title=" " alt="" coords="361,5,548,31"/>
-<area shape="poly" title=" " alt="" coords="663,100,609,72,547,44,512,33,513,28,549,40,611,67,665,95"/>
-<area shape="rect" href="../../d9/dff/classBoardManager.html#a211d671937d1b0b2494b1d2810f0ad23" title=" " alt="" coords="108,55,313,80"/>
-<area shape="poly" title=" " alt="" coords="360,70,314,70,314,65,360,65"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#afaf00f4f20eca3fec59f8f02f76ef2ce" title=" " alt="" coords="123,104,298,129"/>
-<area shape="poly" title=" " alt="" coords="378,85,275,107,274,101,377,80"/>
-<area shape="rect" href="../../df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,104,60,129"/>
-<area shape="poly" title=" " alt="" coords="110,119,60,119,60,114,110,114"/>
-<area shape="poly" title=" " alt="" coords="377,104,274,83,275,77,378,99"/>
-<area shape="poly" title=" " alt="" coords="360,119,298,119,298,114,360,114"/>
-<area shape="poly" title=" " alt="" coords="373,151,360,144,344,131,335,118,326,105,312,94,286,82,289,78,315,89,330,102,340,115,348,128,363,140,375,146"/>
-<area shape="poly" title=" " alt="" coords="377,153,274,132,275,127,378,148"/>
-<area shape="poly" title=" " alt="" coords="378,36,275,57,274,52,377,31"/>
-<area shape="poly" title=" " alt="" coords="375,38,363,44,348,56,340,68,330,81,315,94,285,106,283,101,312,89,326,78,335,65,344,52,360,40,373,33"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d69/classShader_a48bb7761c04154b523e0f3f67db7327d_icgraph.svg" width="452" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -423,15 +423,53 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>    std::ifstream stream(filepath);</div>
+<div class="line"><span class="lineno">   29</span> </div>
+<div class="line"><span class="lineno">   30</span>    <span class="keyword">enum class</span> ShaderType</div>
+<div class="line"><span class="lineno">   31</span>    {</div>
+<div class="line"><span class="lineno">   32</span>        <a class="code hl_enumvalue" href="../../d5/dca/Message_8h.html#acdd79a1a4f81dd6ee5cddcb21149b951ab50339a10e1de285ac99d4c3990b8693">NONE</a> = -1,</div>
+<div class="line"><span class="lineno">   33</span>        VERTEX = 0,</div>
+<div class="line"><span class="lineno">   34</span>        FRAGMENT = 1</div>
+<div class="line"><span class="lineno">   35</span>    };</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    std::string line;</div>
+<div class="line"><span class="lineno">   38</span>    std::stringstream ss[2];</div>
+<div class="line"><span class="lineno">   39</span>    ShaderType type = ShaderType::NONE;</div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">if</span> (stream.is_open())</div>
+<div class="line"><span class="lineno">   41</span>    {</div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">while</span> (getline(stream, line))</div>
+<div class="line"><span class="lineno">   43</span>        {</div>
+<div class="line"><span class="lineno">   44</span>            <span class="keywordflow">if</span> (line.find(<span class="stringliteral">&quot;#shader&quot;</span>) != std::string::npos)</div>
+<div class="line"><span class="lineno">   45</span>            {</div>
+<div class="line"><span class="lineno">   46</span>                <span class="keywordflow">if</span> (line.find(<span class="stringliteral">&quot;vertex&quot;</span>) != std::string::npos)</div>
+<div class="line"><span class="lineno">   47</span>                {</div>
+<div class="line"><span class="lineno">   48</span>                    type = ShaderType::VERTEX;</div>
+<div class="line"><span class="lineno">   49</span>                }</div>
+<div class="line"><span class="lineno">   50</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (line.find(<span class="stringliteral">&quot;fragment&quot;</span>) != std::string::npos)</div>
+<div class="line"><span class="lineno">   51</span>                {</div>
+<div class="line"><span class="lineno">   52</span>                    type = ShaderType::FRAGMENT;</div>
+<div class="line"><span class="lineno">   53</span>                }</div>
+<div class="line"><span class="lineno">   54</span>            }</div>
+<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   56</span>            {</div>
+<div class="line"><span class="lineno">   57</span>                ss[(int)type] &lt;&lt; line &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div>
+<div class="line"><span class="lineno">   58</span>            }</div>
+<div class="line"><span class="lineno">   59</span>        }</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>        <span class="keywordflow">return</span> {ss[0].str(), ss[1].str()};</div>
+<div class="line"><span class="lineno">   62</span>    }</div>
+<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   64</span>    {</div>
+<div class="line"><span class="lineno">   65</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;No Shaders File Found!!!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   66</span>        <span class="keywordflow">throw</span> <span class="stringliteral">&quot;No Shaders File Found!!!&quot;</span>;</div>
+<div class="line"><span class="lineno">   67</span>    }</div>
+<div class="line"><span class="lineno">   68</span>}</div>
+<div class="ttc" id="aMessage_8h_html_acdd79a1a4f81dd6ee5cddcb21149b951ab50339a10e1de285ac99d4c3990b8693"><div class="ttname"><a href="../../d5/dca/Message_8h.html#acdd79a1a4f81dd6ee5cddcb21149b951ab50339a10e1de285ac99d4c3990b8693">Role::NONE</a></div><div class="ttdeci">@ NONE</div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_af4a0151fa9ade8c81ac7ec6bc1aef0c5_icgraph.png" border="0" usemap="#ad9/d69/classShader_af4a0151fa9ade8c81ac7ec6bc1aef0c5_icgraph" alt=""/></div>
-<map name="ad9/d69/classShader_af4a0151fa9ade8c81ac7ec6bc1aef0c5_icgraph" id="ad9/d69/classShader_af4a0151fa9ade8c81ac7ec6bc1aef0c5_icgraph">
-<area shape="rect" title=" " alt="" coords="173,5,328,31"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a723ccb160694ce83183aff4a8daca0d0" title=" " alt="" coords="5,5,125,31"/>
-<area shape="poly" title=" " alt="" coords="159,21,126,21,126,15,159,15"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d69/classShader_af4a0151fa9ade8c81ac7ec6bc1aef0c5_icgraph.svg" width="334" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -456,29 +494,14 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00129">129</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  130</span>{</div>
+<div class="line"><span class="lineno">  131</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glUniform1f(<a class="code hl_function" href="#a48bb7761c04154b523e0f3f67db7327d">GetUniformLocation</a>(name), value));</div>
+<div class="line"><span class="lineno">  132</span>}</div>
+<div class="ttc" id="aclassShader_html_a48bb7761c04154b523e0f3f67db7327d"><div class="ttname"><a href="#a48bb7761c04154b523e0f3f67db7327d">Shader::GetUniformLocation</a></div><div class="ttdeci">int GetUniformLocation(const std::string &amp;name)</div><div class="ttdef"><b>Definition</b> <a href="../../dd/d84/Shader_8cpp_source.html#l00139">Shader.cpp:139</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_aa03bfc2c930f12462bcaf414f3350779_cgraph.png" border="0" usemap="#ad9/d69/classShader_aa03bfc2c930f12462bcaf414f3350779_cgraph" alt=""/></div>
-<map name="ad9/d69/classShader_aa03bfc2c930f12462bcaf414f3350779_cgraph" id="ad9/d69/classShader_aa03bfc2c930f12462bcaf414f3350779_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,168,31"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a48bb7761c04154b523e0f3f67db7327d" title=" " alt="" coords="216,5,423,31"/>
-<area shape="poly" title=" " alt="" coords="168,15,202,15,202,21,168,21"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_aa03bfc2c930f12462bcaf414f3350779_icgraph.png" border="0" usemap="#ad9/d69/classShader_aa03bfc2c930f12462bcaf414f3350779_icgraph" alt=""/></div>
-<map name="ad9/d69/classShader_aa03bfc2c930f12462bcaf414f3350779_icgraph" id="ad9/d69/classShader_aa03bfc2c930f12462bcaf414f3350779_icgraph">
-<area shape="rect" title=" " alt="" coords="361,31,524,56"/>
-<area shape="rect" href="../../d9/dff/classBoardManager.html#a211d671937d1b0b2494b1d2810f0ad23" title=" " alt="" coords="108,5,313,31"/>
-<area shape="poly" title=" " alt="" coords="347,36,313,32,314,27,348,30"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#afaf00f4f20eca3fec59f8f02f76ef2ce" title=" " alt="" coords="123,55,298,80"/>
-<area shape="poly" title=" " alt="" coords="348,56,298,61,298,56,347,50"/>
-<area shape="rect" href="../../df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,55,60,80"/>
-<area shape="poly" title=" " alt="" coords="110,70,60,70,60,65,110,65"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d69/classShader_aa03bfc2c930f12462bcaf414f3350779_cgraph.svg" width="428" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -503,29 +526,13 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00114">114</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  115</span>{</div>
+<div class="line"><span class="lineno">  116</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glUniform1i(<a class="code hl_function" href="#a48bb7761c04154b523e0f3f67db7327d">GetUniformLocation</a>(name), value));</div>
+<div class="line"><span class="lineno">  117</span>}</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_a90001fce693c6b597754403eb313c2ee_cgraph.png" border="0" usemap="#ad9/d69/classShader_a90001fce693c6b597754403eb313c2ee_cgraph" alt=""/></div>
-<map name="ad9/d69/classShader_a90001fce693c6b597754403eb313c2ee_cgraph" id="ad9/d69/classShader_a90001fce693c6b597754403eb313c2ee_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,167,31"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a48bb7761c04154b523e0f3f67db7327d" title=" " alt="" coords="215,5,421,31"/>
-<area shape="poly" title=" " alt="" coords="167,15,201,15,201,21,167,21"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_a90001fce693c6b597754403eb313c2ee_icgraph.png" border="0" usemap="#ad9/d69/classShader_a90001fce693c6b597754403eb313c2ee_icgraph" alt=""/></div>
-<map name="ad9/d69/classShader_a90001fce693c6b597754403eb313c2ee_icgraph" id="ad9/d69/classShader_a90001fce693c6b597754403eb313c2ee_icgraph">
-<area shape="rect" title=" " alt="" coords="361,31,523,56"/>
-<area shape="rect" href="../../d9/dff/classBoardManager.html#a211d671937d1b0b2494b1d2810f0ad23" title=" " alt="" coords="108,5,313,31"/>
-<area shape="poly" title=" " alt="" coords="348,36,313,32,314,27,348,30"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#afaf00f4f20eca3fec59f8f02f76ef2ce" title=" " alt="" coords="123,55,298,80"/>
-<area shape="poly" title=" " alt="" coords="348,56,298,61,298,56,347,50"/>
-<area shape="rect" href="../../df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,55,60,80"/>
-<area shape="poly" title=" " alt="" coords="110,70,60,70,60,65,110,65"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d69/classShader_a90001fce693c6b597754403eb313c2ee_cgraph.svg" width="427" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -555,29 +562,13 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00124">124</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  125</span>{</div>
+<div class="line"><span class="lineno">  126</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glUniform2f(<a class="code hl_function" href="#a48bb7761c04154b523e0f3f67db7327d">GetUniformLocation</a>(name), v0, v1));</div>
+<div class="line"><span class="lineno">  127</span>}</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_a222acf5d6d47b38bc622261dcf317d71_cgraph.png" border="0" usemap="#ad9/d69/classShader_a222acf5d6d47b38bc622261dcf317d71_cgraph" alt=""/></div>
-<map name="ad9/d69/classShader_a222acf5d6d47b38bc622261dcf317d71_cgraph" id="ad9/d69/classShader_a222acf5d6d47b38bc622261dcf317d71_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,168,31"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a48bb7761c04154b523e0f3f67db7327d" title=" " alt="" coords="216,5,423,31"/>
-<area shape="poly" title=" " alt="" coords="168,15,202,15,202,21,168,21"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_a222acf5d6d47b38bc622261dcf317d71_icgraph.png" border="0" usemap="#ad9/d69/classShader_a222acf5d6d47b38bc622261dcf317d71_icgraph" alt=""/></div>
-<map name="ad9/d69/classShader_a222acf5d6d47b38bc622261dcf317d71_icgraph" id="ad9/d69/classShader_a222acf5d6d47b38bc622261dcf317d71_icgraph">
-<area shape="rect" title=" " alt="" coords="361,31,524,56"/>
-<area shape="rect" href="../../d9/dff/classBoardManager.html#a211d671937d1b0b2494b1d2810f0ad23" title=" " alt="" coords="108,5,313,31"/>
-<area shape="poly" title=" " alt="" coords="347,36,313,32,314,27,348,30"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#afaf00f4f20eca3fec59f8f02f76ef2ce" title=" " alt="" coords="123,55,298,80"/>
-<area shape="poly" title=" " alt="" coords="348,56,298,61,298,56,347,50"/>
-<area shape="rect" href="../../df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,55,60,80"/>
-<area shape="poly" title=" " alt="" coords="110,70,60,70,60,65,110,65"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d69/classShader_a222acf5d6d47b38bc622261dcf317d71_cgraph.svg" width="428" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -617,15 +608,13 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  120</span>{</div>
+<div class="line"><span class="lineno">  121</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glUniform4f(<a class="code hl_function" href="#a48bb7761c04154b523e0f3f67db7327d">GetUniformLocation</a>(name), v0, v1, v2, v3));</div>
+<div class="line"><span class="lineno">  122</span>}</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_af52dfd9564e8a995f5fcca29e5a65669_cgraph.png" border="0" usemap="#ad9/d69/classShader_af52dfd9564e8a995f5fcca29e5a65669_cgraph" alt=""/></div>
-<map name="ad9/d69/classShader_af52dfd9564e8a995f5fcca29e5a65669_cgraph" id="ad9/d69/classShader_af52dfd9564e8a995f5fcca29e5a65669_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,168,31"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a48bb7761c04154b523e0f3f67db7327d" title=" " alt="" coords="216,5,423,31"/>
-<area shape="poly" title=" " alt="" coords="168,15,202,15,202,21,168,21"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d69/classShader_af52dfd9564e8a995f5fcca29e5a65669_cgraph.svg" width="428" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -650,29 +639,13 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00134">134</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  135</span>{</div>
+<div class="line"><span class="lineno">  136</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glUniformMatrix4fv(<a class="code hl_function" href="#a48bb7761c04154b523e0f3f67db7327d">GetUniformLocation</a>(name), 1, GL_FALSE, &amp;matrix[0][0]));</div>
+<div class="line"><span class="lineno">  137</span>}</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_a2b3d2ee70c7afff3c6b48773ea6721b7_cgraph.png" border="0" usemap="#ad9/d69/classShader_a2b3d2ee70c7afff3c6b48773ea6721b7_cgraph" alt=""/></div>
-<map name="ad9/d69/classShader_a2b3d2ee70c7afff3c6b48773ea6721b7_cgraph" id="ad9/d69/classShader_a2b3d2ee70c7afff3c6b48773ea6721b7_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,192,31"/>
-<area shape="rect" href="../../d9/d69/classShader.html#a48bb7761c04154b523e0f3f67db7327d" title=" " alt="" coords="240,5,447,31"/>
-<area shape="poly" title=" " alt="" coords="192,15,227,15,227,21,192,21"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_a2b3d2ee70c7afff3c6b48773ea6721b7_icgraph.png" border="0" usemap="#ad9/d69/classShader_a2b3d2ee70c7afff3c6b48773ea6721b7_icgraph" alt=""/></div>
-<map name="ad9/d69/classShader_a2b3d2ee70c7afff3c6b48773ea6721b7_icgraph" id="ad9/d69/classShader_a2b3d2ee70c7afff3c6b48773ea6721b7_icgraph">
-<area shape="rect" title=" " alt="" coords="361,31,548,56"/>
-<area shape="rect" href="../../d9/dff/classBoardManager.html#a211d671937d1b0b2494b1d2810f0ad23" title=" " alt="" coords="108,5,313,31"/>
-<area shape="poly" title=" " alt="" coords="348,35,313,31,314,26,348,30"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#afaf00f4f20eca3fec59f8f02f76ef2ce" title=" " alt="" coords="123,55,298,80"/>
-<area shape="poly" title=" " alt="" coords="348,57,299,61,298,56,347,51"/>
-<area shape="rect" href="../../df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,55,60,80"/>
-<area shape="poly" title=" " alt="" coords="110,70,60,70,60,65,110,65"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d69/classShader_a2b3d2ee70c7afff3c6b48773ea6721b7_cgraph.svg" width="452" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -693,21 +666,10 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d84/Shader_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../dd/d84/Shader_8cpp_source.html">Shader.cpp</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d69/classShader_aebfe8baf7c63c605e0ed429085a4e06a_icgraph.png" border="0" usemap="#ad9/d69/classShader_aebfe8baf7c63c605e0ed429085a4e06a_icgraph" alt=""/></div>
-<map name="ad9/d69/classShader_aebfe8baf7c63c605e0ed429085a4e06a_icgraph" id="ad9/d69/classShader_aebfe8baf7c63c605e0ed429085a4e06a_icgraph">
-<area shape="rect" title=" " alt="" coords="361,31,483,56"/>
-<area shape="rect" href="../../d9/dff/classBoardManager.html#a211d671937d1b0b2494b1d2810f0ad23" title=" " alt="" coords="108,5,313,31"/>
-<area shape="poly" title=" " alt="" coords="347,37,313,33,314,28,348,32"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#afaf00f4f20eca3fec59f8f02f76ef2ce" title=" " alt="" coords="123,55,298,80"/>
-<area shape="poly" title=" " alt="" coords="348,54,299,60,298,55,347,49"/>
-<area shape="rect" href="../../df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,55,60,80"/>
-<area shape="poly" title=" " alt="" coords="110,70,60,70,60,65,110,65"/>
-</map>
-</div>
-
+<div class="fragment"><div class="line"><span class="lineno">   22</span>{</div>
+<div class="line"><span class="lineno">   23</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glUseProgram(0));</div>
+<div class="line"><span class="lineno">   24</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

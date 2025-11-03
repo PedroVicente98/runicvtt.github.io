@@ -1,7 +1,7 @@
 <map id="GameTableManager::listBoardFiles" name="GameTableManager::listBoardFiles">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,224,45"/>
-<area shape="rect" id="Node000002" href="$d8/dec/classPathManager.html#a6be0a95403caf375f4d7b642f0f90061" title=" " alt="" coords="272,13,516,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,23,258,23,258,28,224,28"/>
-<area shape="rect" id="Node000003" href="$d8/dec/classPathManager.html#a467b459b77c73cbc7544551b53911fcd" title=" " alt="" coords="564,13,801,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="516,23,550,23,550,28,516,28"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,253,31"/>
+<area shape="rect" id="Node000002" href="$d8/dec/classPathManager.html#a6be0a95403caf375f4d7b642f0f90061" title=" " alt="" coords="301,5,545,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,15,288,15,288,21,253,21"/>
+<area shape="rect" id="Node000003" href="$d8/dec/classPathManager.html#a467b459b77c73cbc7544551b53911fcd" title=" " alt="" coords="593,5,831,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="546,15,579,15,579,21,546,21"/>
 </map>

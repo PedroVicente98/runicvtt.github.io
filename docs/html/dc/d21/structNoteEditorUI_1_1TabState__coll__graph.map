@@ -1,5 +1,7 @@
 <map id="NoteEditorUI::TabState" name="NoteEditorUI::TabState">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,133,167,199"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="61,5,111,71"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,71,89,117,83,117,83,71"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="6,5,57,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="30,71,31,90,35,108,41,119,36,122,30,110,25,91,24,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="121,5,163,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="132,72,115,110,111,120,106,118,110,108,127,70"/>
 </map>

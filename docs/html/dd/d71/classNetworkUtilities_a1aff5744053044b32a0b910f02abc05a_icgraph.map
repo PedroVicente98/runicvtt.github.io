@@ -1,16 +1,16 @@
 <map id="NetworkUtilities::stopLocalTunnel" name="NetworkUtilities::stopLocalTunnel">
-<area shape="rect" id="Node000001" title=" " alt="" coords="797,56,996,96"/>
-<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#a798b9a15475708f233e2d82f4ba0ff12" title=" " alt="" coords="531,13,749,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="783,56,705,41,706,35,785,51"/>
-<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#a0f4f9de49973a81889e18034343a512e" title=" " alt="" coords="286,70,465,95"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="783,80,465,84,465,79,783,75"/>
-<area shape="rect" id="Node000005" href="$dd/d71/classNetworkUtilities.html#ac0655968aa7b9e06f7566343e0d2e567" title=" " alt="" coords="540,113,740,153"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="794,102,731,116,730,111,792,97"/>
-<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a2cfe4223139cf58587a9f066b956cb23" title=" " alt="" coords="271,5,479,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="517,28,479,28,479,23,517,23"/>
-<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="526,114,442,98,443,93,527,109"/>
-<area shape="rect" id="Node000006" href="$d6/d6f/classNetworkManager.html#a183ff98131c32d577308340999b4de18" title=" " alt="" coords="268,121,483,146"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="526,136,483,136,483,131,526,131"/>
-<area shape="rect" id="Node000007" href="$d6/d6f/classNetworkManager.html#adef56253674bd7ebd40bf73c629feed2" title=" " alt="" coords="5,121,220,146"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="255,136,220,136,220,131,255,131"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="872,56,1112,81"/>
+<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#a798b9a15475708f233e2d82f4ba0ff12" title=" " alt="" coords="593,5,812,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="905,56,776,33,776,28,906,51"/>
+<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#a0f4f9de49973a81889e18034343a512e" title=" " alt="" coords="311,56,490,81"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="858,71,490,71,490,66,858,66"/>
+<area shape="rect" id="Node000005" href="$dd/d71/classNetworkUtilities.html#ac0655968aa7b9e06f7566343e0d2e567" title=" " alt="" coords="581,107,824,132"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="906,86,776,109,776,104,905,81"/>
+<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a2cfe4223139cf58587a9f066b956cb23" title=" " alt="" coords="268,5,533,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="580,21,533,21,533,15,580,15"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="612,107,477,84,478,79,613,102"/>
+<area shape="rect" id="Node000006" href="$d6/d6f/classNetworkManager.html#a183ff98131c32d577308340999b4de18" title=" " alt="" coords="293,107,508,132"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="568,122,508,122,508,117,568,117"/>
+<area shape="rect" id="Node000007" href="$d6/d6f/classNetworkManager.html#adef56253674bd7ebd40bf73c629feed2" title=" " alt="" coords="5,107,220,132"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="280,122,220,122,220,117,280,117"/>
 </map>

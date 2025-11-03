@@ -1,11 +1,21 @@
 <map id="msg::BoardMeta" name="msg::BoardMeta">
-<area shape="rect" id="Node000001" title=" " alt="" coords="161,233,295,299"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,55,56,121"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,120,66,165,82,188,100,207,147,236,144,240,97,211,77,191,61,168,39,122"/>
-<area shape="rect" id="Node000003" href="$d8/d15/structPanning.html" title=" " alt="" coords="85,55,208,121"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,120,209,217,204,219,159,122"/>
-<area shape="rect" id="Node000004" href="$d5/d78/structGrid.html" title=" " alt="" coords="232,5,376,171"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="271,172,251,219,246,217,266,170"/>
-<area shape="rect" id="Node000005" href="$d7/d02/structSize.html" title=" " alt="" coords="401,45,503,131"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="426,133,390,173,351,202,310,228,307,223,348,198,386,169,422,129"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="197,291,318,356"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,163,72,228"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="49,227,58,247,72,265,97,282,124,295,181,312,180,317,122,300,94,287,69,269,54,250,44,229"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="109,163,160,228"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,228,141,247,150,265,165,281,184,293,181,298,162,285,146,268,136,249,132,229"/>
+<area shape="rect" id="Node000004" href="$d8/d15/structPanning.html" title=" " alt="" coords="201,163,266,228"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="242,228,251,274,246,275,237,229"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="128,5,171,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="129,57,112,74,98,96,92,118,93,127,98,137,113,150,130,154,150,155,173,160,186,166,184,171,171,165,149,160,129,159,111,155,94,140,88,128,86,117,94,94,108,71,126,53"/>
+<area shape="rect" id="Node000006" href="$d5/d78/structGrid.html" title=" " alt="" coords="307,163,349,228"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="171,69,197,104,230,137,253,150,279,160,294,169,292,174,276,165,251,154,226,141,193,107,167,73"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="315,230,294,268,289,278,284,275,290,265,310,227"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="305,5,351,71"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="331,71,331,146,325,146,325,71"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="441,5,484,71"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="443,60,410,96,398,118,385,140,363,165,359,162,380,137,393,115,406,93,439,57"/>
+<area shape="rect" id="Node000009" href="$d7/d02/structSize.html" title=" " alt="" coords="465,163,506,228"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="481,70,488,94,492,146,486,146,483,95,475,72"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="466,211,330,285,327,280,463,206"/>
 </map>

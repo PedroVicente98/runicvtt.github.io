@@ -1,5 +1,5 @@
 <map id="NetworkManager::sendFogDelete" name="NetworkManager::sendFogDelete">
-<area shape="rect" id="Node000001" title=" " alt="" coords="260,13,499,38"/>
-<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#a80077121e02a5bf6a05c519a87a795f3" title=" " alt="" coords="5,5,212,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,28,212,28,212,23,246,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="325,5,564,31"/>
+<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#a80077121e02a5bf6a05c519a87a795f3" title=" " alt="" coords="5,5,277,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="311,21,277,21,277,15,311,15"/>
 </map>

@@ -1,9 +1,15 @@
 <map id="Logger::OstreamRedirect" name="Logger::OstreamRedirect">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,459,241,776"/>
-<area shape="rect" id="Node000002" href="$d1/dd5/classLogger_1_1LineToLoggerBuf.html" title=" " alt="" coords="10,148,237,396"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,396,126,442,121,442,121,396"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="17,5,126,71"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,84,98,147,93,149,79,85"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="150,5,201,71"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="171,72,157,133,152,131,166,70"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,415,319,668"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="9,217,91,283"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,282,110,398,105,400,60,284"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="116,217,208,283"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,283,165,398,159,398,159,283"/>
+<area shape="rect" id="Node000004" href="$d1/dd5/classLogger_1_1LineToLoggerBuf.html" title=" " alt="" coords="233,148,465,352"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="286,354,254,402,250,399,281,351"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="190,5,299,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="269,82,301,146,296,149,264,84"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="323,5,374,71"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="351,71,351,131,346,131,346,71"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="399,5,531,71"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="450,72,420,125,415,135,410,132,416,123,445,69"/>
 </map>

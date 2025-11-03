@@ -1,3 +1,7 @@
 <map id="SignalingClient" name="SignalingClient">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,249,323"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="83,133,374,357"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,215,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,70,159,118,154,121,126,72"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="239,5,455,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="331,72,303,121,299,118,327,70"/>
 </map>

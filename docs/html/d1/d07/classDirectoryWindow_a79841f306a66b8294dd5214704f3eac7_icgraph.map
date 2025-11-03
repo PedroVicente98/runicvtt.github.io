@@ -1,7 +1,7 @@
 <map id="DirectoryWindow::LoadTextureFromFile" name="DirectoryWindow::LoadTextureFromFile">
-<area shape="rect" id="Node000001" title=" " alt="" coords="296,35,516,75"/>
-<area shape="rect" id="Node000002" href="$d1/d07/classDirectoryWindow.html#a8a04960603ba19acca17f8912eec9761" title=" " alt="" coords="27,5,226,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,44,226,38,226,33,282,39"/>
-<area shape="rect" id="Node000003" href="$d1/d07/classDirectoryWindow.html#a6e6e2f23c75eb427949699d8254c0ccf" title=" " alt="" coords="5,70,248,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="282,70,249,73,248,68,282,64"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="321,31,597,56"/>
+<area shape="rect" id="Node000002" href="$d1/d07/classDirectoryWindow.html#a8a04960603ba19acca17f8912eec9761" title=" " alt="" coords="5,5,273,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="308,34,273,31,274,26,308,29"/>
+<area shape="rect" id="Node000003" href="$d1/d07/classDirectoryWindow.html#a6e6e2f23c75eb427949699d8254c0ccf" title=" " alt="" coords="18,55,261,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="308,57,261,61,261,56,307,52"/>
 </map>

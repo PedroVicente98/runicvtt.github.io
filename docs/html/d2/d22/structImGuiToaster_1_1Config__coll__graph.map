@@ -1,3 +1,15 @@
 <map id="ImGuiToaster::Config" name="ImGuiToaster::Config">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,187,271"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="327,207,476,272"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,48,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="23,71,21,98,22,127,29,156,45,181,62,193,87,204,155,219,234,229,310,234,310,239,234,234,154,225,86,209,59,198,41,184,24,158,17,128,15,98,18,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="138,5,201,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,71,163,97,164,127,170,156,185,181,204,194,234,206,311,223,310,228,233,211,201,199,181,184,165,158,158,127,157,97,160,70"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="292,5,335,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="308,71,303,125,307,154,317,181,326,194,321,197,312,184,302,156,298,126,303,71"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="462,5,519,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="492,71,485,126,476,156,464,184,456,196,451,193,459,181,471,154,480,125,487,71"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="553,5,605,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="583,71,578,128,568,158,551,184,525,207,493,223,491,218,522,203,547,181,563,155,572,127,578,71"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="663,5,726,71"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="700,71,700,98,695,128,685,159,667,185,639,202,595,215,493,232,492,227,594,210,636,197,664,181,680,156,690,127,694,98,695,71"/>
 </map>

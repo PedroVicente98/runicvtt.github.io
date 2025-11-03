@@ -52,6 +52,7 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Macros", "globals_defs.html", null ]
@@ -63,12 +64,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d5/d03/structNotes.html",
-"d6/d0f/structmsg_1_1NetEvent.html#ad7bacc0d79f1287207577d95d635bc00a6312cfb13ceea115ef43ac1c58fd6c4c",
-"d6/ddd/structMarkdownRenderer_1_1Parsed.html#aa7a77ac0fdefd031c00031d268fb7096",
-"d9/dad/structImGuiToaster_1_1Config.html#a5de6229878382f25655711686b9a98cd",
-"da/d3a/IndexBuffer_8h_source.html",
-"de/d1c/namespacemsg_1_1key.html#abd3fdb2decf63a4251824dfb3d62a06c"
+"d4/ddb/structNoteComponent.html#ad9b51d0696cf1df80e862dcb300ecbf3",
+"d6/d0f/structmsg_1_1NetEvent.html#a85f84279b59b1f2a0089dfdf97b7b13a",
+"d6/d6f/classNetworkManager.html#af46b58c27029b0eb91b851a51f6eff73",
+"d9/d38/VertexBuffer_8h.html",
+"da/d28/classGameTableManager.html#a299e84a2fe069db669b8096db8457297",
+"db/dfe/structNote.html#a23d4fb92eda6694cf45497ded4799f3e",
+"dir_d44c64559bbebec7f509842c48db8b23.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

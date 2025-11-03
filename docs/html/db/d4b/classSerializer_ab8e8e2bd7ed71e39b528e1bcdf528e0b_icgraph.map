@@ -1,11 +1,11 @@
 <map id="Serializer::serializeMarkerComponent" name="Serializer::serializeMarkerComponent">
-<area shape="rect" id="Node000001" title=" " alt="" coords="793,37,984,77"/>
-<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#acf942084ff349010655c47a232659527" title=" " alt="" coords="527,5,745,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="779,46,745,42,746,37,780,41"/>
-<area shape="rect" id="Node000005" href="$db/d4b/classSerializer.html#a8799545c0b1ea86a5447cbcd1d0a733c" title=" " alt="" coords="541,69,731,109"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="780,74,732,80,731,75,779,68"/>
-<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a3cd0860da30289b21f2f4bd467d279d3" title=" " alt="" coords="260,5,479,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="513,28,479,28,479,23,513,23"/>
-<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#a2f0bd7fd012f4f7c96fcc25b2ac90b0f" title=" " alt="" coords="5,5,212,45"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="246,28,212,28,212,23,246,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1020,31,1287,56"/>
+<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#acf942084ff349010655c47a232659527" title=" " alt="" coords="665,5,972,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1006,35,972,32,973,27,1006,30"/>
+<area shape="rect" id="Node000005" href="$db/d4b/classSerializer.html#a8799545c0b1ea86a5447cbcd1d0a733c" title=" " alt="" coords="704,55,933,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1007,57,934,62,933,56,1006,51"/>
+<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a3cd0860da30289b21f2f4bd467d279d3" title=" " alt="" coords="352,5,617,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="652,21,617,21,617,15,652,15"/>
+<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#a2f0bd7fd012f4f7c96fcc25b2ac90b0f" title=" " alt="" coords="5,5,304,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="338,21,304,21,304,15,338,15"/>
 </map>

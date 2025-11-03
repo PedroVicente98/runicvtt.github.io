@@ -1,3 +1,7 @@
 <map id="MapFBO" name="MapFBO">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,141,151"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="39,163,132,228"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,61,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="31,71,30,104,37,138,42,148,37,150,32,140,25,104,25,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="122,5,153,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,72,111,140,107,149,102,147,105,138,126,70"/>
 </map>

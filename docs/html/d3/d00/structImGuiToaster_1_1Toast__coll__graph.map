@@ -1,5 +1,11 @@
 <map id="ImGuiToaster::Toast" name="ImGuiToaster::Toast">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,133,219,253"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="87,5,137,71"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,71,115,117,109,117,109,71"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="102,133,245,199"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,72,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,69,86,108,103,122,99,126,82,111,53,72"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="96,5,147,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="120,71,121,90,125,108,130,119,126,121,120,110,115,91,115,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="202,5,251,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="216,72,200,110,196,119,191,117,195,108,211,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="275,5,359,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="295,73,258,111,239,126,236,122,254,107,291,69"/>
 </map>

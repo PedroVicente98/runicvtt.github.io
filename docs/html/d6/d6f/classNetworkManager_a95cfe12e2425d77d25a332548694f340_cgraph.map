@@ -1,11 +1,11 @@
 <map id="NetworkManager::handleGameTableSnapshot" name="NetworkManager::handleGameTableSnapshot">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,231,87"/>
-<area shape="rect" id="Node000002" href="$db/d4b/classSerializer.html#a47d1b2e09aaa99426b40f965ef2bf284" title=" " alt="" coords="281,5,481,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,45,299,31,300,36,226,50"/>
-<area shape="rect" id="Node000004" href="$db/d4b/classSerializer.html#abc991f78f5490e60783620ab4c3444e6" title=" " alt="" coords="279,55,484,80"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="231,65,265,65,265,70,231,70"/>
-<area shape="rect" id="Node000005" href="$d3/df0/classMessageQueue.html#ae18e8febb6e78fadd1fc56332a4b7ba2" title=" " alt="" coords="301,104,462,129"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="226,85,300,99,299,104,225,90"/>
-<area shape="rect" id="Node000003" href="$db/d4b/classSerializer.html#a45c8b78e8467c6f7dba85fd7a21c8781" title=" " alt="" coords="532,5,711,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="482,15,518,15,518,21,482,21"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,324,80"/>
+<area shape="rect" id="Node000002" href="$db/d4b/classSerializer.html#a47d1b2e09aaa99426b40f965ef2bf284" title=" " alt="" coords="375,5,575,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,52,380,30,381,36,246,57"/>
+<area shape="rect" id="Node000004" href="$db/d4b/classSerializer.html#abc991f78f5490e60783620ab4c3444e6" title=" " alt="" coords="372,55,577,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="324,65,358,65,358,70,324,70"/>
+<area shape="rect" id="Node000005" href="$d3/df0/classMessageQueue.html#ae18e8febb6e78fadd1fc56332a4b7ba2" title=" " alt="" coords="394,104,555,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="246,77,381,99,380,104,245,83"/>
+<area shape="rect" id="Node000003" href="$db/d4b/classSerializer.html#a45c8b78e8467c6f7dba85fd7a21c8781" title=" " alt="" coords="625,5,804,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="575,15,612,15,612,21,575,21"/>
 </map>

@@ -1,10 +1,7 @@
 <map id="Logger::LineToLoggerBuf::xsputn" name="Logger::LineToLoggerBuf::xsputn">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,187,75"/>
-<area shape="rect" id="Node000002" href="$d1/dd5/classLogger_1_1LineToLoggerBuf.html#a65604209f9adb1e9adf47388212c7cf8" title=" " alt="" coords="235,35,416,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,53,221,53,221,58,187,58"/>
-<area shape="rect" id="Node000003" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="464,5,593,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="416,36,450,30,451,35,417,41"/>
-<area shape="rect" id="Node000004" href="$db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="481,79,576,104"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="417,69,468,78,467,83,416,74"/>
-<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="495,80,488,70,492,60,506,54,529,52,557,56,568,65,565,69,555,61,529,57,507,59,496,64,493,70,500,77"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,237,31"/>
+<area shape="rect" id="Node000002" href="$d1/dd5/classLogger_1_1LineToLoggerBuf.html#a65604209f9adb1e9adf47388212c7cf8" title=" " alt="" coords="285,5,539,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,15,271,15,271,21,238,21"/>
+<area shape="rect" id="Node000003" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="587,5,716,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="539,15,573,15,573,21,539,21"/>
 </map>

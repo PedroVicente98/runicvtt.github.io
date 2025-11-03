@@ -1,7 +1,7 @@
 <map id="ChatManager::renderDicePopup" name="ChatManager::renderDicePopup">
-<area shape="rect" id="Node000001" title=" " alt="" coords="453,13,681,38"/>
-<area shape="rect" id="Node000002" href="$d7/dc6/classChatManager.html#a02d518f4157ae45e4bf43f7501994ecd" title=" " alt="" coords="212,5,405,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="440,28,406,28,406,23,440,23"/>
-<area shape="rect" id="Node000003" href="$d7/dc6/classChatManager.html#ae22b90f106a6b559be6533fda6c54fa5" title=" " alt="" coords="5,13,164,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,28,164,28,164,23,198,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="488,5,716,31"/>
+<area shape="rect" id="Node000002" href="$d7/dc6/classChatManager.html#a02d518f4157ae45e4bf43f7501994ecd" title=" " alt="" coords="212,5,440,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="475,21,440,21,440,15,475,15"/>
+<area shape="rect" id="Node000003" href="$d7/dc6/classChatManager.html#ae22b90f106a6b559be6533fda6c54fa5" title=" " alt="" coords="5,5,164,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,21,164,21,164,15,198,15"/>
 </map>

@@ -1,8 +1,5 @@
 <map id="Logger::LineToLoggerBuf::flushLine_" name="Logger::LineToLoggerBuf::flushLine_">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,187,75"/>
-<area shape="rect" id="Node000002" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="235,5,364,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,36,220,30,221,35,188,41"/>
-<area shape="rect" id="Node000003" href="$db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="252,79,347,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,69,239,78,238,83,187,74"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="266,80,259,70,263,60,276,54,299,52,328,56,339,65,335,69,325,61,299,57,278,59,266,64,264,70,270,77"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,259,31"/>
+<area shape="rect" id="Node000002" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="307,5,436,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,15,293,15,293,21,259,21"/>
 </map>

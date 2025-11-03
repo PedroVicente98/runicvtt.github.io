@@ -1,11 +1,11 @@
 <map id="MarkdownRenderer::isHex_" name="MarkdownRenderer::isHex_">
-<area shape="rect" id="Node000001" title=" " alt="" coords="787,45,988,70"/>
-<area shape="rect" id="Node000002" href="$de/d26/classMarkdownRenderer.html#ad9b867b0035cea2f5757cc4c009c78fa" title=" " alt="" coords="520,5,739,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="773,46,738,42,739,36,774,41"/>
-<area shape="rect" id="Node000003" href="$de/d26/classMarkdownRenderer.html#ae3b68ecd0ff19af580bda2cc0e21ff20" title=" " alt="" coords="520,69,739,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="774,74,739,78,738,73,773,69"/>
-<area shape="rect" id="Node000004" href="$de/d26/classMarkdownRenderer.html#a51a347a6a77e068ca99755262fd88e29" title=" " alt="" coords="267,69,472,109"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="507,92,472,92,472,87,507,87"/>
-<area shape="rect" id="Node000005" href="$de/d26/classMarkdownRenderer.html#a4bd39f5d7124376cde81f15bed826f41" title=" " alt="" coords="5,77,219,102"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="253,92,219,92,219,87,253,87"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="876,31,1077,56"/>
+<area shape="rect" id="Node000002" href="$de/d26/classMarkdownRenderer.html#ad9b867b0035cea2f5757cc4c009c78fa" title=" " alt="" coords="557,5,828,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="862,36,828,33,829,27,863,30"/>
+<area shape="rect" id="Node000003" href="$de/d26/classMarkdownRenderer.html#ae3b68ecd0ff19af580bda2cc0e21ff20" title=" " alt="" coords="565,55,820,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="862,56,820,59,820,54,862,50"/>
+<area shape="rect" id="Node000004" href="$de/d26/classMarkdownRenderer.html#a51a347a6a77e068ca99755262fd88e29" title=" " alt="" coords="267,55,509,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="552,70,509,70,509,65,552,65"/>
+<area shape="rect" id="Node000005" href="$de/d26/classMarkdownRenderer.html#a4bd39f5d7124376cde81f15bed826f41" title=" " alt="" coords="5,55,219,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="253,70,219,70,219,65,253,65"/>
 </map>

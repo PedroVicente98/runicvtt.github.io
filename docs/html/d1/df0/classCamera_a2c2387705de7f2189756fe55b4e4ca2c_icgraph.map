@@ -1,10 +1,10 @@
 <map id="Camera::setZoom" name="Camera::setZoom">
-<area shape="rect" id="Node000001" title=" " alt="" coords="792,13,931,38"/>
-<area shape="rect" id="Node000002" href="$d9/dff/classBoardManager.html#aa78dbda1a719e20ebd433c876451bf59" title=" " alt="" coords="268,5,487,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="778,28,487,28,487,23,778,23"/>
-<area shape="rect" id="Node000004" href="$d9/dff/classBoardManager.html#aa8cc85933ca8f36804277702fa568079" title=" " alt="" coords="535,38,744,63"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="779,37,745,41,744,36,778,32"/>
-<area shape="rect" id="Node000003" href="$d9/dff/classBoardManager.html#a2aad7a42521772a965571ce188decae8" title=" " alt="" coords="5,13,220,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="255,28,220,28,220,23,255,23"/>
-<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="521,42,487,39,487,33,521,37"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="844,5,983,31"/>
+<area shape="rect" id="Node000002" href="$d9/dff/classBoardManager.html#aa78dbda1a719e20ebd433c876451bf59" title=" " alt="" coords="268,5,539,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="830,21,539,21,539,15,830,15"/>
+<area shape="rect" id="Node000004" href="$d9/dff/classBoardManager.html#aa8cc85933ca8f36804277702fa568079" title=" " alt="" coords="587,31,796,56"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="831,30,797,34,796,29,830,25"/>
+<area shape="rect" id="Node000003" href="$d9/dff/classBoardManager.html#a2aad7a42521772a965571ce188decae8" title=" " alt="" coords="5,5,220,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="254,21,220,21,220,15,254,15"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="573,36,539,33,539,27,573,30"/>
 </map>

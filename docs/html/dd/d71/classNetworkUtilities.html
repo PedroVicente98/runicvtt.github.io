@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../RunicVTTIcon_64.png"/></td>
   <td id="projectalign">
-   <div id="projectname">RunicVTT
+   <div id="projectname">RunicVTT<span id="projectnumber">&#160;Open Source Virtual Tabletop for TTRPG using P2P</span>
    </div>
   </td>
  </tr>
@@ -106,10 +106,7 @@ $(function(){initNavTree('dd/d71/classNetworkUtilities.html','../../'); initResi
 <div class="dynheader">
 Collaboration diagram for NetworkUtilities:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/d23/classNetworkUtilities__coll__graph.png" border="0" usemap="#aNetworkUtilities_coll__map" alt="Collaboration graph"/></div>
-<map name="aNetworkUtilities_coll__map" id="aNetworkUtilities_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,251,981"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d23/classNetworkUtilities__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -203,31 +200,22 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00408">408</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  409</span>    {</div>
+<div class="line"><span class="lineno">  410</span>        <a class="code hl_function" href="#a829777d7022ecf7433b66afbae859800">createKillJobIfNeeded</a>();</div>
+<div class="line"><span class="lineno">  411</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a89b34b72f2ca492563307d8595327d7a">ltJob</a>)</div>
+<div class="line"><span class="lineno">  412</span>            AssignProcessToJobObject(<a class="code hl_variable" href="#a89b34b72f2ca492563307d8595327d7a">ltJob</a>, process);</div>
+<div class="line"><span class="lineno">  413</span>    }</div>
+<div class="ttc" id="aclassNetworkUtilities_html_a829777d7022ecf7433b66afbae859800"><div class="ttname"><a href="#a829777d7022ecf7433b66afbae859800">NetworkUtilities::createKillJobIfNeeded</a></div><div class="ttdeci">static void createKillJobIfNeeded()</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00397">NetworkUtilities.h:397</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_a89b34b72f2ca492563307d8595327d7a"><div class="ttname"><a href="#a89b34b72f2ca492563307d8595327d7a">NetworkUtilities::ltJob</a></div><div class="ttdeci">static HANDLE ltJob</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00380">NetworkUtilities.h:380</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_ace9b13371f4e6ffa2594682ada0f4e0c_cgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_ace9b13371f4e6ffa2594682ada0f4e0c_cgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_ace9b13371f4e6ffa2594682ada0f4e0c_cgraph" id="add/d71/classNetworkUtilities_ace9b13371f4e6ffa2594682ada0f4e0c_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,184,45"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#a829777d7022ecf7433b66afbae859800" title=" " alt="" coords="232,5,409,45"/>
-<area shape="poly" title=" " alt="" coords="184,23,218,23,218,28,184,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_ace9b13371f4e6ffa2594682ada0f4e0c_cgraph.svg" width="548" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_ace9b13371f4e6ffa2594682ada0f4e0c_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_ace9b13371f4e6ffa2594682ada0f4e0c_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_ace9b13371f4e6ffa2594682ada0f4e0c_icgraph" id="add/d71/classNetworkUtilities_ace9b13371f4e6ffa2594682ada0f4e0c_icgraph">
-<area shape="rect" title=" " alt="" coords="779,23,957,63"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#ac0655968aa7b9e06f7566343e0d2e567" title=" " alt="" coords="531,23,731,63"/>
-<area shape="poly" title=" " alt="" coords="765,46,731,46,731,41,765,41"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a0f4f9de49973a81889e18034343a512e" title=" " alt="" coords="286,5,465,31"/>
-<area shape="poly" title=" " alt="" coords="517,35,464,29,465,24,517,29"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a183ff98131c32d577308340999b4de18" title=" " alt="" coords="268,55,483,80"/>
-<area shape="poly" title=" " alt="" coords="517,57,483,60,483,55,517,51"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#adef56253674bd7ebd40bf73c629feed2" title=" " alt="" coords="5,55,220,80"/>
-<area shape="poly" title=" " alt="" coords="255,70,220,70,220,65,255,65"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_ace9b13371f4e6ffa2594682ada0f4e0c_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -256,29 +244,17 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00388">388</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  389</span>    {</div>
+<div class="line"><span class="lineno">  390</span>        <span class="keywordflow">if</span> (h)</div>
+<div class="line"><span class="lineno">  391</span>        {</div>
+<div class="line"><span class="lineno">  392</span>            CloseHandle(h);</div>
+<div class="line"><span class="lineno">  393</span>            h = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  394</span>        }</div>
+<div class="line"><span class="lineno">  395</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a9bb500d7c81ea448babc07ac94e6bd65_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a9bb500d7c81ea448babc07ac94e6bd65_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a9bb500d7c81ea448babc07ac94e6bd65_icgraph" id="add/d71/classNetworkUtilities_a9bb500d7c81ea448babc07ac94e6bd65_icgraph">
-<area shape="rect" title=" " alt="" coords="1044,42,1269,67"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#ac0655968aa7b9e06f7566343e0d2e567" title=" " alt="" coords="540,5,740,45"/>
-<area shape="poly" title=" " alt="" coords="1030,50,740,34,740,28,1030,45"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#a1aff5744053044b32a0b910f02abc05a" title=" " alt="" coords="797,63,996,103"/>
-<area shape="poly" title=" " alt="" coords="1031,71,996,75,996,69,1030,66"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a0f4f9de49973a81889e18034343a512e" title=" " alt="" coords="286,62,465,87"/>
-<area shape="poly" title=" " alt="" coords="527,49,445,65,444,59,526,44"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a183ff98131c32d577308340999b4de18" title=" " alt="" coords="268,13,483,38"/>
-<area shape="poly" title=" " alt="" coords="526,28,483,28,483,23,526,23"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#adef56253674bd7ebd40bf73c629feed2" title=" " alt="" coords="5,13,220,38"/>
-<area shape="poly" title=" " alt="" coords="255,28,220,28,220,23,255,23"/>
-<area shape="poly" title=" " alt="" coords="792,62,730,48,731,43,794,57"/>
-<area shape="poly" title=" " alt="" coords="783,84,465,79,465,73,783,78"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a798b9a15475708f233e2d82f4ba0ff12" title=" " alt="" coords="531,121,749,146"/>
-<area shape="poly" title=" " alt="" coords="785,107,706,123,705,118,783,102"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a2cfe4223139cf58587a9f066b956cb23" title=" " alt="" coords="271,113,479,153"/>
-<area shape="poly" title=" " alt="" coords="517,136,479,136,479,131,517,131"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a9bb500d7c81ea448babc07ac94e6bd65_icgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -307,23 +283,20 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00397">397</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  398</span>    {</div>
+<div class="line"><span class="lineno">  399</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a89b34b72f2ca492563307d8595327d7a">ltJob</a>)</div>
+<div class="line"><span class="lineno">  400</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  401</span>        <a class="code hl_variable" href="#a89b34b72f2ca492563307d8595327d7a">ltJob</a> = CreateJobObjectA(<span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">  402</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#a89b34b72f2ca492563307d8595327d7a">ltJob</a>)</div>
+<div class="line"><span class="lineno">  403</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  404</span>        JOBOBJECT_EXTENDED_LIMIT_INFORMATION info{};</div>
+<div class="line"><span class="lineno">  405</span>        info.BasicLimitInformation.LimitFlags = JOB_OBJECT_LIMIT_KILL_ON_JOB_CLOSE;</div>
+<div class="line"><span class="lineno">  406</span>        SetInformationJobObject(<a class="code hl_variable" href="#a89b34b72f2ca492563307d8595327d7a">ltJob</a>, JobObjectExtendedLimitInformation, &amp;info, <span class="keyword">sizeof</span>(info));</div>
+<div class="line"><span class="lineno">  407</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a829777d7022ecf7433b66afbae859800_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a829777d7022ecf7433b66afbae859800_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a829777d7022ecf7433b66afbae859800_icgraph" id="add/d71/classNetworkUtilities_a829777d7022ecf7433b66afbae859800_icgraph">
-<area shape="rect" title=" " alt="" coords="1005,23,1183,63"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#ace9b13371f4e6ffa2594682ada0f4e0c" title=" " alt="" coords="779,23,957,63"/>
-<area shape="poly" title=" " alt="" coords="991,46,957,46,957,41,991,41"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#ac0655968aa7b9e06f7566343e0d2e567" title=" " alt="" coords="531,23,731,63"/>
-<area shape="poly" title=" " alt="" coords="765,46,731,46,731,41,765,41"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a0f4f9de49973a81889e18034343a512e" title=" " alt="" coords="286,5,465,31"/>
-<area shape="poly" title=" " alt="" coords="517,35,464,29,465,24,517,29"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a183ff98131c32d577308340999b4de18" title=" " alt="" coords="268,55,483,80"/>
-<area shape="poly" title=" " alt="" coords="517,57,483,60,483,55,517,51"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#adef56253674bd7ebd40bf73c629feed2" title=" " alt="" coords="5,55,220,80"/>
-<area shape="poly" title=" " alt="" coords="255,70,220,70,220,65,255,65"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a829777d7022ecf7433b66afbae859800_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -352,25 +325,55 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00158">158</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  159</span>    {</div>
+<div class="line"><span class="lineno">  160</span>        WSADATA wsaData;</div>
+<div class="line"><span class="lineno">  161</span>        <span class="keywordflow">if</span> (WSAStartup(MAKEWORD(2, 2), &amp;wsaData) != 0)</div>
+<div class="line"><span class="lineno">  162</span>        {</div>
+<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;WSAStartup failed&quot;</span>);</div>
+<div class="line"><span class="lineno">  164</span>        }</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>        <span class="comment">// Create a UDP socket (does not actually send packets)</span></div>
+<div class="line"><span class="lineno">  167</span>        SOCKET sock = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);</div>
+<div class="line"><span class="lineno">  168</span>        <span class="keywordflow">if</span> (sock == INVALID_SOCKET)</div>
+<div class="line"><span class="lineno">  169</span>        {</div>
+<div class="line"><span class="lineno">  170</span>            WSACleanup();</div>
+<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;socket creation failed&quot;</span>);</div>
+<div class="line"><span class="lineno">  172</span>        }</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>        sockaddr_in remote{};</div>
+<div class="line"><span class="lineno">  175</span>        remote.sin_family = AF_INET;</div>
+<div class="line"><span class="lineno">  176</span>        remote.sin_port = htons(53);                     <span class="comment">// DNS port</span></div>
+<div class="line"><span class="lineno">  177</span>        inet_pton(AF_INET, <span class="stringliteral">&quot;8.8.8.8&quot;</span>, &amp;remote.sin_addr); <span class="comment">// Google DNS</span></div>
+<div class="line"><span class="lineno">  178</span> </div>
+<div class="line"><span class="lineno">  179</span>        <span class="comment">// Connect sets the default route for this socket</span></div>
+<div class="line"><span class="lineno">  180</span>        <span class="keywordflow">if</span> (connect(sock, <span class="keyword">reinterpret_cast&lt;</span>sockaddr*<span class="keyword">&gt;</span>(&amp;remote), <span class="keyword">sizeof</span>(remote)) != 0)</div>
+<div class="line"><span class="lineno">  181</span>        {</div>
+<div class="line"><span class="lineno">  182</span>            closesocket(sock);</div>
+<div class="line"><span class="lineno">  183</span>            WSACleanup();</div>
+<div class="line"><span class="lineno">  184</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;connect failed&quot;</span>);</div>
+<div class="line"><span class="lineno">  185</span>        }</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>        sockaddr_in local{};</div>
+<div class="line"><span class="lineno">  188</span>        <span class="keywordtype">int</span> len = <span class="keyword">sizeof</span>(local);</div>
+<div class="line"><span class="lineno">  189</span>        <span class="keywordflow">if</span> (getsockname(sock, <span class="keyword">reinterpret_cast&lt;</span>sockaddr*<span class="keyword">&gt;</span>(&amp;local), &amp;len) != 0)</div>
+<div class="line"><span class="lineno">  190</span>        {</div>
+<div class="line"><span class="lineno">  191</span>            closesocket(sock);</div>
+<div class="line"><span class="lineno">  192</span>            WSACleanup();</div>
+<div class="line"><span class="lineno">  193</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;getsockname failed&quot;</span>);</div>
+<div class="line"><span class="lineno">  194</span>        }</div>
+<div class="line"><span class="lineno">  195</span> </div>
+<div class="line"><span class="lineno">  196</span>        <span class="keywordtype">char</span> ipStr[INET_ADDRSTRLEN];</div>
+<div class="line"><span class="lineno">  197</span>        inet_ntop(AF_INET, &amp;local.sin_addr, ipStr, <span class="keyword">sizeof</span>(ipStr));</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>        closesocket(sock);</div>
+<div class="line"><span class="lineno">  200</span>        WSACleanup();</div>
+<div class="line"><span class="lineno">  201</span> </div>
+<div class="line"><span class="lineno">  202</span>        <span class="keywordflow">return</span> std::string(ipStr);</div>
+<div class="line"><span class="lineno">  203</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_aa1a4875844765ed6487082867f6a832f_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_aa1a4875844765ed6487082867f6a832f_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_aa1a4875844765ed6487082867f6a832f_icgraph" id="add/d71/classNetworkUtilities_aa1a4875844765ed6487082867f6a832f_icgraph">
-<area shape="rect" title=" " alt="" coords="816,77,1007,117"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#ac6d071ea2f521c20e9c3340312bb3a44" title=" " alt="" coords="571,47,768,87"/>
-<area shape="poly" title=" " alt="" coords="802,86,768,82,769,77,803,81"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a0f4f9de49973a81889e18034343a512e" title=" " alt="" coords="580,112,759,137"/>
-<area shape="poly" title=" " alt="" coords="803,112,759,117,759,112,802,107"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a257fc3a28028db256b35ecd70ec74264" title=" " alt="" coords="274,5,517,31"/>
-<area shape="poly" title=" " alt="" coords="557,50,466,33,467,28,557,45"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a7d2349d09390e513119bdbceb61675b2" title=" " alt="" coords="268,55,523,80"/>
-<area shape="poly" title=" " alt="" coords="557,70,523,70,523,65,557,65"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a183ff98131c32d577308340999b4de18" title=" " alt="" coords="288,104,503,129"/>
-<area shape="poly" title=" " alt="" coords="557,90,467,107,466,101,557,85"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#adef56253674bd7ebd40bf73c629feed2" title=" " alt="" coords="5,104,220,129"/>
-<area shape="poly" title=" " alt="" coords="274,119,220,119,220,114,274,114"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_aa1a4875844765ed6487082867f6a832f_icgraph.svg" width="100%" height="401"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -399,17 +402,16 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00703">703</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  704</span>    {</div>
+<div class="line"><span class="lineno">  705</span>        std::lock_guard&lt;std::mutex&gt; lk(<a class="code hl_variable" href="#a7617c51f0d089c1ccd3b1f1d96381acc">urlMutex</a>);</div>
+<div class="line"><span class="lineno">  706</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a2a1c1d39f672dba4b1181ac0eb2a5692">localTunnelUrl</a>;</div>
+<div class="line"><span class="lineno">  707</span>    }</div>
+<div class="ttc" id="aclassNetworkUtilities_html_a2a1c1d39f672dba4b1181ac0eb2a5692"><div class="ttname"><a href="#a2a1c1d39f672dba4b1181ac0eb2a5692">NetworkUtilities::localTunnelUrl</a></div><div class="ttdeci">static std::string localTunnelUrl</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00364">NetworkUtilities.h:364</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_a7617c51f0d089c1ccd3b1f1d96381acc"><div class="ttname"><a href="#a7617c51f0d089c1ccd3b1f1d96381acc">NetworkUtilities::urlMutex</a></div><div class="ttdeci">static std::mutex urlMutex</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00365">NetworkUtilities.h:365</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a8b1b056904d1c96c746c6b0720c84556_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a8b1b056904d1c96c746c6b0720c84556_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a8b1b056904d1c96c746c6b0720c84556_icgraph" id="add/d71/classNetworkUtilities_a8b1b056904d1c96c746c6b0720c84556_icgraph">
-<area shape="rect" title=" " alt="" coords="541,5,732,45"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a167f2aee8f7f0b8647924a7e3c9b758c" title=" " alt="" coords="296,5,493,45"/>
-<area shape="poly" title=" " alt="" coords="527,28,494,28,494,23,527,23"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a257fc3a28028db256b35ecd70ec74264" title=" " alt="" coords="5,13,248,38"/>
-<area shape="poly" title=" " alt="" coords="282,28,248,28,248,23,282,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a8b1b056904d1c96c746c6b0720c84556_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -442,19 +444,68 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00098">98</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   99</span>    {</div>
+<div class="line"><span class="lineno">  100</span>        std::string result;</div>
+<div class="line"><span class="lineno">  101</span> </div>
+<div class="line"><span class="lineno">  102</span>        HINTERNET hSession = WinHttpOpen(L<span class="stringliteral">&quot;RunicVTT/1.0&quot;</span>,</div>
+<div class="line"><span class="lineno">  103</span>                                         WINHTTP_ACCESS_TYPE_DEFAULT_PROXY,</div>
+<div class="line"><span class="lineno">  104</span>                                         WINHTTP_NO_PROXY_NAME,</div>
+<div class="line"><span class="lineno">  105</span>                                         WINHTTP_NO_PROXY_BYPASS, 0);</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">if</span> (hSession)</div>
+<div class="line"><span class="lineno">  108</span>        {</div>
+<div class="line"><span class="lineno">  109</span>            HINTERNET hConnect = WinHttpConnect(hSession, host.c_str(),</div>
+<div class="line"><span class="lineno">  110</span>                                                INTERNET_DEFAULT_HTTPS_PORT, 0);</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>            <span class="keywordflow">if</span> (hConnect)</div>
+<div class="line"><span class="lineno">  113</span>            {</div>
+<div class="line"><span class="lineno">  114</span>                HINTERNET hRequest = WinHttpOpenRequest(hConnect, L<span class="stringliteral">&quot;GET&quot;</span>, path.c_str(),</div>
+<div class="line"><span class="lineno">  115</span>                                                        NULL, WINHTTP_NO_REFERER,</div>
+<div class="line"><span class="lineno">  116</span>                                                        WINHTTP_DEFAULT_ACCEPT_TYPES,</div>
+<div class="line"><span class="lineno">  117</span>                                                        WINHTTP_FLAG_SECURE);</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>                <span class="keywordflow">if</span> (hRequest)</div>
+<div class="line"><span class="lineno">  120</span>                {</div>
+<div class="line"><span class="lineno">  121</span>                    BOOL bResults = WinHttpSendRequest(hRequest,</div>
+<div class="line"><span class="lineno">  122</span>                                                       WINHTTP_NO_ADDITIONAL_HEADERS, 0,</div>
+<div class="line"><span class="lineno">  123</span>                                                       WINHTTP_NO_REQUEST_DATA, 0,</div>
+<div class="line"><span class="lineno">  124</span>                                                       0, 0);</div>
+<div class="line"><span class="lineno">  125</span> </div>
+<div class="line"><span class="lineno">  126</span>                    <span class="keywordflow">if</span> (bResults)</div>
+<div class="line"><span class="lineno">  127</span>                        bResults = WinHttpReceiveResponse(hRequest, NULL);</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>                    <span class="keywordflow">if</span> (bResults)</div>
+<div class="line"><span class="lineno">  130</span>                    {</div>
+<div class="line"><span class="lineno">  131</span>                        DWORD dwSize = 0;</div>
+<div class="line"><span class="lineno">  132</span>                        <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  133</span>                        {</div>
+<div class="line"><span class="lineno">  134</span>                            DWORD dwDownloaded = 0;</div>
+<div class="line"><span class="lineno">  135</span>                            <span class="keywordflow">if</span> (!WinHttpQueryDataAvailable(hRequest, &amp;dwSize))</div>
+<div class="line"><span class="lineno">  136</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  137</span> </div>
+<div class="line"><span class="lineno">  138</span>                            <span class="keywordflow">if</span> (!dwSize)</div>
+<div class="line"><span class="lineno">  139</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>                            std::string buffer(dwSize, 0);</div>
+<div class="line"><span class="lineno">  142</span>                            <span class="keywordflow">if</span> (!WinHttpReadData(hRequest, buffer.data(), dwSize, &amp;dwDownloaded))</div>
+<div class="line"><span class="lineno">  143</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  144</span> </div>
+<div class="line"><span class="lineno">  145</span>                            result.append(buffer.c_str(), dwDownloaded);</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>                        } <span class="keywordflow">while</span> (dwSize &gt; 0);</div>
+<div class="line"><span class="lineno">  148</span>                    }</div>
+<div class="line"><span class="lineno">  149</span>                    WinHttpCloseHandle(hRequest);</div>
+<div class="line"><span class="lineno">  150</span>                }</div>
+<div class="line"><span class="lineno">  151</span>                WinHttpCloseHandle(hConnect);</div>
+<div class="line"><span class="lineno">  152</span>            }</div>
+<div class="line"><span class="lineno">  153</span>            WinHttpCloseHandle(hSession);</div>
+<div class="line"><span class="lineno">  154</span>        }</div>
+<div class="line"><span class="lineno">  155</span>        <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  156</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a72637b33817388d617ec5344cc6fea3b_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a72637b33817388d617ec5344cc6fea3b_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a72637b33817388d617ec5344cc6fea3b_icgraph" id="add/d71/classNetworkUtilities_a72637b33817388d617ec5344cc6fea3b_icgraph">
-<area shape="rect" title=" " alt="" coords="573,31,759,56"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#ac26153ac2e3b37ed6bedffc50c37038f" title=" " alt="" coords="308,23,525,63"/>
-<area shape="poly" title=" " alt="" coords="560,46,526,46,526,41,560,41"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a257fc3a28028db256b35ecd70ec74264" title=" " alt="" coords="11,5,254,31"/>
-<area shape="poly" title=" " alt="" coords="294,35,254,31,254,26,294,30"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a7d2349d09390e513119bdbceb61675b2" title=" " alt="" coords="5,55,260,80"/>
-<area shape="poly" title=" " alt="" coords="294,56,261,59,260,54,294,51"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a72637b33817388d617ec5344cc6fea3b_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -483,21 +534,23 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00415">415</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  416</span>    {</div>
+<div class="line"><span class="lineno">  417</span>        LPVOID <a class="code hl_namespace" href="../../d5/d64/namespacemsg.html">msg</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  418</span>        DWORD n = FormatMessageA(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS,</div>
+<div class="line"><span class="lineno">  419</span>                                 <span class="keyword">nullptr</span>, err, MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), (LPSTR)&amp;<a class="code hl_namespace" href="../../d5/d64/namespacemsg.html">msg</a>, 0, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">  420</span>        std::string s;</div>
+<div class="line"><span class="lineno">  421</span>        <span class="keywordflow">if</span> (n &amp;&amp; <a class="code hl_namespace" href="../../d5/d64/namespacemsg.html">msg</a>)</div>
+<div class="line"><span class="lineno">  422</span>        {</div>
+<div class="line"><span class="lineno">  423</span>            s.assign((LPSTR)<a class="code hl_namespace" href="../../d5/d64/namespacemsg.html">msg</a>, n);</div>
+<div class="line"><span class="lineno">  424</span>            LocalFree(<a class="code hl_namespace" href="../../d5/d64/namespacemsg.html">msg</a>);</div>
+<div class="line"><span class="lineno">  425</span>        }</div>
+<div class="line"><span class="lineno">  426</span>        <span class="keywordflow">return</span> s;</div>
+<div class="line"><span class="lineno">  427</span>    }</div>
+<div class="ttc" id="anamespacemsg_html"><div class="ttname"><a href="../../d5/d64/namespacemsg.html">msg</a></div><div class="ttdef"><b>Definition</b> <a href="../../d5/dca/Message_8h_source.html#l00027">Message.h:28</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_ad620dd61d9d41d13af77219ffd1d937e_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_ad620dd61d9d41d13af77219ffd1d937e_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_ad620dd61d9d41d13af77219ffd1d937e_icgraph" id="add/d71/classNetworkUtilities_ad620dd61d9d41d13af77219ffd1d937e_icgraph">
-<area shape="rect" title=" " alt="" coords="779,23,969,63"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#ac0655968aa7b9e06f7566343e0d2e567" title=" " alt="" coords="531,23,731,63"/>
-<area shape="poly" title=" " alt="" coords="765,46,731,46,731,41,765,41"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a0f4f9de49973a81889e18034343a512e" title=" " alt="" coords="286,5,465,31"/>
-<area shape="poly" title=" " alt="" coords="517,35,464,29,465,24,517,29"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a183ff98131c32d577308340999b4de18" title=" " alt="" coords="268,55,483,80"/>
-<area shape="poly" title=" " alt="" coords="517,57,483,60,483,55,517,51"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#adef56253674bd7ebd40bf73c629feed2" title=" " alt="" coords="5,55,220,80"/>
-<area shape="poly" title=" " alt="" coords="255,70,220,70,220,65,255,65"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_ad620dd61d9d41d13af77219ffd1d937e_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -530,17 +583,39 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00206">206</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  207</span>    {</div>
+<div class="line"><span class="lineno">  208</span>        <span class="keyword">auto</span> starts = [](<span class="keyword">const</span> std::string&amp; s, <span class="keyword">const</span> <span class="keywordtype">char</span>* p)</div>
+<div class="line"><span class="lineno">  209</span>        { <span class="keywordflow">return</span> s.rfind(p, 0) == 0; };</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>        <span class="keywordflow">if</span> (starts(hostOrUrl, <span class="stringliteral">&quot;wss://&quot;</span>) || starts(hostOrUrl, <span class="stringliteral">&quot;ws://&quot;</span>))</div>
+<div class="line"><span class="lineno">  212</span>            <span class="keywordflow">return</span> hostOrUrl;</div>
+<div class="line"><span class="lineno">  213</span>        <span class="keywordflow">if</span> (starts(hostOrUrl, <span class="stringliteral">&quot;https://&quot;</span>))</div>
+<div class="line"><span class="lineno">  214</span>        {</div>
+<div class="line"><span class="lineno">  215</span>            <span class="keyword">auto</span> u = hostOrUrl;</div>
+<div class="line"><span class="lineno">  216</span>            u.replace(0, 8, <span class="stringliteral">&quot;wss://&quot;</span>);</div>
+<div class="line"><span class="lineno">  217</span>            <span class="keywordflow">return</span> u;</div>
+<div class="line"><span class="lineno">  218</span>        }</div>
+<div class="line"><span class="lineno">  219</span>        <span class="keywordflow">if</span> (starts(hostOrUrl, <span class="stringliteral">&quot;http://&quot;</span>))</div>
+<div class="line"><span class="lineno">  220</span>        {</div>
+<div class="line"><span class="lineno">  221</span>            <span class="keyword">auto</span> u = hostOrUrl;</div>
+<div class="line"><span class="lineno">  222</span>            u.replace(0, 7, <span class="stringliteral">&quot;ws://&quot;</span>);</div>
+<div class="line"><span class="lineno">  223</span>            <span class="keywordflow">return</span> u;</div>
+<div class="line"><span class="lineno">  224</span>        }</div>
+<div class="line"><span class="lineno">  225</span> </div>
+<div class="line"><span class="lineno">  226</span>        <span class="comment">// No scheme given:</span></div>
+<div class="line"><span class="lineno">  227</span>        <span class="keywordflow">if</span> (hostOrUrl.find(<span class="stringliteral">&quot;.loca.lt&quot;</span>) != std::string::npos)</div>
+<div class="line"><span class="lineno">  228</span>        {</div>
+<div class="line"><span class="lineno">  229</span>            <span class="comment">// LocalTunnel public endpoint â†’ secure, no port</span></div>
+<div class="line"><span class="lineno">  230</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;wss://&quot;</span> + hostOrUrl;</div>
+<div class="line"><span class="lineno">  231</span>        }</div>
+<div class="line"><span class="lineno">  232</span> </div>
+<div class="line"><span class="lineno">  233</span>        <span class="comment">// LAN / plain host â†’ need explicit port</span></div>
+<div class="line"><span class="lineno">  234</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;ws://&quot;</span> + hostOrUrl + <span class="stringliteral">&quot;:&quot;</span> + std::to_string(port);</div>
+<div class="line"><span class="lineno">  235</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a7b9b352f171d45961ea91a8fe0772ac8_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a7b9b352f171d45961ea91a8fe0772ac8_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a7b9b352f171d45961ea91a8fe0772ac8_icgraph" id="add/d71/classNetworkUtilities_a7b9b352f171d45961ea91a8fe0772ac8_icgraph">
-<area shape="rect" title=" " alt="" coords="252,23,453,63"/>
-<area shape="rect" href="../../d9/d85/classSignalingClient.html#a4d024810a54c16a402720bdad988631a" title=" " alt="" coords="15,5,194,31"/>
-<area shape="poly" title=" " alt="" coords="238,34,194,30,194,24,239,29"/>
-<area shape="rect" href="../../d9/d85/classSignalingClient.html#a2fd8b6b1e27c91bf9107390aa30dd554" title=" " alt="" coords="5,55,204,80"/>
-<area shape="poly" title=" " alt="" coords="239,57,205,60,204,55,238,52"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a7b9b352f171d45961ea91a8fe0772ac8_icgraph.svg" width="498" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -569,7 +644,17 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00251">251</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  252</span>    {</div>
+<div class="line"><span class="lineno">  253</span>        <span class="keyword">auto</span> starts = [&amp;](<span class="keyword">const</span> <span class="keywordtype">char</span>* p)</div>
+<div class="line"><span class="lineno">  254</span>        { <span class="keywordflow">return</span> raw.rfind(p, 0) == 0; };</div>
+<div class="line"><span class="lineno">  255</span>        <span class="keywordflow">if</span> (starts(<span class="stringliteral">&quot;https://&quot;</span>))</div>
+<div class="line"><span class="lineno">  256</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;wss://&quot;</span> + raw.substr(8);</div>
+<div class="line"><span class="lineno">  257</span>        <span class="keywordflow">if</span> (starts(<span class="stringliteral">&quot;http://&quot;</span>))</div>
+<div class="line"><span class="lineno">  258</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;ws://&quot;</span> + raw.substr(7);</div>
+<div class="line"><span class="lineno">  259</span>        <span class="comment">// if already ws:// or wss:// or a bare host (leave as caller wishes)</span></div>
+<div class="line"><span class="lineno">  260</span>        <span class="keywordflow">return</span> raw;</div>
+<div class="line"><span class="lineno">  261</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5a0743b2d980344eeb94fe06750b8987" name="a5a0743b2d980344eeb94fe06750b8987"></a>
@@ -596,7 +681,19 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00084">84</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   85</span>    {</div>
+<div class="line"><span class="lineno">   86</span>        std::array&lt;char, 128&gt; buffer;</div>
+<div class="line"><span class="lineno">   87</span>        std::string result;</div>
+<div class="line"><span class="lineno">   88</span>        std::unique_ptr&lt;FILE, <span class="keyword">decltype</span>(&amp;_pclose)&gt; pipe(_popen(cmd.c_str(), <span class="stringliteral">&quot;r&quot;</span>), _pclose);</div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordflow">if</span> (!pipe)</div>
+<div class="line"><span class="lineno">   90</span>            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;popen() failed!&quot;</span>);</div>
+<div class="line"><span class="lineno">   91</span>        <span class="keywordflow">while</span> (fgets(buffer.data(), buffer.size(), pipe.get()) != <span class="keyword">nullptr</span>)</div>
+<div class="line"><span class="lineno">   92</span>        {</div>
+<div class="line"><span class="lineno">   93</span>            result += buffer.data();</div>
+<div class="line"><span class="lineno">   94</span>        }</div>
+<div class="line"><span class="lineno">   95</span>        <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3b6ac761c2940db9d3214729e5e166a3" name="a3b6ac761c2940db9d3214729e5e166a3"></a>
@@ -623,28 +720,34 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00031">31</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   31</span>                                                                        {</div>
+<div class="line"><span class="lineno">   32</span>        <span class="keywordflow">if</span> (!dc) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   33</span>        <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">   34</span>            dc-&gt;onOpen(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   35</span>            dc-&gt;onMessage(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   36</span>            dc-&gt;onBufferedAmountLow(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   37</span>            dc-&gt;onClosed(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   38</span>            dc-&gt;onError(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   39</span>            dc-&gt;close();</div>
+<div class="line"><span class="lineno">   40</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">   41</span>            <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd">Logger::Level::Error</a>, std::string(<span class="stringliteral">&quot;[DC close] &quot;</span>) + e.what());</div>
+<div class="line"><span class="lineno">   42</span>            <span class="comment">//pushStatusToast(&quot;DataChannel close error&quot;, ImGuiToaster::Level::Error, 5.0f);</span></div>
+<div class="line"><span class="lineno">   43</span>        } <span class="keywordflow">catch</span> (...) {</div>
+<div class="line"><span class="lineno">   44</span>            <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd">Logger::Level::Error</a>, <span class="stringliteral">&quot;[DC close] unknown&quot;</span>);</div>
+<div class="line"><span class="lineno">   45</span>            <span class="comment">//pushStatusToast(&quot;DataChannel close error (unknown)&quot;, ImGuiToaster::Level::Error, 5.0f);</span></div>
+<div class="line"><span class="lineno">   46</span>        }</div>
+<div class="line"><span class="lineno">   47</span>    }</div>
+<div class="ttc" id="aclassLogger_html_ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd"><div class="ttname"><a href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd">Logger::Level::Error</a></div><div class="ttdeci">@ Error</div></div>
+<div class="ttc" id="aclassLogger_html_aebb248e608f8e2724de20b482cb2a15f"><div class="ttname"><a href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a></div><div class="ttdeci">static Logger &amp; instance()</div><div class="ttdef"><b>Definition</b> <a href="../../dd/da4/Logger_8h_source.html#l00039">Logger.h:39</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a3b6ac761c2940db9d3214729e5e166a3_cgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a3b6ac761c2940db9d3214729e5e166a3_cgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a3b6ac761c2940db9d3214729e5e166a3_cgraph" id="add/d71/classNetworkUtilities_a3b6ac761c2940db9d3214729e5e166a3_cgraph">
-<area shape="rect" title=" " alt="" coords="5,35,205,75"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="253,5,383,31"/>
-<area shape="poly" title=" " alt="" coords="205,35,239,29,240,34,206,40"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="271,79,365,104"/>
-<area shape="poly" title=" " alt="" coords="206,70,257,78,256,84,205,75"/>
-<area shape="poly" title=" " alt="" coords="283,80,276,70,280,60,294,54,318,52,347,56,359,65,356,69,345,61,318,57,296,59,284,64,281,70,288,77"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a3b6ac761c2940db9d3214729e5e166a3_cgraph.svg" width="472" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a3b6ac761c2940db9d3214729e5e166a3_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a3b6ac761c2940db9d3214729e5e166a3_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a3b6ac761c2940db9d3214729e5e166a3_icgraph" id="add/d71/classNetworkUtilities_a3b6ac761c2940db9d3214729e5e166a3_icgraph">
-<area shape="rect" title=" " alt="" coords="173,5,373,45"/>
-<area shape="rect" href="../../db/d08/classPeerLink.html#a2c76b411c7784b44b02f76f19773c252" title=" " alt="" coords="5,13,125,38"/>
-<area shape="poly" title=" " alt="" coords="159,28,126,28,126,23,159,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a3b6ac761c2940db9d3214729e5e166a3_icgraph.svg" width="463" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -673,28 +776,32 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00049">49</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   49</span>                                                                              {</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">if</span> (!pc) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">   52</span>            pc-&gt;onStateChange(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   53</span>            pc-&gt;onGatheringStateChange(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   54</span>            pc-&gt;onLocalDescription(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   55</span>            pc-&gt;onDataChannel(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   56</span>            pc-&gt;onTrack(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   57</span>            pc-&gt;close();</div>
+<div class="line"><span class="lineno">   58</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">   59</span>            <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd">Logger::Level::Error</a>, std::string(<span class="stringliteral">&quot;[PC close] &quot;</span>) + e.what());</div>
+<div class="line"><span class="lineno">   60</span>            <span class="comment">//pushStatusToast(&quot;PeerConnection close error&quot;, ImGuiToaster::Level::Error, 5.0f);</span></div>
+<div class="line"><span class="lineno">   61</span>        } <span class="keywordflow">catch</span> (...) {</div>
+<div class="line"><span class="lineno">   62</span>            <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd">Logger::Level::Error</a>, <span class="stringliteral">&quot;[PC close] unknown&quot;</span>);</div>
+<div class="line"><span class="lineno">   63</span>            <span class="comment">//pushStatusToast(&quot;PeerConnection close error (unknown)&quot;, ImGuiToaster::Level::Error, 5.0f);</span></div>
+<div class="line"><span class="lineno">   64</span>        }</div>
+<div class="line"><span class="lineno">   65</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a6644e970960fb75794434d8bb73e5b27_cgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a6644e970960fb75794434d8bb73e5b27_cgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a6644e970960fb75794434d8bb73e5b27_cgraph" id="add/d71/classNetworkUtilities_a6644e970960fb75794434d8bb73e5b27_cgraph">
-<area shape="rect" title=" " alt="" coords="5,35,205,75"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="253,5,383,31"/>
-<area shape="poly" title=" " alt="" coords="205,35,239,29,240,34,206,40"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="271,79,365,104"/>
-<area shape="poly" title=" " alt="" coords="206,70,257,78,256,84,205,75"/>
-<area shape="poly" title=" " alt="" coords="283,80,276,70,280,60,294,54,318,52,347,56,359,65,356,69,345,61,318,57,296,59,284,64,281,70,288,77"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a6644e970960fb75794434d8bb73e5b27_cgraph.svg" width="491" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a6644e970960fb75794434d8bb73e5b27_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a6644e970960fb75794434d8bb73e5b27_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a6644e970960fb75794434d8bb73e5b27_icgraph" id="add/d71/classNetworkUtilities_a6644e970960fb75794434d8bb73e5b27_icgraph">
-<area shape="rect" title=" " alt="" coords="173,5,373,45"/>
-<area shape="rect" href="../../db/d08/classPeerLink.html#a2c76b411c7784b44b02f76f19773c252" title=" " alt="" coords="5,13,125,38"/>
-<area shape="poly" title=" " alt="" coords="159,28,126,28,126,23,159,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a6644e970960fb75794434d8bb73e5b27_icgraph.svg" width="482" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -723,34 +830,31 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00067">67</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   67</span>                                                                    {</div>
+<div class="line"><span class="lineno">   68</span>        <span class="keywordflow">if</span> (!ws) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">try</span> {</div>
+<div class="line"><span class="lineno">   70</span>            ws-&gt;onOpen(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   71</span>            ws-&gt;onMessage(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   72</span>            ws-&gt;onClosed(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   73</span>            ws-&gt;onError(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   74</span>            ws-&gt;close();</div>
+<div class="line"><span class="lineno">   75</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e) {</div>
+<div class="line"><span class="lineno">   76</span>            <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd">Logger::Level::Error</a>, std::string(<span class="stringliteral">&quot;[WS close] &quot;</span>) + e.what());</div>
+<div class="line"><span class="lineno">   77</span>            <span class="comment">//pushStatusToast(&quot;WebSocket close error&quot;, ImGuiToaster::Level::Error, 5.0f);</span></div>
+<div class="line"><span class="lineno">   78</span>        } <span class="keywordflow">catch</span> (...) {</div>
+<div class="line"><span class="lineno">   79</span>            <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd">Logger::Level::Error</a>, <span class="stringliteral">&quot;[WS close] unknown&quot;</span>);</div>
+<div class="line"><span class="lineno">   80</span>            <span class="comment">//pushStatusToast(&quot;WebSocket close error (unknown)&quot;, ImGuiToaster::Level::Error, 5.0f);</span></div>
+<div class="line"><span class="lineno">   81</span>        }</div>
+<div class="line"><span class="lineno">   82</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_ac24b451c3d4b386916a1062480656c00_cgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_ac24b451c3d4b386916a1062480656c00_cgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_ac24b451c3d4b386916a1062480656c00_cgraph" id="add/d71/classNetworkUtilities_ac24b451c3d4b386916a1062480656c00_cgraph">
-<area shape="rect" title=" " alt="" coords="5,35,205,75"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="253,5,383,31"/>
-<area shape="poly" title=" " alt="" coords="205,35,239,29,240,34,206,40"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="271,79,365,104"/>
-<area shape="poly" title=" " alt="" coords="206,70,257,78,256,84,205,75"/>
-<area shape="poly" title=" " alt="" coords="283,80,276,70,280,60,294,54,318,52,347,56,359,65,356,69,345,61,318,57,296,59,284,64,281,70,288,77"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_ac24b451c3d4b386916a1062480656c00_cgraph.svg" width="459" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_ac24b451c3d4b386916a1062480656c00_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_ac24b451c3d4b386916a1062480656c00_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_ac24b451c3d4b386916a1062480656c00_icgraph" id="add/d71/classNetworkUtilities_ac24b451c3d4b386916a1062480656c00_icgraph">
-<area shape="rect" title=" " alt="" coords="516,55,716,95"/>
-<area shape="rect" href="../../d9/d85/classSignalingClient.html#ac3db9617d91d271ba18bde81f24b5c97" title=" " alt="" coords="281,5,443,31"/>
-<area shape="poly" title=" " alt="" coords="513,55,418,33,420,28,514,50"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a8e0d2dcd98ddaf7e2546508c44dd804e" title=" " alt="" coords="256,55,468,95"/>
-<area shape="poly" title=" " alt="" coords="502,78,468,78,468,73,502,73"/>
-<area shape="rect" href="../../d6/d0b/classSignalingServer.html#ad1eb7f34bf1ee45ab24d16020ffcb889" title=" " alt="" coords="282,120,442,145"/>
-<area shape="poly" title=" " alt="" coords="514,101,420,123,418,117,513,96"/>
-<area shape="rect" href="../../d6/d0b/classSignalingServer.html#a257d9fcbdd01ef29c2c4b093a79b023a" title=" " alt="" coords="5,113,208,153"/>
-<area shape="poly" title=" " alt="" coords="268,135,208,135,208,130,268,130"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_ac24b451c3d4b386916a1062480656c00_icgraph.svg" width="100%" height="401"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -779,29 +883,28 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00237">237</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  238</span>    {</div>
+<div class="line"><span class="lineno">  239</span>        <span class="keyword">auto</span> caPath = <a class="code hl_function" href="../../d8/dec/classPathManager.html#af9ba5d87d91f87a8dae1b129dd9151f1">PathManager::getCertsPath</a>() / <span class="stringliteral">&quot;cacert.pem&quot;</span>;</div>
+<div class="line"><span class="lineno">  240</span>        <span class="keyword">auto</span> caPathString = caPath.string();</div>
+<div class="line"><span class="lineno">  241</span>        <span class="keywordflow">if</span> (_putenv_s(<span class="stringliteral">&quot;SSL_CERT_FILE&quot;</span>, caPathString.c_str()) != 0)</div>
+<div class="line"><span class="lineno">  242</span>        {</div>
+<div class="line"><span class="lineno">  243</span>            std::cerr &lt;&lt; <span class="stringliteral">&quot;[NetworkUtilities] Failed to set SSL_CERT_FILE\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  244</span>        }</div>
+<div class="line"><span class="lineno">  245</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  246</span>        {</div>
+<div class="line"><span class="lineno">  247</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;[NetworkUtilities] SSL_CERT_FILE set to &quot;</span> &lt;&lt; caPath &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  248</span>        }</div>
+<div class="line"><span class="lineno">  249</span>    }</div>
+<div class="ttc" id="aclassPathManager_html_af9ba5d87d91f87a8dae1b129dd9151f1"><div class="ttname"><a href="../../d8/dec/classPathManager.html#af9ba5d87d91f87a8dae1b129dd9151f1">PathManager::getCertsPath</a></div><div class="ttdeci">static fs::path getCertsPath()</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d09/PathManager_8h_source.html#l00129">PathManager.h:129</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a3bfeb3ca3a5dd90d37a219b8948c8416_cgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a3bfeb3ca3a5dd90d37a219b8948c8416_cgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a3bfeb3ca3a5dd90d37a219b8948c8416_cgraph" id="add/d71/classNetworkUtilities_a3bfeb3ca3a5dd90d37a219b8948c8416_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,200,31"/>
-<area shape="rect" href="../../d8/dec/classPathManager.html#af9ba5d87d91f87a8dae1b129dd9151f1" title=" " alt="" coords="248,5,447,31"/>
-<area shape="poly" title=" " alt="" coords="200,15,234,15,234,21,200,21"/>
-<area shape="rect" href="../../d8/dec/classPathManager.html#ab849cb5818b9f328bbd3214223761ccd" title=" " alt="" coords="495,5,683,31"/>
-<area shape="poly" title=" " alt="" coords="447,15,481,15,481,21,447,21"/>
-<area shape="rect" href="../../d8/dec/classPathManager.html#a467b459b77c73cbc7544551b53911fcd" title=" " alt="" coords="731,5,968,31"/>
-<area shape="poly" title=" " alt="" coords="683,15,717,15,717,21,683,21"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a3bfeb3ca3a5dd90d37a219b8948c8416_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a3bfeb3ca3a5dd90d37a219b8948c8416_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a3bfeb3ca3a5dd90d37a219b8948c8416_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a3bfeb3ca3a5dd90d37a219b8948c8416_icgraph" id="add/d71/classNetworkUtilities_a3bfeb3ca3a5dd90d37a219b8948c8416_icgraph">
-<area shape="rect" title=" " alt="" coords="308,5,503,31"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a7d2349d09390e513119bdbceb61675b2" title=" " alt="" coords="5,5,260,31"/>
-<area shape="poly" title=" " alt="" coords="294,21,260,21,260,15,294,15"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a3bfeb3ca3a5dd90d37a219b8948c8416_icgraph.svg" width="508" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -834,52 +937,257 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00430">430</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  431</span>    {</div>
+<div class="line"><span class="lineno">  432</span>        <a class="code hl_function" href="#a1aff5744053044b32a0b910f02abc05a">stopLocalTunnel</a>(); <span class="comment">// ensure clean start</span></div>
+<div class="line"><span class="lineno">  433</span> </div>
+<div class="line"><span class="lineno">  434</span>        <span class="comment">// Normalize subdomain: remove dots, lowercase</span></div>
+<div class="line"><span class="lineno">  435</span>        std::string subdomain = std::regex_replace(subdomainBase, std::regex(<span class="stringliteral">&quot;\\.&quot;</span>), <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  436</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; c : subdomain)</div>
+<div class="line"><span class="lineno">  437</span>            c = (char)std::tolower((unsigned char)c);</div>
+<div class="line"><span class="lineno">  438</span> </div>
+<div class="line"><span class="lineno">  439</span>        {</div>
+<div class="line"><span class="lineno">  440</span>            std::lock_guard&lt;std::mutex&gt; lk(<a class="code hl_variable" href="#a7617c51f0d089c1ccd3b1f1d96381acc">urlMutex</a>);</div>
+<div class="line"><span class="lineno">  441</span>            <a class="code hl_variable" href="#a2a1c1d39f672dba4b1181ac0eb2a5692">localTunnelUrl</a>.clear();</div>
+<div class="line"><span class="lineno">  442</span>        }</div>
+<div class="line"><span class="lineno">  443</span> </div>
+<div class="line"><span class="lineno">  444</span>        <span class="comment">// Create stdout pipe</span></div>
+<div class="line"><span class="lineno">  445</span>        SECURITY_ATTRIBUTES sa{};</div>
+<div class="line"><span class="lineno">  446</span>        sa.nLength = <span class="keyword">sizeof</span>(sa);</div>
+<div class="line"><span class="lineno">  447</span>        sa.bInheritHandle = TRUE;</div>
+<div class="line"><span class="lineno">  448</span>        <span class="keywordflow">if</span> (!CreatePipe(&amp;<a class="code hl_variable" href="#a8cf7a9ec5544cc8afb96627a5ea437a0">ltStdoutRd</a>, &amp;<a class="code hl_variable" href="#a26566333f6ea0f8cbce8dadbcb4e6367">ltStdoutWr</a>, &amp;sa, 0))</div>
+<div class="line"><span class="lineno">  449</span>        {</div>
+<div class="line"><span class="lineno">  450</span>            OutputDebugStringA(<span class="stringliteral">&quot;[LT] CreatePipe stdout failed\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  451</span>            <span class="keywordflow">return</span> {};</div>
+<div class="line"><span class="lineno">  452</span>        }</div>
+<div class="line"><span class="lineno">  453</span>        SetHandleInformation(<a class="code hl_variable" href="#a8cf7a9ec5544cc8afb96627a5ea437a0">ltStdoutRd</a>, HANDLE_FLAG_INHERIT, 0); <span class="comment">// parent read end: not inheritable</span></div>
+<div class="line"><span class="lineno">  454</span> </div>
+<div class="line"><span class="lineno">  455</span>        <span class="comment">// Create stdin pipe</span></div>
+<div class="line"><span class="lineno">  456</span>        <span class="keywordflow">if</span> (!CreatePipe(&amp;<a class="code hl_variable" href="#a731f372bf428125c9466641e2816a49c">ltStdinRd</a>, &amp;<a class="code hl_variable" href="#a120866ddce6e504762cbc9b8378504de">ltStdinWr</a>, &amp;sa, 0))</div>
+<div class="line"><span class="lineno">  457</span>        {</div>
+<div class="line"><span class="lineno">  458</span>            OutputDebugStringA(<span class="stringliteral">&quot;[LT] CreatePipe stdin failed\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  459</span>            <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#a26566333f6ea0f8cbce8dadbcb4e6367">ltStdoutWr</a>);</div>
+<div class="line"><span class="lineno">  460</span>            <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#a8cf7a9ec5544cc8afb96627a5ea437a0">ltStdoutRd</a>);</div>
+<div class="line"><span class="lineno">  461</span>            <span class="keywordflow">return</span> {};</div>
+<div class="line"><span class="lineno">  462</span>        }</div>
+<div class="line"><span class="lineno">  463</span>        SetHandleInformation(<a class="code hl_variable" href="#a120866ddce6e504762cbc9b8378504de">ltStdinWr</a>, HANDLE_FLAG_INHERIT, 0); <span class="comment">// parent write end: not inheritable</span></div>
+<div class="line"><span class="lineno">  464</span> </div>
+<div class="line"><span class="lineno">  465</span>        <span class="comment">// Build command: &quot;node.exe&quot; &quot;lt-controller.js&quot; --port N --subdomain X</span></div>
+<div class="line"><span class="lineno">  466</span>        std::string nodePath = <a class="code hl_function" href="../../d8/dec/classPathManager.html#a8995cf2a53dfcf82d99d80695396031a">PathManager::getNodeExePath</a>().string();</div>
+<div class="line"><span class="lineno">  467</span>        std::string ctlPath = <a class="code hl_function" href="../../d8/dec/classPathManager.html#a84566186a965025393fe31a9cfb50299">PathManager::getLocalTunnelControllerPath</a>().string();</div>
+<div class="line"><span class="lineno">  468</span> </div>
+<div class="line"><span class="lineno">  469</span>        std::ostringstream cmd;</div>
+<div class="line"><span class="lineno">  470</span>        cmd &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; nodePath &lt;&lt; <span class="stringliteral">&quot;\&quot; \&quot;&quot;</span> &lt;&lt; ctlPath &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span></div>
+<div class="line"><span class="lineno">  471</span>            &lt;&lt; <span class="stringliteral">&quot; --port &quot;</span> &lt;&lt; port</div>
+<div class="line"><span class="lineno">  472</span>            &lt;&lt; <span class="stringliteral">&quot; --subdomain &quot;</span> &lt;&lt; subdomain;</div>
+<div class="line"><span class="lineno">  473</span> </div>
+<div class="line"><span class="lineno">  474</span>        STARTUPINFOA si{};</div>
+<div class="line"><span class="lineno">  475</span>        PROCESS_INFORMATION pi{};</div>
+<div class="line"><span class="lineno">  476</span>        si.cb = <span class="keyword">sizeof</span>(si);</div>
+<div class="line"><span class="lineno">  477</span>        si.dwFlags = STARTF_USESTDHANDLES | STARTF_USESHOWWINDOW;</div>
+<div class="line"><span class="lineno">  478</span>        si.hStdInput = <a class="code hl_variable" href="#a731f372bf428125c9466641e2816a49c">ltStdinRd</a>;</div>
+<div class="line"><span class="lineno">  479</span>        si.hStdOutput = <a class="code hl_variable" href="#a26566333f6ea0f8cbce8dadbcb4e6367">ltStdoutWr</a>;</div>
+<div class="line"><span class="lineno">  480</span>        si.hStdError = <a class="code hl_variable" href="#a26566333f6ea0f8cbce8dadbcb4e6367">ltStdoutWr</a>;</div>
+<div class="line"><span class="lineno">  481</span>        si.wShowWindow = SW_HIDE;</div>
+<div class="line"><span class="lineno">  482</span> </div>
+<div class="line"><span class="lineno">  483</span>        DWORD flags = CREATE_NO_WINDOW | CREATE_NEW_PROCESS_GROUP;</div>
+<div class="line"><span class="lineno">  484</span> </div>
+<div class="line"><span class="lineno">  485</span>        std::string cmdLine = cmd.str();</div>
+<div class="line"><span class="lineno">  486</span>        std::vector&lt;char&gt; mutableCmd(cmdLine.begin(), cmdLine.end());</div>
+<div class="line"><span class="lineno">  487</span>        mutableCmd.push_back(<span class="charliteral">&#39;\0&#39;</span>);</div>
+<div class="line"><span class="lineno">  488</span> </div>
+<div class="line"><span class="lineno">  489</span>        <span class="comment">// Optionally set working dir so require(&#39;localtunnel&#39;) resolves next to lt-controller.js</span></div>
+<div class="line"><span class="lineno">  490</span>        std::string workingDir = <a class="code hl_function" href="../../d8/dec/classPathManager.html#a84566186a965025393fe31a9cfb50299">PathManager::getLocalTunnelControllerPath</a>().parent_path().string();</div>
+<div class="line"><span class="lineno">  491</span> </div>
+<div class="line"><span class="lineno">  492</span>        BOOL ok = CreateProcessA(</div>
+<div class="line"><span class="lineno">  493</span>            <span class="comment">/*appName*/</span> <span class="keyword">nullptr</span>,</div>
+<div class="line"><span class="lineno">  494</span>            <span class="comment">/*cmdLine*/</span> mutableCmd.data(),</div>
+<div class="line"><span class="lineno">  495</span>            <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>,</div>
+<div class="line"><span class="lineno">  496</span>            <span class="comment">/*inherit handles*/</span> TRUE, <span class="comment">// child inherits ltStdoutWr, ltStdinRd</span></div>
+<div class="line"><span class="lineno">  497</span>            flags,</div>
+<div class="line"><span class="lineno">  498</span>            <span class="comment">/*env*/</span> <span class="keyword">nullptr</span>,</div>
+<div class="line"><span class="lineno">  499</span>            <span class="comment">/*current dir*/</span> workingDir.empty() ? <span class="keyword">nullptr</span> : workingDir.c_str(),</div>
+<div class="line"><span class="lineno">  500</span>            &amp;si, &amp;pi);</div>
+<div class="line"><span class="lineno">  501</span> </div>
+<div class="line"><span class="lineno">  502</span>        <span class="comment">// Parent no longer needs these ends</span></div>
+<div class="line"><span class="lineno">  503</span>        <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#a26566333f6ea0f8cbce8dadbcb4e6367">ltStdoutWr</a>);</div>
+<div class="line"><span class="lineno">  504</span>        <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#a731f372bf428125c9466641e2816a49c">ltStdinRd</a>);</div>
+<div class="line"><span class="lineno">  505</span> </div>
+<div class="line"><span class="lineno">  506</span>        <span class="keywordflow">if</span> (!ok)</div>
+<div class="line"><span class="lineno">  507</span>        {</div>
+<div class="line"><span class="lineno">  508</span>            DWORD err = GetLastError();</div>
+<div class="line"><span class="lineno">  509</span>            std::string em = <span class="stringliteral">&quot;[LT] CreateProcess failed: &quot;</span> + <a class="code hl_function" href="#ad620dd61d9d41d13af77219ffd1d937e">lastErrorToString</a>(err);</div>
+<div class="line"><span class="lineno">  510</span>            OutputDebugStringA(em.c_str());</div>
+<div class="line"><span class="lineno">  511</span>            <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#a8cf7a9ec5544cc8afb96627a5ea437a0">ltStdoutRd</a>);</div>
+<div class="line"><span class="lineno">  512</span>            <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#a120866ddce6e504762cbc9b8378504de">ltStdinWr</a>);</div>
+<div class="line"><span class="lineno">  513</span>            <span class="keywordflow">return</span> {};</div>
+<div class="line"><span class="lineno">  514</span>        }</div>
+<div class="line"><span class="lineno">  515</span> </div>
+<div class="line"><span class="lineno">  516</span>        <a class="code hl_variable" href="#a03f676d4d7e2e4ab1930f3651140af94">ltProc</a> = pi.hProcess;</div>
+<div class="line"><span class="lineno">  517</span>        <a class="code hl_variable" href="#acc0dfb1981298a34da0de5d12ba5095b">ltThread</a> = pi.hThread;</div>
+<div class="line"><span class="lineno">  518</span>        <a class="code hl_variable" href="#a608dd0667ee768f65ad5b9359a0442d4">running</a>.store(<span class="keyword">true</span>, std::memory_order_relaxed);</div>
+<div class="line"><span class="lineno">  519</span> </div>
+<div class="line"><span class="lineno">  520</span>        <a class="code hl_function" href="#ace9b13371f4e6ffa2594682ada0f4e0c">assignToJob</a>(<a class="code hl_variable" href="#a03f676d4d7e2e4ab1930f3651140af94">ltProc</a>);</div>
+<div class="line"><span class="lineno">  521</span>        std::thread([rd = <a class="code hl_variable" href="#a8cf7a9ec5544cc8afb96627a5ea437a0">ltStdoutRd</a>]()</div>
+<div class="line"><span class="lineno">  522</span>                    {</div>
+<div class="line"><span class="lineno">  523</span>            std::string buf; buf.reserve(4096);</div>
+<div class="line"><span class="lineno">  524</span>            <span class="keyword">constexpr</span> DWORD CHUNK = 1024;</div>
+<div class="line"><span class="lineno">  525</span>            <span class="keywordtype">char</span> tmp[CHUNK + 1];</div>
+<div class="line"><span class="lineno">  526</span> </div>
+<div class="line"><span class="lineno">  527</span>            <span class="keyword">auto</span> trimCR = [](std::string&amp; s) {</div>
+<div class="line"><span class="lineno">  528</span>                <span class="keywordflow">if</span> (!s.empty() &amp;&amp; s.back() == <span class="charliteral">&#39;\r&#39;</span>) s.pop_back(); <span class="comment">// handle CRLF</span></div>
+<div class="line"><span class="lineno">  529</span>            };</div>
+<div class="line"><span class="lineno">  530</span> </div>
+<div class="line"><span class="lineno">  531</span>            <span class="keyword">auto</span> handleJsonLine = [](<span class="keyword">const</span> std::string&amp; line) {</div>
+<div class="line"><span class="lineno">  532</span>                <span class="keyword">auto</span> findField = [&amp;](<span class="keyword">const</span> <span class="keywordtype">char</span>* key)-&gt;std::string {</div>
+<div class="line"><span class="lineno">  533</span>                    <span class="keyword">auto</span> kpos = line.find(std::string(<span class="stringliteral">&quot;\&quot;&quot;</span>)+key+<span class="stringliteral">&quot;\&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  534</span>                    <span class="keywordflow">if</span> (kpos == std::string::npos) <span class="keywordflow">return</span> {};</div>
+<div class="line"><span class="lineno">  535</span>                    <span class="keyword">auto</span> colon = line.find(<span class="charliteral">&#39;:&#39;</span>, kpos);</div>
+<div class="line"><span class="lineno">  536</span>                    <span class="keywordflow">if</span> (colon == std::string::npos) <span class="keywordflow">return</span> {};</div>
+<div class="line"><span class="lineno">  537</span>                    <span class="keyword">auto</span> q1 = line.find(<span class="charliteral">&#39;&quot;&#39;</span>, colon + 1);</div>
+<div class="line"><span class="lineno">  538</span>                    <span class="keywordflow">if</span> (q1 == std::string::npos) <span class="keywordflow">return</span> {};</div>
+<div class="line"><span class="lineno">  539</span>                    <span class="keyword">auto</span> q2 = line.find(<span class="charliteral">&#39;&quot;&#39;</span>, q1 + 1);</div>
+<div class="line"><span class="lineno">  540</span>                    <span class="keywordflow">if</span> (q2 == std::string::npos) <span class="keywordflow">return</span> {};</div>
+<div class="line"><span class="lineno">  541</span>                    <span class="keywordflow">return</span> line.substr(q1 + 1, q2 - (q1 + 1));</div>
+<div class="line"><span class="lineno">  542</span>                };</div>
+<div class="line"><span class="lineno">  543</span> </div>
+<div class="line"><span class="lineno">  544</span>                <span class="keyword">const</span> <span class="keyword">auto</span> ev  = findField(<span class="stringliteral">&quot;event&quot;</span>);</div>
+<div class="line"><span class="lineno">  545</span>                <span class="keyword">const</span> <span class="keyword">auto</span> url = findField(<span class="stringliteral">&quot;url&quot;</span>);</div>
+<div class="line"><span class="lineno">  546</span>                <span class="keyword">const</span> <span class="keyword">auto</span> <a class="code hl_namespace" href="../../d5/d64/namespacemsg.html">msg</a> = findField(<span class="stringliteral">&quot;message&quot;</span>);</div>
+<div class="line"><span class="lineno">  547</span> </div>
+<div class="line"><span class="lineno">  548</span>                <span class="keywordflow">if</span> (ev.empty()) {</div>
+<div class="line"><span class="lineno">  549</span>                    <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;localtunnel&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4ccaa603905470e2a5b8c13e96b579ef0dba">Logger::Level::Debug</a>, <span class="stringliteral">&quot;LT raw: &quot;</span> + line);</div>
+<div class="line"><span class="lineno">  550</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  551</span>                }</div>
+<div class="line"><span class="lineno">  552</span> </div>
+<div class="line"><span class="lineno">  553</span>                <span class="keywordflow">if</span> (ev == <span class="stringliteral">&quot;boot&quot;</span>) {</div>
+<div class="line"><span class="lineno">  554</span>                    <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;localtunnel&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4ccaa603905470e2a5b8c13e96b579ef0dba">Logger::Level::Debug</a>, <span class="stringliteral">&quot;LT boot: &quot;</span> + line);</div>
+<div class="line"><span class="lineno">  555</span>                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ev == <span class="stringliteral">&quot;require_ok&quot;</span>) {</div>
+<div class="line"><span class="lineno">  556</span>                    <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;localtunnel&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca505a83f220c02df2f85c3810cd9ceb38">Logger::Level::Success</a>, <span class="stringliteral">&quot;LT require(&#39;localtunnel&#39;) OK&quot;</span>);</div>
+<div class="line"><span class="lineno">  557</span>                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ev == <span class="stringliteral">&quot;require_err&quot;</span>) {</div>
+<div class="line"><span class="lineno">  558</span>                    <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;localtunnel&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd">Logger::Level::Error</a>, <span class="stringliteral">&quot;LT require error: &quot;</span> + <a class="code hl_namespace" href="../../d5/d64/namespacemsg.html">msg</a>);</div>
+<div class="line"><span class="lineno">  559</span>                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ev == <span class="stringliteral">&quot;ready&quot;</span>) {</div>
+<div class="line"><span class="lineno">  560</span>                    <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;localtunnel&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca505a83f220c02df2f85c3810cd9ceb38">Logger::Level::Success</a>, <span class="stringliteral">&quot;LT ready: &quot;</span> + url);</div>
+<div class="line"><span class="lineno">  561</span>                    {</div>
+<div class="line"><span class="lineno">  562</span>                        std::lock_guard&lt;std::mutex&gt; lk(<a class="code hl_variable" href="#a7617c51f0d089c1ccd3b1f1d96381acc">NetworkUtilities::urlMutex</a>);</div>
+<div class="line"><span class="lineno">  563</span>                        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a2a1c1d39f672dba4b1181ac0eb2a5692">NetworkUtilities::localTunnelUrl</a>.empty())</div>
+<div class="line"><span class="lineno">  564</span>                            <a class="code hl_variable" href="#a2a1c1d39f672dba4b1181ac0eb2a5692">NetworkUtilities::localTunnelUrl</a> = url;</div>
+<div class="line"><span class="lineno">  565</span>                    }</div>
+<div class="line"><span class="lineno">  566</span>                    <a class="code hl_variable" href="#a341e7376e65639765d15603a9a85dc0c">NetworkUtilities::urlCv</a>.notify_all();</div>
+<div class="line"><span class="lineno">  567</span>                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ev == <span class="stringliteral">&quot;error&quot;</span>) {</div>
+<div class="line"><span class="lineno">  568</span>                    <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;localtunnel&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd">Logger::Level::Error</a>, <span class="stringliteral">&quot;LT error: &quot;</span> + <a class="code hl_namespace" href="../../d5/d64/namespacemsg.html">msg</a>);</div>
+<div class="line"><span class="lineno">  569</span>                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ev == <span class="stringliteral">&quot;closed&quot;</span>) {</div>
+<div class="line"><span class="lineno">  570</span>                    <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;localtunnel&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca56525ae64d370c0b448ac0d60710ef17">Logger::Level::Warn</a>, <span class="stringliteral">&quot;LT closed&quot;</span>);</div>
+<div class="line"><span class="lineno">  571</span>                } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  572</span>                    <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;localtunnel&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca4059b0251f66a18cb56f544728796875">Logger::Level::Info</a>, <span class="stringliteral">&quot;LT: &quot;</span> + line);</div>
+<div class="line"><span class="lineno">  573</span>                }</div>
+<div class="line"><span class="lineno">  574</span>            };</div>
+<div class="line"><span class="lineno">  575</span> </div>
+<div class="line"><span class="lineno">  576</span>            <span class="keywordflow">while</span> (<a class="code hl_variable" href="#a608dd0667ee768f65ad5b9359a0442d4">NetworkUtilities::running</a>.load(std::memory_order_relaxed)) {</div>
+<div class="line"><span class="lineno">  577</span>                DWORD got = 0;</div>
+<div class="line"><span class="lineno">  578</span>                BOOL ok = ReadFile(rd, tmp, CHUNK, &amp;got, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">  579</span>                <span class="keywordflow">if</span> (!ok || got == 0) <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  580</span>                tmp[got] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">  581</span>                buf.append(tmp, got);</div>
+<div class="line"><span class="lineno">  582</span> </div>
+<div class="line"><span class="lineno">  583</span>                <span class="keywordtype">size_t</span> pos = 0;</div>
+<div class="line"><span class="lineno">  584</span>                <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div>
+<div class="line"><span class="lineno">  585</span>                    <span class="keywordtype">size_t</span> nl = buf.find(<span class="charliteral">&#39;\n&#39;</span>, pos);</div>
+<div class="line"><span class="lineno">  586</span>                    <span class="keywordflow">if</span> (nl == std::string::npos) <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  587</span>                    std::string line = buf.substr(pos, nl - pos);</div>
+<div class="line"><span class="lineno">  588</span>                    trimCR(line);</div>
+<div class="line"><span class="lineno">  589</span>                    pos = nl + 1;</div>
+<div class="line"><span class="lineno">  590</span> </div>
+<div class="line"><span class="lineno">  591</span>                    <span class="keywordflow">if</span> (!line.empty()) {</div>
+<div class="line"><span class="lineno">  592</span>                        handleJsonLine(line);</div>
+<div class="line"><span class="lineno">  593</span>                    }</div>
+<div class="line"><span class="lineno">  594</span>                }</div>
+<div class="line"><span class="lineno">  595</span>                <span class="keywordflow">if</span> (pos &gt; 0) buf.erase(0, pos);</div>
+<div class="line"><span class="lineno">  596</span>            }</div>
+<div class="line"><span class="lineno">  597</span>            <a class="code hl_variable" href="#a341e7376e65639765d15603a9a85dc0c">NetworkUtilities::urlCv</a>.notify_all(); })</div>
+<div class="line"><span class="lineno">  598</span>            .detach();</div>
+<div class="line"><span class="lineno">  599</span> </div>
+<div class="line"><span class="lineno">  600</span>        <span class="comment">// Reader thread: read one JSON line with {&quot;event&quot;:&quot;ready&quot;,&quot;url&quot;:...}</span></div>
+<div class="line"><span class="lineno">  601</span>        <span class="comment">//std::thread([rd = ltStdoutRd]()</span></div>
+<div class="line"><span class="lineno">  602</span>        <span class="comment">//            {</span></div>
+<div class="line"><span class="lineno">  603</span>        <span class="comment">//    std::string buf; buf.reserve(4096);</span></div>
+<div class="line"><span class="lineno">  604</span>        <span class="comment">//    constexpr DWORD CHUNK = 1024;</span></div>
+<div class="line"><span class="lineno">  605</span>        <span class="comment">//    char tmp[CHUNK + 1];</span></div>
+<div class="line"><span class="lineno">  606</span> </div>
+<div class="line"><span class="lineno">  607</span>        <span class="comment">//    auto parseLine = [](const std::string&amp; line) -&gt; std::string {</span></div>
+<div class="line"><span class="lineno">  608</span>        <span class="comment">//        // very tiny JSON extraction: look for &quot;event&quot;:&quot;ready&quot; + extract url</span></div>
+<div class="line"><span class="lineno">  609</span>        <span class="comment">//        if (line.find(&quot;\&quot;event\&quot;:\&quot;ready\&quot;&quot;) == std::string::npos) return {};</span></div>
+<div class="line"><span class="lineno">  610</span>        <span class="comment">//        auto u = line.find(&quot;\&quot;url\&quot;&quot;);</span></div>
+<div class="line"><span class="lineno">  611</span>        <span class="comment">//        if (u == std::string::npos) return {};</span></div>
+<div class="line"><span class="lineno">  612</span>        <span class="comment">//        u = line.find(&#39;&quot;&#39;, u + 4); // first quote after &quot;url&quot;</span></div>
+<div class="line"><span class="lineno">  613</span>        <span class="comment">//        if (u == std::string::npos) return {};</span></div>
+<div class="line"><span class="lineno">  614</span>        <span class="comment">//        auto v = line.find(&#39;&quot;&#39;, u + 1);</span></div>
+<div class="line"><span class="lineno">  615</span>        <span class="comment">//        if (v == std::string::npos) return {};</span></div>
+<div class="line"><span class="lineno">  616</span>        <span class="comment">//        return line.substr(u + 1, v - (u + 1));</span></div>
+<div class="line"><span class="lineno">  617</span>        <span class="comment">//    };</span></div>
+<div class="line"><span class="lineno">  618</span> </div>
+<div class="line"><span class="lineno">  619</span>        <span class="comment">//    while (NetworkUtilities::running.load(std::memory_order_relaxed)) {</span></div>
+<div class="line"><span class="lineno">  620</span>        <span class="comment">//        DWORD got = 0;</span></div>
+<div class="line"><span class="lineno">  621</span>        <span class="comment">//        BOOL ok = ReadFile(rd, tmp, CHUNK, &amp;got, nullptr);</span></div>
+<div class="line"><span class="lineno">  622</span>        <span class="comment">//        if (!ok || got == 0) break;</span></div>
+<div class="line"><span class="lineno">  623</span>        <span class="comment">//        tmp[got] = &#39;\0&#39;;</span></div>
+<div class="line"><span class="lineno">  624</span>        <span class="comment">//        buf.append(tmp, got);</span></div>
+<div class="line"><span class="lineno">  625</span> </div>
+<div class="line"><span class="lineno">  626</span>        <span class="comment">//        // process complete lines</span></div>
+<div class="line"><span class="lineno">  627</span>        <span class="comment">//        size_t pos = 0;</span></div>
+<div class="line"><span class="lineno">  628</span>        <span class="comment">//        while (true) {</span></div>
+<div class="line"><span class="lineno">  629</span>        <span class="comment">//            size_t nl = buf.find(&#39;\n&#39;, pos);</span></div>
+<div class="line"><span class="lineno">  630</span>        <span class="comment">//            if (nl == std::string::npos) break;</span></div>
+<div class="line"><span class="lineno">  631</span>        <span class="comment">//            std::string line = buf.substr(pos, nl - pos);</span></div>
+<div class="line"><span class="lineno">  632</span>        <span class="comment">//            pos = nl + 1;</span></div>
+<div class="line"><span class="lineno">  633</span> </div>
+<div class="line"><span class="lineno">  634</span>        <span class="comment">//            if (auto url = parseLine(line); !url.empty()) {</span></div>
+<div class="line"><span class="lineno">  635</span>        <span class="comment">//                {</span></div>
+<div class="line"><span class="lineno">  636</span>        <span class="comment">//                    std::lock_guard&lt;std::mutex&gt; lk(NetworkUtilities::urlMutex);</span></div>
+<div class="line"><span class="lineno">  637</span>        <span class="comment">//                    if (NetworkUtilities::localTunnelUrl.empty())</span></div>
+<div class="line"><span class="lineno">  638</span>        <span class="comment">//                        NetworkUtilities::localTunnelUrl = std::move(url);</span></div>
+<div class="line"><span class="lineno">  639</span>        <span class="comment">//                }</span></div>
+<div class="line"><span class="lineno">  640</span>        <span class="comment">//                NetworkUtilities::urlCv.notify_all();</span></div>
+<div class="line"><span class="lineno">  641</span>        <span class="comment">//            }</span></div>
+<div class="line"><span class="lineno">  642</span>        <span class="comment">//        }</span></div>
+<div class="line"><span class="lineno">  643</span>        <span class="comment">//        if (pos &gt; 0) buf.erase(0, pos);</span></div>
+<div class="line"><span class="lineno">  644</span>        <span class="comment">//    }</span></div>
+<div class="line"><span class="lineno">  645</span>        <span class="comment">//    NetworkUtilities::urlCv.notify_all(); })</span></div>
+<div class="line"><span class="lineno">  646</span>        <span class="comment">//    .detach();</span></div>
+<div class="line"><span class="lineno">  647</span> </div>
+<div class="line"><span class="lineno">  648</span>        <span class="comment">// Wait up to 15s for URL or process exit</span></div>
+<div class="line"><span class="lineno">  649</span>        std::unique_lock&lt;std::mutex&gt; lk(<a class="code hl_variable" href="#a7617c51f0d089c1ccd3b1f1d96381acc">urlMutex</a>);</div>
+<div class="line"><span class="lineno">  650</span>        <span class="keywordtype">bool</span> have = <a class="code hl_variable" href="#a341e7376e65639765d15603a9a85dc0c">urlCv</a>.wait_for(lk, std::chrono::seconds(15), []</div>
+<div class="line"><span class="lineno">  651</span>                                   { <span class="keywordflow">return</span> !<a class="code hl_variable" href="#a2a1c1d39f672dba4b1181ac0eb2a5692">localTunnelUrl</a>.empty() || !<a class="code hl_variable" href="#a608dd0667ee768f65ad5b9359a0442d4">running</a>.load(std::memory_order_relaxed); });</div>
+<div class="line"><span class="lineno">  652</span> </div>
+<div class="line"><span class="lineno">  653</span>        <span class="keywordflow">return</span> have ? <a class="code hl_variable" href="#a2a1c1d39f672dba4b1181ac0eb2a5692">localTunnelUrl</a> : std::string{};</div>
+<div class="line"><span class="lineno">  654</span>    }</div>
+<div class="ttc" id="aclassLogger_html_ac6a29c806d1917b5363ae43c5381c4cca4059b0251f66a18cb56f544728796875"><div class="ttname"><a href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca4059b0251f66a18cb56f544728796875">Logger::Level::Info</a></div><div class="ttdeci">@ Info</div></div>
+<div class="ttc" id="aclassLogger_html_ac6a29c806d1917b5363ae43c5381c4cca505a83f220c02df2f85c3810cd9ceb38"><div class="ttname"><a href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca505a83f220c02df2f85c3810cd9ceb38">Logger::Level::Success</a></div><div class="ttdeci">@ Success</div></div>
+<div class="ttc" id="aclassLogger_html_ac6a29c806d1917b5363ae43c5381c4cca56525ae64d370c0b448ac0d60710ef17"><div class="ttname"><a href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca56525ae64d370c0b448ac0d60710ef17">Logger::Level::Warn</a></div><div class="ttdeci">@ Warn</div></div>
+<div class="ttc" id="aclassLogger_html_ac6a29c806d1917b5363ae43c5381c4ccaa603905470e2a5b8c13e96b579ef0dba"><div class="ttname"><a href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4ccaa603905470e2a5b8c13e96b579ef0dba">Logger::Level::Debug</a></div><div class="ttdeci">@ Debug</div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_a03f676d4d7e2e4ab1930f3651140af94"><div class="ttname"><a href="#a03f676d4d7e2e4ab1930f3651140af94">NetworkUtilities::ltProc</a></div><div class="ttdeci">static HANDLE ltProc</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00371">NetworkUtilities.h:371</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_a120866ddce6e504762cbc9b8378504de"><div class="ttname"><a href="#a120866ddce6e504762cbc9b8378504de">NetworkUtilities::ltStdinWr</a></div><div class="ttdeci">static HANDLE ltStdinWr</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00378">NetworkUtilities.h:378</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_a1aff5744053044b32a0b910f02abc05a"><div class="ttname"><a href="#a1aff5744053044b32a0b910f02abc05a">NetworkUtilities::stopLocalTunnel</a></div><div class="ttdeci">static void stopLocalTunnel()</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00656">NetworkUtilities.h:656</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_a26566333f6ea0f8cbce8dadbcb4e6367"><div class="ttname"><a href="#a26566333f6ea0f8cbce8dadbcb4e6367">NetworkUtilities::ltStdoutWr</a></div><div class="ttdeci">static HANDLE ltStdoutWr</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00375">NetworkUtilities.h:375</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_a341e7376e65639765d15603a9a85dc0c"><div class="ttname"><a href="#a341e7376e65639765d15603a9a85dc0c">NetworkUtilities::urlCv</a></div><div class="ttdeci">static std::condition_variable urlCv</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00366">NetworkUtilities.h:366</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_a608dd0667ee768f65ad5b9359a0442d4"><div class="ttname"><a href="#a608dd0667ee768f65ad5b9359a0442d4">NetworkUtilities::running</a></div><div class="ttdeci">static std::atomic&lt; bool &gt; running</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00363">NetworkUtilities.h:363</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_a731f372bf428125c9466641e2816a49c"><div class="ttname"><a href="#a731f372bf428125c9466641e2816a49c">NetworkUtilities::ltStdinRd</a></div><div class="ttdeci">static HANDLE ltStdinRd</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00377">NetworkUtilities.h:377</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_a8cf7a9ec5544cc8afb96627a5ea437a0"><div class="ttname"><a href="#a8cf7a9ec5544cc8afb96627a5ea437a0">NetworkUtilities::ltStdoutRd</a></div><div class="ttdeci">static HANDLE ltStdoutRd</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00374">NetworkUtilities.h:374</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_a9bb500d7c81ea448babc07ac94e6bd65"><div class="ttname"><a href="#a9bb500d7c81ea448babc07ac94e6bd65">NetworkUtilities::closeHandleIf</a></div><div class="ttdeci">static void closeHandleIf(HANDLE &amp;h)</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00388">NetworkUtilities.h:388</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_acc0dfb1981298a34da0de5d12ba5095b"><div class="ttname"><a href="#acc0dfb1981298a34da0de5d12ba5095b">NetworkUtilities::ltThread</a></div><div class="ttdeci">static HANDLE ltThread</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00372">NetworkUtilities.h:372</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_ace9b13371f4e6ffa2594682ada0f4e0c"><div class="ttname"><a href="#ace9b13371f4e6ffa2594682ada0f4e0c">NetworkUtilities::assignToJob</a></div><div class="ttdeci">static void assignToJob(HANDLE process)</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00408">NetworkUtilities.h:408</a></div></div>
+<div class="ttc" id="aclassNetworkUtilities_html_ad620dd61d9d41d13af77219ffd1d937e"><div class="ttname"><a href="#ad620dd61d9d41d13af77219ffd1d937e">NetworkUtilities::lastErrorToString</a></div><div class="ttdeci">static std::string lastErrorToString(DWORD err)</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d8e/NetworkUtilities_8h_source.html#l00415">NetworkUtilities.h:415</a></div></div>
+<div class="ttc" id="aclassPathManager_html_a84566186a965025393fe31a9cfb50299"><div class="ttname"><a href="../../d8/dec/classPathManager.html#a84566186a965025393fe31a9cfb50299">PathManager::getLocalTunnelControllerPath</a></div><div class="ttdeci">static fs::path getLocalTunnelControllerPath()</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d09/PathManager_8h_source.html#l00106">PathManager.h:106</a></div></div>
+<div class="ttc" id="aclassPathManager_html_a8995cf2a53dfcf82d99d80695396031a"><div class="ttname"><a href="../../d8/dec/classPathManager.html#a8995cf2a53dfcf82d99d80695396031a">PathManager::getNodeExePath</a></div><div class="ttdeci">static fs::path getNodeExePath()</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d09/PathManager_8h_source.html#l00097">PathManager.h:97</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_ac0655968aa7b9e06f7566343e0d2e567_cgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_ac0655968aa7b9e06f7566343e0d2e567_cgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_ac0655968aa7b9e06f7566343e0d2e567_cgraph" id="add/d71/classNetworkUtilities_ac0655968aa7b9e06f7566343e0d2e567_cgraph">
-<area shape="rect" title=" " alt="" coords="5,203,205,243"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#ace9b13371f4e6ffa2594682ada0f4e0c" title=" " alt="" coords="275,5,453,45"/>
-<area shape="poly" title=" " alt="" coords="117,201,170,130,208,90,252,55,263,49,266,53,255,60,211,93,174,133,121,204"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#a9bb500d7c81ea448babc07ac94e6bd65" title=" " alt="" coords="523,307,748,333"/>
-<area shape="poly" title=" " alt="" coords="205,206,267,202,335,202,406,208,475,221,514,236,551,256,610,296,607,301,548,260,512,241,474,227,405,213,335,207,267,208,206,212"/>
-<area shape="rect" href="../../d8/dec/classPathManager.html#a84566186a965025393fe31a9cfb50299" title=" " alt="" coords="258,69,470,109"/>
-<area shape="poly" title=" " alt="" coords="130,200,184,160,252,120,273,112,275,116,255,125,187,165,133,205"/>
-<area shape="rect" href="../../d8/dec/classPathManager.html#a8995cf2a53dfcf82d99d80695396031a" title=" " alt="" coords="253,134,475,159"/>
-<area shape="poly" title=" " alt="" coords="172,200,253,176,305,161,307,166,254,181,174,205"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="299,235,429,261"/>
-<area shape="poly" title=" " alt="" coords="206,230,286,238,285,243,205,235"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#ad620dd61d9d41d13af77219ffd1d937e" title=" " alt="" coords="269,285,459,325"/>
-<area shape="poly" title=" " alt="" coords="164,240,254,271,279,279,278,284,253,276,162,245"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="317,374,411,399"/>
-<area shape="poly" title=" " alt="" coords="131,241,185,286,255,335,318,366,315,371,252,340,182,291,127,245"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#a1aff5744053044b32a0b910f02abc05a" title=" " alt="" coords="265,424,463,464"/>
-<area shape="poly" title=" " alt="" coords="119,242,140,278,170,324,209,370,255,410,264,416,261,420,252,414,205,374,166,327,135,281,115,245"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#a829777d7022ecf7433b66afbae859800" title=" " alt="" coords="547,5,724,45"/>
-<area shape="poly" title=" " alt="" coords="454,23,533,23,533,28,454,28"/>
-<area shape="rect" href="../../d8/dec/classPathManager.html#a8bc07ea0ad8692223d1743e442b48e26" title=" " alt="" coords="526,106,745,131"/>
-<area shape="poly" title=" " alt="" coords="471,98,513,103,512,108,470,103"/>
-<area shape="rect" href="../../d8/dec/classPathManager.html#a467b459b77c73cbc7544551b53911fcd" title=" " alt="" coords="796,106,1033,131"/>
-<area shape="poly" title=" " alt="" coords="745,116,782,116,782,121,745,121"/>
-<area shape="poly" title=" " alt="" coords="475,133,512,129,513,134,475,138"/>
-<area shape="poly" title=" " alt="" coords="322,376,313,366,318,356,335,349,364,347,401,351,411,356,415,362,410,365,407,360,399,356,364,353,336,355,321,360,318,365,326,372"/>
-<area shape="poly" title=" " alt="" coords="442,421,474,410,544,374,602,338,605,343,547,379,476,414,444,426"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_ac0655968aa7b9e06f7566343e0d2e567_cgraph.svg" width="100%" height="551"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_ac0655968aa7b9e06f7566343e0d2e567_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_ac0655968aa7b9e06f7566343e0d2e567_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_ac0655968aa7b9e06f7566343e0d2e567_icgraph" id="add/d71/classNetworkUtilities_ac0655968aa7b9e06f7566343e0d2e567_icgraph">
-<area shape="rect" title=" " alt="" coords="531,23,731,63"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a0f4f9de49973a81889e18034343a512e" title=" " alt="" coords="286,5,465,31"/>
-<area shape="poly" title=" " alt="" coords="517,35,464,29,465,24,517,29"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a183ff98131c32d577308340999b4de18" title=" " alt="" coords="268,55,483,80"/>
-<area shape="poly" title=" " alt="" coords="517,57,483,60,483,55,517,51"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#adef56253674bd7ebd40bf73c629feed2" title=" " alt="" coords="5,55,220,80"/>
-<area shape="poly" title=" " alt="" coords="255,70,220,70,220,65,255,65"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_ac0655968aa7b9e06f7566343e0d2e567_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -908,36 +1216,60 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00656">656</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  657</span>    {</div>
+<div class="line"><span class="lineno">  658</span>        <span class="comment">// tell reader thread to stop</span></div>
+<div class="line"><span class="lineno">  659</span>        <a class="code hl_variable" href="#a608dd0667ee768f65ad5b9359a0442d4">running</a>.store(<span class="keyword">false</span>, std::memory_order_relaxed);</div>
+<div class="line"><span class="lineno">  660</span> </div>
+<div class="line"><span class="lineno">  661</span>        <span class="comment">// try graceful: send &quot;stop\n&quot; if stdin is open</span></div>
+<div class="line"><span class="lineno">  662</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a120866ddce6e504762cbc9b8378504de">ltStdinWr</a>)</div>
+<div class="line"><span class="lineno">  663</span>        {</div>
+<div class="line"><span class="lineno">  664</span>            DWORD written = 0;</div>
+<div class="line"><span class="lineno">  665</span>            <span class="keyword">const</span> <span class="keywordtype">char</span>* stopCmd = <span class="stringliteral">&quot;stop\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  666</span>            WriteFile(<a class="code hl_variable" href="#a120866ddce6e504762cbc9b8378504de">ltStdinWr</a>, stopCmd, (DWORD)strlen(stopCmd), &amp;written, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">  667</span>        }</div>
+<div class="line"><span class="lineno">  668</span> </div>
+<div class="line"><span class="lineno">  669</span>        <span class="comment">// wait a moment for clean exit</span></div>
+<div class="line"><span class="lineno">  670</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a03f676d4d7e2e4ab1930f3651140af94">ltProc</a>)</div>
+<div class="line"><span class="lineno">  671</span>        {</div>
+<div class="line"><span class="lineno">  672</span>            DWORD wait = WaitForSingleObject(<a class="code hl_variable" href="#a03f676d4d7e2e4ab1930f3651140af94">ltProc</a>, 300); <span class="comment">// 300ms grace</span></div>
+<div class="line"><span class="lineno">  673</span>            <span class="keywordflow">if</span> (wait != WAIT_OBJECT_0)</div>
+<div class="line"><span class="lineno">  674</span>            {</div>
+<div class="line"><span class="lineno">  675</span>                <span class="comment">// force kill now (non-blocking)</span></div>
+<div class="line"><span class="lineno">  676</span>                TerminateProcess(<a class="code hl_variable" href="#a03f676d4d7e2e4ab1930f3651140af94">ltProc</a>, 0);</div>
+<div class="line"><span class="lineno">  677</span>            }</div>
+<div class="line"><span class="lineno">  678</span>        }</div>
+<div class="line"><span class="lineno">  679</span> </div>
+<div class="line"><span class="lineno">  680</span>        <span class="comment">// close all handles</span></div>
+<div class="line"><span class="lineno">  681</span>        <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#acc0dfb1981298a34da0de5d12ba5095b">ltThread</a>);</div>
+<div class="line"><span class="lineno">  682</span>        <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#a03f676d4d7e2e4ab1930f3651140af94">ltProc</a>);</div>
+<div class="line"><span class="lineno">  683</span>        <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#a26566333f6ea0f8cbce8dadbcb4e6367">ltStdoutWr</a>); <span class="comment">// usually already closed</span></div>
+<div class="line"><span class="lineno">  684</span>        <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#a8cf7a9ec5544cc8afb96627a5ea437a0">ltStdoutRd</a>);</div>
+<div class="line"><span class="lineno">  685</span>        <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#a731f372bf428125c9466641e2816a49c">ltStdinRd</a>); <span class="comment">// already closed</span></div>
+<div class="line"><span class="lineno">  686</span>        <a class="code hl_function" href="#a9bb500d7c81ea448babc07ac94e6bd65">closeHandleIf</a>(<a class="code hl_variable" href="#a120866ddce6e504762cbc9b8378504de">ltStdinWr</a>);</div>
+<div class="line"><span class="lineno">  687</span> </div>
+<div class="line"><span class="lineno">  688</span>        <span class="comment">// close job (kills any remaining children)</span></div>
+<div class="line"><span class="lineno">  689</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a89b34b72f2ca492563307d8595327d7a">ltJob</a>)</div>
+<div class="line"><span class="lineno">  690</span>        {</div>
+<div class="line"><span class="lineno">  691</span>            CloseHandle(<a class="code hl_variable" href="#a89b34b72f2ca492563307d8595327d7a">ltJob</a>);</div>
+<div class="line"><span class="lineno">  692</span>            <a class="code hl_variable" href="#a89b34b72f2ca492563307d8595327d7a">ltJob</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  693</span>        }</div>
+<div class="line"><span class="lineno">  694</span> </div>
+<div class="line"><span class="lineno">  695</span>        <span class="comment">// clear URL and wake any waiters</span></div>
+<div class="line"><span class="lineno">  696</span>        {</div>
+<div class="line"><span class="lineno">  697</span>            std::lock_guard&lt;std::mutex&gt; lk(<a class="code hl_variable" href="#a7617c51f0d089c1ccd3b1f1d96381acc">urlMutex</a>);</div>
+<div class="line"><span class="lineno">  698</span>            <a class="code hl_variable" href="#a2a1c1d39f672dba4b1181ac0eb2a5692">localTunnelUrl</a>.clear();</div>
+<div class="line"><span class="lineno">  699</span>        }</div>
+<div class="line"><span class="lineno">  700</span>        <a class="code hl_variable" href="#a341e7376e65639765d15603a9a85dc0c">urlCv</a>.notify_all();</div>
+<div class="line"><span class="lineno">  701</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a1aff5744053044b32a0b910f02abc05a_cgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a1aff5744053044b32a0b910f02abc05a_cgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a1aff5744053044b32a0b910f02abc05a_cgraph" id="add/d71/classNetworkUtilities_a1aff5744053044b32a0b910f02abc05a_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,204,45"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#a9bb500d7c81ea448babc07ac94e6bd65" title=" " alt="" coords="252,13,477,38"/>
-<area shape="poly" title=" " alt="" coords="204,23,238,23,238,28,204,28"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a1aff5744053044b32a0b910f02abc05a_cgraph.svg" width="524" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d71/classNetworkUtilities_a1aff5744053044b32a0b910f02abc05a_icgraph.png" border="0" usemap="#add/d71/classNetworkUtilities_a1aff5744053044b32a0b910f02abc05a_icgraph" alt=""/></div>
-<map name="add/d71/classNetworkUtilities_a1aff5744053044b32a0b910f02abc05a_icgraph" id="add/d71/classNetworkUtilities_a1aff5744053044b32a0b910f02abc05a_icgraph">
-<area shape="rect" title=" " alt="" coords="797,56,996,96"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a798b9a15475708f233e2d82f4ba0ff12" title=" " alt="" coords="531,13,749,38"/>
-<area shape="poly" title=" " alt="" coords="783,56,705,41,706,35,785,51"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a0f4f9de49973a81889e18034343a512e" title=" " alt="" coords="286,70,465,95"/>
-<area shape="poly" title=" " alt="" coords="783,80,465,84,465,79,783,75"/>
-<area shape="rect" href="../../dd/d71/classNetworkUtilities.html#ac0655968aa7b9e06f7566343e0d2e567" title=" " alt="" coords="540,113,740,153"/>
-<area shape="poly" title=" " alt="" coords="794,102,731,116,730,111,792,97"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a2cfe4223139cf58587a9f066b956cb23" title=" " alt="" coords="271,5,479,45"/>
-<area shape="poly" title=" " alt="" coords="517,28,479,28,479,23,517,23"/>
-<area shape="poly" title=" " alt="" coords="526,114,442,98,443,93,527,109"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a183ff98131c32d577308340999b4de18" title=" " alt="" coords="268,121,483,146"/>
-<area shape="poly" title=" " alt="" coords="526,136,483,136,483,131,526,131"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#adef56253674bd7ebd40bf73c629feed2" title=" " alt="" coords="5,121,220,146"/>
-<area shape="poly" title=" " alt="" coords="255,136,220,136,220,131,255,131"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d71/classNetworkUtilities_a1aff5744053044b32a0b910f02abc05a_icgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1156,7 +1488,8 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html#l00363">363</a> of file <a class="el" href="../../d5/d8e/NetworkUtilities_8h_source.html">NetworkUtilities.h</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  363</span>{<span class="keyword">false</span>};</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a341e7376e65639765d15603a9a85dc0c" name="a341e7376e65639765d15603a9a85dc0c"></a>

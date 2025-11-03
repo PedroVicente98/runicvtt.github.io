@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../RunicVTTIcon_64.png"/></td>
   <td id="projectalign">
-   <div id="projectname">RunicVTT
+   <div id="projectname">RunicVTT<span id="projectnumber">&#160;Open Source Virtual Tabletop for TTRPG using P2P</span>
    </div>
   </td>
  </tr>
@@ -105,10 +105,7 @@ $(function(){initNavTree('dd/df7/classIndexBuffer.html','../../'); initResizable
 <div class="dynheader">
 Collaboration diagram for IndexBuffer:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d96/classIndexBuffer__coll__graph.png" border="0" usemap="#aIndexBuffer_coll__map" alt="Collaboration graph"/></div>
-<map name="aIndexBuffer_coll__map" id="aIndexBuffer_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,211,215"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d96/classIndexBuffer__coll__graph.svg" width="234" height="314"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -155,7 +152,20 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d3e/IndexBuffer_8cpp_source.html#l00004">4</a> of file <a class="el" href="../../d3/d3e/IndexBuffer_8cpp_source.html">IndexBuffer.cpp</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">    4</span>                                                                     :</div>
+<div class="line"><span class="lineno">    5</span>    <a class="code hl_variable" href="#a5dba68aecb6b96a40ec624eab2f4217d">m_Count</a>(count)</div>
+<div class="line"><span class="lineno">    6</span>{</div>
+<div class="line"><span class="lineno">    7</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#aca68c0d4ac8df0838e209fb5300f7be3">ASSERT</a>(<span class="keyword">sizeof</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>) == <span class="keyword">sizeof</span>(GLuint));</div>
+<div class="line"><span class="lineno">    8</span> </div>
+<div class="line"><span class="lineno">    9</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glGenBuffers(1, &amp;<a class="code hl_variable" href="#a9c53bc26aef909a6f8427fc057a4f1d2">m_RendererID</a>));</div>
+<div class="line"><span class="lineno">   10</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, <a class="code hl_variable" href="#a9c53bc26aef909a6f8427fc057a4f1d2">m_RendererID</a>));</div>
+<div class="line"><span class="lineno">   11</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glBufferData(GL_ELEMENT_ARRAY_BUFFER, count * <span class="keyword">sizeof</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>), data, GL_STATIC_DRAW));</div>
+<div class="line"><span class="lineno">   12</span>}</div>
+<div class="ttc" id="aRenderer_8h_html_a8cc1e1baeb83f3fa64a4aaa75baf3548"><div class="ttname"><a href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a></div><div class="ttdeci">#define GLCall(x)</div><div class="ttdef"><b>Definition</b> <a href="../../d8/db2/Renderer_8h_source.html#l00012">Renderer.h:12</a></div></div>
+<div class="ttc" id="aRenderer_8h_html_aca68c0d4ac8df0838e209fb5300f7be3"><div class="ttname"><a href="../../d8/db2/Renderer_8h.html#aca68c0d4ac8df0838e209fb5300f7be3">ASSERT</a></div><div class="ttdeci">#define ASSERT(x)</div><div class="ttdef"><b>Definition</b> <a href="../../d8/db2/Renderer_8h_source.html#l00009">Renderer.h:9</a></div></div>
+<div class="ttc" id="aclassIndexBuffer_html_a5dba68aecb6b96a40ec624eab2f4217d"><div class="ttname"><a href="#a5dba68aecb6b96a40ec624eab2f4217d">IndexBuffer::m_Count</a></div><div class="ttdeci">unsigned int m_Count</div><div class="ttdef"><b>Definition</b> <a href="../../da/d3a/IndexBuffer_8h_source.html#l00006">IndexBuffer.h:6</a></div></div>
+<div class="ttc" id="aclassIndexBuffer_html_a9c53bc26aef909a6f8427fc057a4f1d2"><div class="ttname"><a href="#a9c53bc26aef909a6f8427fc057a4f1d2">IndexBuffer::m_RendererID</a></div><div class="ttdeci">unsigned int m_RendererID</div><div class="ttdef"><b>Definition</b> <a href="../../da/d3a/IndexBuffer_8h_source.html#l00005">IndexBuffer.h:5</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a348889936f378b7942c1e01d83e42866" name="a348889936f378b7942c1e01d83e42866"></a>
@@ -174,7 +184,10 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d3e/IndexBuffer_8cpp_source.html#l00014">14</a> of file <a class="el" href="../../d3/d3e/IndexBuffer_8cpp_source.html">IndexBuffer.cpp</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   15</span>{</div>
+<div class="line"><span class="lineno">   16</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glDeleteBuffers(1, &amp;<a class="code hl_variable" href="#a9c53bc26aef909a6f8427fc057a4f1d2">m_RendererID</a>));</div>
+<div class="line"><span class="lineno">   17</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -194,19 +207,10 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d3e/IndexBuffer_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../d3/d3e/IndexBuffer_8cpp_source.html">IndexBuffer.cpp</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/df7/classIndexBuffer_ac8bdd0495f718173fb46691ad1b7e4af_icgraph.png" border="0" usemap="#add/df7/classIndexBuffer_ac8bdd0495f718173fb46691ad1b7e4af_icgraph" alt=""/></div>
-<map name="add/df7/classIndexBuffer_ac8bdd0495f718173fb46691ad1b7e4af_icgraph" id="add/df7/classIndexBuffer_ac8bdd0495f718173fb46691ad1b7e4af_icgraph">
-<area shape="rect" title=" " alt="" coords="429,5,564,31"/>
-<area shape="rect" href="../../d1/d52/classRenderer.html#aed7ac4a042cf7c73ef53a0488531fc3e" title=" " alt="" coords="259,5,381,31"/>
-<area shape="poly" title=" " alt="" coords="415,21,382,21,382,15,415,15"/>
-<area shape="rect" href="../../d9/dff/classBoardManager.html#a211d671937d1b0b2494b1d2810f0ad23" title=" " alt="" coords="5,5,211,31"/>
-<area shape="poly" title=" " alt="" coords="245,21,211,21,211,15,245,15"/>
-</map>
-</div>
-
+<div class="fragment"><div class="line"><span class="lineno">   20</span>{</div>
+<div class="line"><span class="lineno">   21</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, <a class="code hl_variable" href="#a9c53bc26aef909a6f8427fc057a4f1d2">m_RendererID</a>));</div>
+<div class="line"><span class="lineno">   22</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3ec4dba9cc97dfedac07d6375d25b3b6" name="a3ec4dba9cc97dfedac07d6375d25b3b6"></a>
@@ -233,19 +237,10 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../da/d3a/IndexBuffer_8h_source.html#l00015">15</a> of file <a class="el" href="../../da/d3a/IndexBuffer_8h_source.html">IndexBuffer.h</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/df7/classIndexBuffer_a3ec4dba9cc97dfedac07d6375d25b3b6_icgraph.png" border="0" usemap="#add/df7/classIndexBuffer_a3ec4dba9cc97dfedac07d6375d25b3b6_icgraph" alt=""/></div>
-<map name="add/df7/classIndexBuffer_a3ec4dba9cc97dfedac07d6375d25b3b6_icgraph" id="add/df7/classIndexBuffer_a3ec4dba9cc97dfedac07d6375d25b3b6_icgraph">
-<area shape="rect" title=" " alt="" coords="429,5,596,31"/>
-<area shape="rect" href="../../d1/d52/classRenderer.html#aed7ac4a042cf7c73ef53a0488531fc3e" title=" " alt="" coords="259,5,381,31"/>
-<area shape="poly" title=" " alt="" coords="415,21,381,21,381,15,415,15"/>
-<area shape="rect" href="../../d9/dff/classBoardManager.html#a211d671937d1b0b2494b1d2810f0ad23" title=" " alt="" coords="5,5,211,31"/>
-<area shape="poly" title=" " alt="" coords="245,21,211,21,211,15,245,15"/>
-</map>
-</div>
-
+<div class="fragment"><div class="line"><span class="lineno">   16</span>    {</div>
+<div class="line"><span class="lineno">   17</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a5dba68aecb6b96a40ec624eab2f4217d">m_Count</a>;</div>
+<div class="line"><span class="lineno">   18</span>    };</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5a1cfc46339ea7d6e72d22a096da5a77" name="a5a1cfc46339ea7d6e72d22a096da5a77"></a>
@@ -264,19 +259,10 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d3e/IndexBuffer_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../d3/d3e/IndexBuffer_8cpp_source.html">IndexBuffer.cpp</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/df7/classIndexBuffer_a5a1cfc46339ea7d6e72d22a096da5a77_icgraph.png" border="0" usemap="#add/df7/classIndexBuffer_a5a1cfc46339ea7d6e72d22a096da5a77_icgraph" alt=""/></div>
-<map name="add/df7/classIndexBuffer_a5a1cfc46339ea7d6e72d22a096da5a77_icgraph" id="add/df7/classIndexBuffer_a5a1cfc46339ea7d6e72d22a096da5a77_icgraph">
-<area shape="rect" title=" " alt="" coords="331,5,481,31"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#afaf00f4f20eca3fec59f8f02f76ef2ce" title=" " alt="" coords="108,5,283,31"/>
-<area shape="poly" title=" " alt="" coords="317,21,283,21,283,15,317,15"/>
-<area shape="rect" href="../../df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,31"/>
-<area shape="poly" title=" " alt="" coords="95,21,60,21,60,15,95,15"/>
-</map>
-</div>
-
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_define" href="../../d8/db2/Renderer_8h.html#a8cc1e1baeb83f3fa64a4aaa75baf3548">GLCall</a>(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0));</div>
+<div class="line"><span class="lineno">   27</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

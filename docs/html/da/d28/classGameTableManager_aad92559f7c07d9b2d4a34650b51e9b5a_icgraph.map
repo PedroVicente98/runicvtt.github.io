@@ -1,10 +1,10 @@
 <map id="GameTableManager::UI_ConfirmModal" name="GameTableManager::UI_ConfirmModal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="517,37,692,77"/>
-<area shape="rect" id="Node000002" href="$da/d28/classGameTableManager.html#a9e77e8dc8b230daf3133b430fc2149b7" title=" " alt="" coords="267,5,469,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="503,46,469,42,470,36,504,41"/>
-<area shape="rect" id="Node000004" href="$da/d28/classGameTableManager.html#adeaf6e8bd31c587d2b65f5288afdc907" title=" " alt="" coords="267,69,469,109"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="504,74,470,78,469,73,503,68"/>
-<area shape="rect" id="Node000003" href="$da/d28/classGameTableManager.html#a68e5013b543d1d96c0dfff2f44c0d82e" title=" " alt="" coords="5,37,219,77"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="254,42,219,47,219,41,253,37"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="253,78,219,73,219,68,254,72"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="741,31,1013,56"/>
+<area shape="rect" id="Node000002" href="$da/d28/classGameTableManager.html#a9e77e8dc8b230daf3133b430fc2149b7" title=" " alt="" coords="361,5,684,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="727,35,684,32,684,27,727,30"/>
+<area shape="rect" id="Node000004" href="$da/d28/classGameTableManager.html#adeaf6e8bd31c587d2b65f5288afdc907" title=" " alt="" coords="352,55,693,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="728,56,694,58,693,53,727,51"/>
+<area shape="rect" id="Node000003" href="$da/d28/classGameTableManager.html#a68e5013b543d1d96c0dfff2f44c0d82e" title=" " alt="" coords="5,31,304,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="348,33,304,36,304,30,348,27"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="338,58,304,56,304,50,338,53"/>
 </map>

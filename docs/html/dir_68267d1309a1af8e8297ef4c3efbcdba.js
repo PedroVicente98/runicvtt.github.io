@@ -4,9 +4,9 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "note_editor", "dir_43a98613997bc87aa6aefab97eb9274f.html", "dir_43a98613997bc87aa6aefab97eb9274f" ],
     [ "renderer", "dir_7bc5e25958a2fb25a8561f3aa0def6c5.html", "dir_7bc5e25958a2fb25a8561f3aa0def6c5" ],
     [ "ApplicationHandler.cpp", "d1/d2a/ApplicationHandler_8cpp.html", null ],
-    [ "BoardManager.cpp", "d0/ddd/BoardManager_8cpp.html", null ],
-    [ "ChatManager.cpp", "d2/dae/ChatManager_8cpp.html", null ],
+    [ "BoardManager.cpp", "d0/ddd/BoardManager_8cpp.html", "d0/ddd/BoardManager_8cpp" ],
+    [ "ChatManager.cpp", "d2/dae/ChatManager_8cpp.html", "d2/dae/ChatManager_8cpp" ],
     [ "GameTableManager.cpp", "d6/ddb/GameTableManager_8cpp.html", null ],
-    [ "IdentityManager.cpp", "d3/dbb/IdentityManager_8cpp.html", null ],
+    [ "IdentityManager.cpp", "d3/dbb/IdentityManager_8cpp.html", "d3/dbb/IdentityManager_8cpp" ],
     [ "main.cpp", "df/d0a/main_8cpp.html", "df/d0a/main_8cpp" ]
 ];

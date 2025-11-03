@@ -1,5 +1,5 @@
 <map id="BoardManager::shouldSendMarkerMove" name="BoardManager::shouldSendMarkerMove">
-<area shape="rect" id="Node000001" title=" " alt="" coords="268,5,468,45"/>
-<area shape="rect" id="Node000002" href="$d9/dff/classBoardManager.html#aeba02fa0dd64b67d4d27be42768f03b8" title=" " alt="" coords="5,5,220,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,28,220,28,220,23,254,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="327,5,608,31"/>
+<area shape="rect" id="Node000002" href="$d9/dff/classBoardManager.html#aeba02fa0dd64b67d4d27be42768f03b8" title=" " alt="" coords="5,5,279,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="313,21,279,21,279,15,313,15"/>
 </map>

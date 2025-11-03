@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../RunicVTTIcon_64.png"/></td>
   <td id="projectalign">
-   <div id="projectname">RunicVTT
+   <div id="projectname">RunicVTT<span id="projectnumber">&#160;Open Source Virtual Tabletop for TTRPG using P2P</span>
    </div>
   </td>
  </tr>
@@ -192,30 +192,19 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00107">107</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  108</span>    {</div>
+<div class="line"><span class="lineno">  109</span>        <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, std::string(<span class="stringliteral">&quot;FPS Overlay &quot;</span>) + (on ? <span class="stringliteral">&quot;ENABLED&quot;</span> : <span class="stringliteral">&quot;DISABLED&quot;</span>));</div>
+<div class="line"><span class="lineno">  110</span>    }</div>
+<div class="ttc" id="aclassLogger_html_aebb248e608f8e2724de20b482cb2a15f"><div class="ttname"><a href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a></div><div class="ttdeci">static Logger &amp; instance()</div><div class="ttdef"><b>Definition</b> <a href="../../dd/da4/Logger_8h_source.html#l00039">Logger.h:39</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_a04bb6c5d112ef6b6bc016d8742117478_cgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_a04bb6c5d112ef6b6bc016d8742117478_cgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_a04bb6c5d112ef6b6bc016d8742117478_cgraph" id="ad9/dd0/namespaceDebugActions_a04bb6c5d112ef6b6bc016d8742117478_cgraph">
-<area shape="rect" title=" " alt="" coords="5,35,200,75"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="248,5,377,31"/>
-<area shape="poly" title=" " alt="" coords="200,35,234,29,235,34,201,41"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="265,79,360,104"/>
-<area shape="poly" title=" " alt="" coords="201,69,252,78,251,84,200,75"/>
-<area shape="poly" title=" " alt="" coords="279,80,271,70,275,60,289,54,313,52,342,56,353,65,350,69,340,61,313,57,291,59,279,64,276,70,283,77"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_a04bb6c5d112ef6b6bc016d8742117478_cgraph.svg" width="439" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_a04bb6c5d112ef6b6bc016d8742117478_icgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_a04bb6c5d112ef6b6bc016d8742117478_icgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_a04bb6c5d112ef6b6bc016d8742117478_icgraph" id="ad9/dd0/namespaceDebugActions_a04bb6c5d112ef6b6bc016d8742117478_icgraph">
-<area shape="rect" title=" " alt="" coords="447,5,641,45"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#aa2db1f085f875091d9a75432f6e45dba" title=" " alt="" coords="208,5,399,45"/>
-<area shape="poly" title=" " alt="" coords="433,28,399,28,399,23,433,23"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_a04bb6c5d112ef6b6bc016d8742117478_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -244,17 +233,19 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00111">111</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  112</span>    {</div>
+<div class="line"><span class="lineno">  113</span>        <span class="comment">// Small FPS text in top-left corner</span></div>
+<div class="line"><span class="lineno">  114</span>        ImDrawList* dl = ImGui::GetForegroundDrawList();</div>
+<div class="line"><span class="lineno">  115</span>        ImVec2 pos = ImVec2(12, 12);</div>
+<div class="line"><span class="lineno">  116</span>        <span class="keywordtype">char</span> buf[64];</div>
+<div class="line"><span class="lineno">  117</span>        <span class="comment">// Use ImGui::GetIO().Framerate or your timing system</span></div>
+<div class="line"><span class="lineno">  118</span>        snprintf(buf, <span class="keyword">sizeof</span>(buf), <span class="stringliteral">&quot;FPS: %.1f&quot;</span>, ImGui::GetIO().Framerate);</div>
+<div class="line"><span class="lineno">  119</span>        dl-&gt;AddText(pos, IM_COL32(255, 255, 255, 220), buf);</div>
+<div class="line"><span class="lineno">  120</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_aa7b4f671ff9a0a6512a6ab00de581acb_icgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_aa7b4f671ff9a0a6512a6ab00de581acb_icgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_aa7b4f671ff9a0a6512a6ab00de581acb_icgraph" id="ad9/dd0/namespaceDebugActions_aa7b4f671ff9a0a6512a6ab00de581acb_icgraph">
-<area shape="rect" title=" " alt="" coords="447,13,668,38"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#aa2db1f085f875091d9a75432f6e45dba" title=" " alt="" coords="208,5,399,45"/>
-<area shape="poly" title=" " alt="" coords="433,28,399,28,399,23,433,23"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_aa7b4f671ff9a0a6512a6ab00de581acb_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -283,7 +274,11 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00031">31</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   32</span>    {</div>
+<div class="line"><span class="lineno">   33</span>        <span class="comment">// If you use ImGui backend keys:</span></div>
+<div class="line"><span class="lineno">   34</span>        <span class="keywordflow">return</span> ImGui::IsKeyDown(imguiKey);</div>
+<div class="line"><span class="lineno">   35</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a22bd9aaf7a1f27163089c06202ff4942" name="a22bd9aaf7a1f27163089c06202ff4942"></a>
@@ -310,30 +305,18 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00089">89</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   90</span>    {</div>
+<div class="line"><span class="lineno">   91</span>        <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, std::string(<span class="stringliteral">&quot;Mouse Circle &quot;</span>) + (on ? <span class="stringliteral">&quot;ENABLED&quot;</span> : <span class="stringliteral">&quot;DISABLED&quot;</span>));</div>
+<div class="line"><span class="lineno">   92</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_a22bd9aaf7a1f27163089c06202ff4942_cgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_a22bd9aaf7a1f27163089c06202ff4942_cgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_a22bd9aaf7a1f27163089c06202ff4942_cgraph" id="ad9/dd0/namespaceDebugActions_a22bd9aaf7a1f27163089c06202ff4942_cgraph">
-<area shape="rect" title=" " alt="" coords="5,35,205,75"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="253,5,383,31"/>
-<area shape="poly" title=" " alt="" coords="205,35,239,29,240,34,206,40"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="271,79,365,104"/>
-<area shape="poly" title=" " alt="" coords="206,70,257,78,256,84,205,75"/>
-<area shape="poly" title=" " alt="" coords="283,80,276,70,280,60,294,54,318,52,347,56,359,65,356,69,345,61,318,57,296,59,284,64,281,70,288,77"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_a22bd9aaf7a1f27163089c06202ff4942_cgraph.svg" width="446" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_a22bd9aaf7a1f27163089c06202ff4942_icgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_a22bd9aaf7a1f27163089c06202ff4942_icgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_a22bd9aaf7a1f27163089c06202ff4942_icgraph" id="ad9/dd0/namespaceDebugActions_a22bd9aaf7a1f27163089c06202ff4942_icgraph">
-<area shape="rect" title=" " alt="" coords="447,5,647,45"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#aa2db1f085f875091d9a75432f6e45dba" title=" " alt="" coords="208,5,399,45"/>
-<area shape="poly" title=" " alt="" coords="433,28,399,28,399,23,433,23"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_a22bd9aaf7a1f27163089c06202ff4942_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -362,17 +345,20 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00093">93</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   94</span>    {</div>
+<div class="line"><span class="lineno">   95</span>        <span class="comment">// Draw a simple circle at mouse (using ImGui draw list for example)</span></div>
+<div class="line"><span class="lineno">   96</span>        ImDrawList* dl = ImGui::GetForegroundDrawList();</div>
+<div class="line"><span class="lineno">   97</span>        ImVec2 p = ImGui::GetMousePos();</div>
+<div class="line"><span class="lineno">   98</span>        <span class="keywordtype">float</span> radius = 14.f;</div>
+<div class="line"><span class="lineno">   99</span>        ImU32 colFill = IM_COL32(255, 255, 0, 48);</div>
+<div class="line"><span class="lineno">  100</span>        ImU32 colLine = IM_COL32(255, 255, 0, 200);</div>
+<div class="line"><span class="lineno">  101</span>        dl-&gt;AddCircleFilled(p, radius, colFill, 24);</div>
+<div class="line"><span class="lineno">  102</span>        dl-&gt;AddCircle(p, radius, colLine, 24, 2.0f);</div>
+<div class="line"><span class="lineno">  103</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_afbd4e55d3485e36c380a6c3d97c4a39b_icgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_afbd4e55d3485e36c380a6c3d97c4a39b_icgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_afbd4e55d3485e36c380a6c3d97c4a39b_icgraph" id="ad9/dd0/namespaceDebugActions_afbd4e55d3485e36c380a6c3d97c4a39b_icgraph">
-<area shape="rect" title=" " alt="" coords="447,13,673,38"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#aa2db1f085f875091d9a75432f6e45dba" title=" " alt="" coords="208,5,399,45"/>
-<area shape="poly" title=" " alt="" coords="433,28,399,28,399,23,433,23"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_afbd4e55d3485e36c380a6c3d97c4a39b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -401,30 +387,18 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00125">125</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  126</span>    {</div>
+<div class="line"><span class="lineno">  127</span>        <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, std::string(<span class="stringliteral">&quot;Ping Log &quot;</span>) + (on ? <span class="stringliteral">&quot;ENABLED&quot;</span> : <span class="stringliteral">&quot;DISABLED&quot;</span>));</div>
+<div class="line"><span class="lineno">  128</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_ae60162d45976facc774ecba54cf3d13f_cgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_ae60162d45976facc774ecba54cf3d13f_cgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_ae60162d45976facc774ecba54cf3d13f_cgraph" id="ad9/dd0/namespaceDebugActions_ae60162d45976facc774ecba54cf3d13f_cgraph">
-<area shape="rect" title=" " alt="" coords="5,43,233,68"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="281,5,411,31"/>
-<area shape="poly" title=" " alt="" coords="197,40,268,28,268,33,198,45"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="299,79,393,104"/>
-<area shape="poly" title=" " alt="" coords="200,65,286,79,285,84,199,71"/>
-<area shape="poly" title=" " alt="" coords="309,80,301,70,305,60,321,54,346,52,378,56,390,65,387,69,376,61,346,57,322,59,309,64,306,70,313,77"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_ae60162d45976facc774ecba54cf3d13f_cgraph.svg" width="416" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_ae60162d45976facc774ecba54cf3d13f_icgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_ae60162d45976facc774ecba54cf3d13f_icgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_ae60162d45976facc774ecba54cf3d13f_icgraph" id="ad9/dd0/namespaceDebugActions_ae60162d45976facc774ecba54cf3d13f_icgraph">
-<area shape="rect" title=" " alt="" coords="447,13,675,38"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#aa2db1f085f875091d9a75432f6e45dba" title=" " alt="" coords="208,5,399,45"/>
-<area shape="poly" title=" " alt="" coords="433,28,399,28,399,23,433,23"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_ae60162d45976facc774ecba54cf3d13f_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -453,32 +427,24 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00129">129</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  130</span>    {</div>
+<div class="line"><span class="lineno">  131</span>        <span class="comment">// Throttled periodic log</span></div>
+<div class="line"><span class="lineno">  132</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="#a627884124505b8c816228d512673be7e">timeElapsedMs</a>(gPingLast, 1000))</div>
+<div class="line"><span class="lineno">  133</span>        {</div>
+<div class="line"><span class="lineno">  134</span>            <span class="comment">// Replace with a real metric if you have one</span></div>
+<div class="line"><span class="lineno">  135</span>            <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, <span class="stringliteral">&quot;[net] heartbeat&quot;</span>);</div>
+<div class="line"><span class="lineno">  136</span>        }</div>
+<div class="line"><span class="lineno">  137</span>    }</div>
+<div class="ttc" id="anamespaceDebugActions_html_a627884124505b8c816228d512673be7e"><div class="ttname"><a href="#a627884124505b8c816228d512673be7e">DebugActions::timeElapsedMs</a></div><div class="ttdeci">bool timeElapsedMs(Clock::time_point &amp;last, int ms)</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d15/DebugActions_8h_source.html#l00020">DebugActions.h:20</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_a5bb9f9327ede8452c1fcd437608e23a8_cgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_a5bb9f9327ede8452c1fcd437608e23a8_cgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_a5bb9f9327ede8452c1fcd437608e23a8_cgraph" id="ad9/dd0/namespaceDebugActions_a5bb9f9327ede8452c1fcd437608e23a8_cgraph">
-<area shape="rect" title=" " alt="" coords="5,79,204,104"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="297,5,427,31"/>
-<area shape="poly" title=" " alt="" coords="140,76,251,39,284,31,285,36,253,45,141,81"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="315,79,409,104"/>
-<area shape="poly" title=" " alt="" coords="204,89,301,89,301,94,204,94"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#a627884124505b8c816228d512673be7e" title=" " alt="" coords="252,128,472,153"/>
-<area shape="poly" title=" " alt="" coords="172,101,282,123,281,128,171,107"/>
-<area shape="poly" title=" " alt="" coords="321,80,312,70,316,60,333,54,362,52,398,56,408,61,412,66,408,69,405,65,397,61,362,57,334,59,320,64,317,70,324,77"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_a5bb9f9327ede8452c1fcd437608e23a8_cgraph.svg" width="478" height="159"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_a5bb9f9327ede8452c1fcd437608e23a8_icgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_a5bb9f9327ede8452c1fcd437608e23a8_icgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_a5bb9f9327ede8452c1fcd437608e23a8_icgraph" id="ad9/dd0/namespaceDebugActions_a5bb9f9327ede8452c1fcd437608e23a8_icgraph">
-<area shape="rect" title=" " alt="" coords="447,13,645,38"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#aa2db1f085f875091d9a75432f6e45dba" title=" " alt="" coords="208,5,399,45"/>
-<area shape="poly" title=" " alt="" coords="433,28,399,28,399,23,433,23"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_a5bb9f9327ede8452c1fcd437608e23a8_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -507,50 +473,36 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00154">154</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  155</span>    {</div>
+<div class="line"><span class="lineno">  156</span>        <span class="comment">// Helper shim to avoid direct include dependency in this header:</span></div>
+<div class="line"><span class="lineno">  157</span>        <span class="keyword">auto</span> add = [](<span class="keyword">const</span> <span class="keywordtype">char</span>* label, <span class="keywordtype">bool</span>* f, std::function&lt;void(<span class="keywordtype">bool</span>)&gt; oc, std::function&lt;void()&gt; ot)</div>
+<div class="line"><span class="lineno">  158</span>        {</div>
+<div class="line"><span class="lineno">  159</span>            <span class="keyword">auto</span> toggle = <a class="code hl_struct" href="../../d5/d43/structDebugToggle.html">DebugToggle</a>{</div>
+<div class="line"><span class="lineno">  160</span>                label,</div>
+<div class="line"><span class="lineno">  161</span>                f,</div>
+<div class="line"><span class="lineno">  162</span>                oc,</div>
+<div class="line"><span class="lineno">  163</span>                ot};</div>
+<div class="line"><span class="lineno">  164</span> </div>
+<div class="line"><span class="lineno">  165</span>            <a class="code hl_function" href="../../da/d4c/classDebugConsole.html#a7bca63678bdb0ec7273afe2d308e1160">DebugConsole::addToggle</a>(toggle);</div>
+<div class="line"><span class="lineno">  166</span>        };</div>
+<div class="line"><span class="lineno">  167</span> </div>
+<div class="line"><span class="lineno">  168</span>        add(<span class="stringliteral">&quot;Debug Mouse Circle&quot;</span>, &amp;gEnableMouseCircle, MouseCircleChanged, MouseCircleTick);</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>        add(<span class="stringliteral">&quot;FPS Overlay&quot;</span>, &amp;gEnableFpsOverlay, FpsOverlayChanged, FpsOverlayTick);</div>
+<div class="line"><span class="lineno">  171</span> </div>
+<div class="line"><span class="lineno">  172</span>        add(<span class="stringliteral">&quot;Network Ping Log&quot;</span>, &amp;gEnablePingLog, PingLogChanged, PingLogTick);</div>
+<div class="line"><span class="lineno">  173</span>    }</div>
+<div class="ttc" id="aclassDebugConsole_html_a7bca63678bdb0ec7273afe2d308e1160"><div class="ttname"><a href="../../da/d4c/classDebugConsole.html#a7bca63678bdb0ec7273afe2d308e1160">DebugConsole::addToggle</a></div><div class="ttdeci">static void addToggle(const DebugToggle &amp;t)</div><div class="ttdef"><b>Definition</b> <a href="../../dc/daa/DebugConsole_8h_source.html#l00036">DebugConsole.h:36</a></div></div>
+<div class="ttc" id="astructDebugToggle_html"><div class="ttname"><a href="../../d5/d43/structDebugToggle.html">DebugToggle</a></div><div class="ttdef"><b>Definition</b> <a href="../../dc/daa/DebugConsole_8h_source.html#l00010">DebugConsole.h:11</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_aa2db1f085f875091d9a75432f6e45dba_cgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_aa2db1f085f875091d9a75432f6e45dba_cgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_aa2db1f085f875091d9a75432f6e45dba_cgraph" id="ad9/dd0/namespaceDebugActions_aa2db1f085f875091d9a75432f6e45dba_cgraph">
-<area shape="rect" title=" " alt="" coords="5,177,196,217"/>
-<area shape="rect" href="../../da/d4c/classDebugConsole.html#a7bca63678bdb0ec7273afe2d308e1160" title=" " alt="" coords="263,5,453,31"/>
-<area shape="poly" title=" " alt="" coords="112,175,163,108,200,72,243,41,259,33,262,38,245,46,204,76,167,112,117,178"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#a04bb6c5d112ef6b6bc016d8742117478" title=" " alt="" coords="261,55,455,95"/>
-<area shape="poly" title=" " alt="" coords="127,174,180,139,243,105,261,98,263,102,245,110,182,144,130,179"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#aa7b4f671ff9a0a6512a6ab00de581acb" title=" " alt="" coords="247,283,469,308"/>
-<area shape="poly" title=" " alt="" coords="135,214,186,243,245,269,270,277,268,282,243,274,184,247,133,219"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#a22bd9aaf7a1f27163089c06202ff4942" title=" " alt="" coords="258,119,458,159"/>
-<area shape="poly" title=" " alt="" coords="190,174,254,160,255,165,192,179"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#afbd4e55d3485e36c380a6c3d97c4a39b" title=" " alt="" coords="245,332,471,357"/>
-<area shape="poly" title=" " alt="" coords="121,215,173,268,207,295,245,318,261,325,259,330,243,323,204,300,169,271,117,219"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#ae60162d45976facc774ecba54cf3d13f" title=" " alt="" coords="244,184,472,209"/>
-<area shape="poly" title=" " alt="" coords="196,194,230,194,230,199,196,199"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#a5bb9f9327ede8452c1fcd437608e23a8" title=" " alt="" coords="259,233,457,259"/>
-<area shape="poly" title=" " alt="" coords="197,212,278,228,277,233,196,218"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="565,183,695,208"/>
-<area shape="poly" title=" " alt="" coords="451,93,474,105,489,120,498,135,507,150,521,164,553,179,551,184,519,168,502,153,494,138,485,123,470,110,448,98"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="583,129,677,155"/>
-<area shape="poly" title=" " alt="" coords="441,93,570,125,568,130,440,98"/>
-<area shape="poly" title=" " alt="" coords="586,131,577,121,582,111,600,105,630,103,669,107,680,112,683,118,679,120,676,116,668,112,630,108,601,110,585,115,582,120,590,127"/>
-<area shape="poly" title=" " alt="" coords="456,157,555,177,554,183,455,162"/>
-<area shape="poly" title=" " alt="" coords="458,138,569,139,569,144,458,143"/>
-<area shape="poly" title=" " alt="" coords="472,193,552,193,552,198,472,199"/>
-<area shape="poly" title=" " alt="" coords="421,181,568,152,569,157,422,187"/>
-<area shape="poly" title=" " alt="" coords="426,231,551,207,552,212,427,236"/>
-<area shape="poly" title=" " alt="" coords="445,231,471,220,485,208,494,195,503,181,519,168,543,156,569,148,570,153,545,161,521,172,507,185,498,198,489,211,473,224,447,236"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#a627884124505b8c816228d512673be7e" title=" " alt="" coords="520,233,740,259"/>
-<area shape="poly" title=" " alt="" coords="458,243,506,243,506,249,458,249"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_aa2db1f085f875091d9a75432f6e45dba_cgraph.svg" width="100%" height="549"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_aa2db1f085f875091d9a75432f6e45dba_icgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_aa2db1f085f875091d9a75432f6e45dba_icgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_aa2db1f085f875091d9a75432f6e45dba_icgraph" id="ad9/dd0/namespaceDebugActions_aa2db1f085f875091d9a75432f6e45dba_icgraph">
-<area shape="rect" title=" " alt="" coords="208,5,399,45"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_aa2db1f085f875091d9a75432f6e45dba_icgraph.svg" width="626" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -579,38 +531,29 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00140">140</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">  141</span>    {</div>
+<div class="line"><span class="lineno">  142</span>        <a class="code hl_function" href="../../da/d4c/classDebugConsole.html#a7bca63678bdb0ec7273afe2d308e1160">DebugConsole::addToggle</a>({</div>
+<div class="line"><span class="lineno">  143</span>            <span class="stringliteral">&quot;Toaster Notifications (1–4)&quot;</span>,</div>
+<div class="line"><span class="lineno">  144</span>            &amp;<a class="code hl_variable" href="#a5c9ba6233b9d69419e9036a1aa256355">gEnableToasterTest</a>,</div>
+<div class="line"><span class="lineno">  145</span>            <span class="comment">/* onChanged */</span> [t = toaster_](<span class="keywordtype">bool</span> on) { <span class="comment">// capture the shared_ptr by value</span></div>
+<div class="line"><span class="lineno">  146</span>                <a class="code hl_function" href="#a4768e514c08fc094a8e80ba8def371ea">ToasterChanged</a>(t, on);                <span class="comment">// call your function WITH the arg</span></div>
+<div class="line"><span class="lineno">  147</span>            },</div>
+<div class="line"><span class="lineno">  148</span>            <span class="comment">/* onTick */</span> [t = toaster_]() { <span class="comment">// capture the shared_ptr by value</span></div>
+<div class="line"><span class="lineno">  149</span>                ToasterTick(t);             <span class="comment">// call your function WITH the arg</span></div>
+<div class="line"><span class="lineno">  150</span>            },</div>
+<div class="line"><span class="lineno">  151</span>        });</div>
+<div class="line"><span class="lineno">  152</span>    }</div>
+<div class="ttc" id="anamespaceDebugActions_html_a4768e514c08fc094a8e80ba8def371ea"><div class="ttname"><a href="#a4768e514c08fc094a8e80ba8def371ea">DebugActions::ToasterChanged</a></div><div class="ttdeci">void ToasterChanged(std::weak_ptr&lt; ImGuiToaster &gt; toaster_, bool on)</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d15/DebugActions_8h_source.html#l00044">DebugActions.h:44</a></div></div>
+<div class="ttc" id="anamespaceDebugActions_html_a5c9ba6233b9d69419e9036a1aa256355"><div class="ttname"><a href="#a5c9ba6233b9d69419e9036a1aa256355">DebugActions::gEnableToasterTest</a></div><div class="ttdeci">bool gEnableToasterTest</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d15/DebugActions_8h_source.html#l00041">DebugActions.h:41</a></div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_ab01b32376c3f2c27c176777985893ccd_cgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_ab01b32376c3f2c27c176777985893ccd_cgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_ab01b32376c3f2c27c176777985893ccd_cgraph" id="ad9/dd0/namespaceDebugActions_ab01b32376c3f2c27c176777985893ccd_cgraph">
-<area shape="rect" title=" " alt="" coords="5,47,227,87"/>
-<area shape="rect" href="../../da/d4c/classDebugConsole.html#a7bca63678bdb0ec7273afe2d308e1160" title=" " alt="" coords="291,5,482,31"/>
-<area shape="poly" title=" " alt="" coords="226,45,303,30,304,36,227,50"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#a4768e514c08fc094a8e80ba8def371ea" title=" " alt="" coords="275,55,499,80"/>
-<area shape="poly" title=" " alt="" coords="227,65,261,65,261,70,227,70"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#a9f0ef1ee48947cd640d772814c7e5140" title=" " alt="" coords="289,104,484,129"/>
-<area shape="poly" title=" " alt="" coords="227,85,304,99,303,104,226,90"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="592,104,721,129"/>
-<area shape="poly" title=" " alt="" coords="457,77,579,100,578,105,456,83"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="609,55,704,80"/>
-<area shape="poly" title=" " alt="" coords="499,65,596,65,596,70,499,70"/>
-<area shape="poly" title=" " alt="" coords="613,56,604,46,609,36,627,30,657,28,695,32,706,37,709,43,705,46,702,41,694,37,657,33,628,35,612,40,609,46,617,53"/>
-<area shape="poly" title=" " alt="" coords="484,114,578,114,578,119,484,119"/>
-<area shape="poly" title=" " alt="" coords="456,101,595,76,596,81,457,107"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#a627884124505b8c816228d512673be7e" title=" " alt="" coords="547,153,767,179"/>
-<area shape="poly" title=" " alt="" coords="457,127,573,148,572,153,456,132"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_ab01b32376c3f2c27c176777985893ccd_cgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_ab01b32376c3f2c27c176777985893ccd_icgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_ab01b32376c3f2c27c176777985893ccd_icgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_ab01b32376c3f2c27c176777985893ccd_icgraph" id="ad9/dd0/namespaceDebugActions_ab01b32376c3f2c27c176777985893ccd_icgraph">
-<area shape="rect" title=" " alt="" coords="208,5,429,45"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_ab01b32376c3f2c27c176777985893ccd_icgraph.svg" width="608" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -643,24 +586,19 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00020">20</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   21</span>    {</div>
+<div class="line"><span class="lineno">   22</span>        <span class="keyword">auto</span> now = Clock::now();</div>
+<div class="line"><span class="lineno">   23</span>        <span class="keywordflow">if</span> (std::chrono::duration_cast&lt;std::chrono::milliseconds&gt;(now - last).count() &gt;= ms)</div>
+<div class="line"><span class="lineno">   24</span>        {</div>
+<div class="line"><span class="lineno">   25</span>            last = now;</div>
+<div class="line"><span class="lineno">   26</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   27</span>        }</div>
+<div class="line"><span class="lineno">   28</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   29</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_a627884124505b8c816228d512673be7e_icgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_a627884124505b8c816228d512673be7e_icgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_a627884124505b8c816228d512673be7e_icgraph" id="ad9/dd0/namespaceDebugActions_a627884124505b8c816228d512673be7e_icgraph">
-<area shape="rect" title=" " alt="" coords="724,46,944,71"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#a5bb9f9327ede8452c1fcd437608e23a8" title=" " alt="" coords="477,17,676,42"/>
-<area shape="poly" title=" " alt="" coords="710,47,676,43,677,38,711,42"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#a9f0ef1ee48947cd640d772814c7e5140" title=" " alt="" coords="479,70,674,95"/>
-<area shape="poly" title=" " alt="" coords="711,73,675,76,674,71,710,68"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#aa2db1f085f875091d9a75432f6e45dba" title=" " alt="" coords="223,5,414,45"/>
-<area shape="poly" title=" " alt="" coords="463,30,414,29,414,24,463,25"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,37,160,77"/>
-<area shape="poly" title=" " alt="" coords="210,43,161,50,160,44,209,37"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#ab01b32376c3f2c27c176777985893ccd" title=" " alt="" coords="208,69,429,109"/>
-<area shape="poly" title=" " alt="" coords="466,88,429,89,429,84,466,83"/>
-<area shape="poly" title=" " alt="" coords="194,75,160,70,161,65,195,70"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_a627884124505b8c816228d512673be7e_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -693,30 +631,30 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00044">44</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   45</span>    {</div>
+<div class="line"><span class="lineno">   46</span>        <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, std::string(<span class="stringliteral">&quot;Toaster Notification Test &quot;</span>) + (on ? <span class="stringliteral">&quot;ENABLED&quot;</span> : <span class="stringliteral">&quot;DISABLED&quot;</span>));</div>
+<div class="line"><span class="lineno">   47</span>        <span class="keywordflow">if</span> (<span class="keyword">auto</span> t = toaster_.lock())</div>
+<div class="line"><span class="lineno">   48</span>        {</div>
+<div class="line"><span class="lineno">   49</span>            <span class="keywordflow">if</span> (on)</div>
+<div class="line"><span class="lineno">   50</span>            {</div>
+<div class="line"><span class="lineno">   51</span>                t-&gt;Push(<a class="code hl_enumvalue" href="../../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba4059b0251f66a18cb56f544728796875">ImGuiToaster::Level::Info</a>, <span class="stringliteral">&quot;Toaster Debug ON!!&quot;</span>, 1.0f);</div>
+<div class="line"><span class="lineno">   52</span>            }</div>
+<div class="line"><span class="lineno">   53</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   54</span>            {</div>
+<div class="line"><span class="lineno">   55</span>                t-&gt;Push(<a class="code hl_enumvalue" href="../../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba4059b0251f66a18cb56f544728796875">ImGuiToaster::Level::Info</a>, <span class="stringliteral">&quot;Toaster Debug OFF!!&quot;</span>, 1.0f);</div>
+<div class="line"><span class="lineno">   56</span>            }</div>
+<div class="line"><span class="lineno">   57</span>        }</div>
+<div class="line"><span class="lineno">   58</span>    }</div>
+<div class="ttc" id="aclassImGuiToaster_html_a26acfb5443593fc6f392769b0297c4eba4059b0251f66a18cb56f544728796875"><div class="ttname"><a href="../../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba4059b0251f66a18cb56f544728796875">ImGuiToaster::Level::Info</a></div><div class="ttdeci">@ Info</div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_a4768e514c08fc094a8e80ba8def371ea_cgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_a4768e514c08fc094a8e80ba8def371ea_cgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_a4768e514c08fc094a8e80ba8def371ea_cgraph" id="ad9/dd0/namespaceDebugActions_a4768e514c08fc094a8e80ba8def371ea_cgraph">
-<area shape="rect" title=" " alt="" coords="5,43,229,68"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="277,5,407,31"/>
-<area shape="poly" title=" " alt="" coords="194,40,263,28,264,34,195,45"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="295,79,389,104"/>
-<area shape="poly" title=" " alt="" coords="197,65,281,79,280,84,197,71"/>
-<area shape="poly" title=" " alt="" coords="305,80,298,70,302,60,317,54,342,52,374,56,386,65,382,69,372,61,342,57,318,59,305,64,303,70,310,77"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_a4768e514c08fc094a8e80ba8def371ea_cgraph.svg" width="412" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_a4768e514c08fc094a8e80ba8def371ea_icgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_a4768e514c08fc094a8e80ba8def371ea_icgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_a4768e514c08fc094a8e80ba8def371ea_icgraph" id="ad9/dd0/namespaceDebugActions_a4768e514c08fc094a8e80ba8def371ea_icgraph">
-<area shape="rect" title=" " alt="" coords="477,13,701,38"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#ab01b32376c3f2c27c176777985893ccd" title=" " alt="" coords="208,5,429,45"/>
-<area shape="poly" title=" " alt="" coords="463,28,430,28,430,23,463,23"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_a4768e514c08fc094a8e80ba8def371ea_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -745,32 +683,47 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d15/DebugActions_8h_source.html#l00060">60</a> of file <a class="el" href="../../d6/d15/DebugActions_8h_source.html">DebugActions.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   61</span>    {</div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">if</span> (<span class="keyword">auto</span> t = toaster_.lock())</div>
+<div class="line"><span class="lineno">   63</span>        {</div>
+<div class="line"><span class="lineno">   64</span>            <span class="keywordflow">if</span> (ImGui::IsKeyPressed(ImGuiKey_1) &amp;&amp; <a class="code hl_function" href="#a627884124505b8c816228d512673be7e">timeElapsedMs</a>(gToasterLast, 200))</div>
+<div class="line"><span class="lineno">   65</span>            {</div>
+<div class="line"><span class="lineno">   66</span>                t-&gt;Push(<a class="code hl_enumvalue" href="../../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba4059b0251f66a18cb56f544728796875">ImGuiToaster::Level::Info</a>, <span class="stringliteral">&quot;Info: Hello!&quot;</span>, 5.0f);</div>
+<div class="line"><span class="lineno">   67</span>                <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca4059b0251f66a18cb56f544728796875">Logger::Level::Info</a>, <span class="stringliteral">&quot;[toast] Info Demo&quot;</span>);</div>
+<div class="line"><span class="lineno">   68</span>            }</div>
+<div class="line"><span class="lineno">   69</span>            <span class="keywordflow">if</span> (ImGui::IsKeyPressed(ImGuiKey_2) &amp;&amp; timeElapsedMs(gToasterLast, 200))</div>
+<div class="line"><span class="lineno">   70</span>            {</div>
+<div class="line"><span class="lineno">   71</span>                t-&gt;Push(<a class="code hl_enumvalue" href="../../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba0c6ad70beb3a7e76c3fc7adab7c46acc">ImGuiToaster::Level::Good</a>, <span class="stringliteral">&quot;Good: Saved&quot;</span>, 4.0f);</div>
+<div class="line"><span class="lineno">   72</span>                <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca505a83f220c02df2f85c3810cd9ceb38">Logger::Level::Success</a>, <span class="stringliteral">&quot;[toast] Good Demo&quot;</span>);</div>
+<div class="line"><span class="lineno">   73</span>            }</div>
+<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">if</span> (ImGui::IsKeyPressed(ImGuiKey_3) &amp;&amp; <a class="code hl_function" href="#a627884124505b8c816228d512673be7e">timeElapsedMs</a>(gToasterLast, 200))</div>
+<div class="line"><span class="lineno">   75</span>            {</div>
+<div class="line"><span class="lineno">   76</span>                t-&gt;Push(<a class="code hl_enumvalue" href="../../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba0eaadb4fcb48a0a0ed7bc9868be9fbaa">ImGuiToaster::Level::Warning</a>, <span class="stringliteral">&quot;Warning: Ping high&quot;</span>, 6.0f);</div>
+<div class="line"><span class="lineno">   77</span>                <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca56525ae64d370c0b448ac0d60710ef17">Logger::Level::Warn</a>, <span class="stringliteral">&quot;[toast] Warning Demo&quot;</span>);</div>
+<div class="line"><span class="lineno">   78</span>            }</div>
+<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">if</span> (ImGui::IsKeyPressed(ImGuiKey_4) &amp;&amp; <a class="code hl_function" href="#a627884124505b8c816228d512673be7e">timeElapsedMs</a>(gToasterLast, 200))</div>
+<div class="line"><span class="lineno">   80</span>            {</div>
+<div class="line"><span class="lineno">   81</span>                t-&gt;Push(<a class="code hl_enumvalue" href="../../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba902b0d55fddef6f8d651fe1035b7d4bd">ImGuiToaster::Level::Error</a>, <span class="stringliteral">&quot;Error: Failed op&quot;</span>);</div>
+<div class="line"><span class="lineno">   82</span>                <a class="code hl_function" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f">Logger::instance</a>().log(<span class="stringliteral">&quot;main&quot;</span>, <a class="code hl_enumvalue" href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd">Logger::Level::Error</a>, <span class="stringliteral">&quot;[toast] Error Demo&quot;</span>);</div>
+<div class="line"><span class="lineno">   83</span>            }</div>
+<div class="line"><span class="lineno">   84</span>        }</div>
+<div class="line"><span class="lineno">   85</span>    }</div>
+<div class="ttc" id="aclassImGuiToaster_html_a26acfb5443593fc6f392769b0297c4eba0c6ad70beb3a7e76c3fc7adab7c46acc"><div class="ttname"><a href="../../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba0c6ad70beb3a7e76c3fc7adab7c46acc">ImGuiToaster::Level::Good</a></div><div class="ttdeci">@ Good</div></div>
+<div class="ttc" id="aclassImGuiToaster_html_a26acfb5443593fc6f392769b0297c4eba0eaadb4fcb48a0a0ed7bc9868be9fbaa"><div class="ttname"><a href="../../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba0eaadb4fcb48a0a0ed7bc9868be9fbaa">ImGuiToaster::Level::Warning</a></div><div class="ttdeci">@ Warning</div></div>
+<div class="ttc" id="aclassImGuiToaster_html_a26acfb5443593fc6f392769b0297c4eba902b0d55fddef6f8d651fe1035b7d4bd"><div class="ttname"><a href="../../d8/db3/classImGuiToaster.html#a26acfb5443593fc6f392769b0297c4eba902b0d55fddef6f8d651fe1035b7d4bd">ImGuiToaster::Level::Error</a></div><div class="ttdeci">@ Error</div></div>
+<div class="ttc" id="aclassLogger_html_ac6a29c806d1917b5363ae43c5381c4cca4059b0251f66a18cb56f544728796875"><div class="ttname"><a href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca4059b0251f66a18cb56f544728796875">Logger::Level::Info</a></div><div class="ttdeci">@ Info</div></div>
+<div class="ttc" id="aclassLogger_html_ac6a29c806d1917b5363ae43c5381c4cca505a83f220c02df2f85c3810cd9ceb38"><div class="ttname"><a href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca505a83f220c02df2f85c3810cd9ceb38">Logger::Level::Success</a></div><div class="ttdeci">@ Success</div></div>
+<div class="ttc" id="aclassLogger_html_ac6a29c806d1917b5363ae43c5381c4cca56525ae64d370c0b448ac0d60710ef17"><div class="ttname"><a href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca56525ae64d370c0b448ac0d60710ef17">Logger::Level::Warn</a></div><div class="ttdeci">@ Warn</div></div>
+<div class="ttc" id="aclassLogger_html_ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd"><div class="ttname"><a href="../../db/d67/classLogger.html#ac6a29c806d1917b5363ae43c5381c4cca902b0d55fddef6f8d651fe1035b7d4bd">Logger::Level::Error</a></div><div class="ttdeci">@ Error</div></div>
+</div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_a9f0ef1ee48947cd640d772814c7e5140_cgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_a9f0ef1ee48947cd640d772814c7e5140_cgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_a9f0ef1ee48947cd640d772814c7e5140_cgraph" id="ad9/dd0/namespaceDebugActions_a9f0ef1ee48947cd640d772814c7e5140_cgraph">
-<area shape="rect" title=" " alt="" coords="5,79,200,104"/>
-<area shape="rect" href="../../db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="293,5,423,31"/>
-<area shape="poly" title=" " alt="" coords="137,76,247,39,279,31,281,36,249,45,139,81"/>
-<area shape="rect" href="../../db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="311,79,405,104"/>
-<area shape="poly" title=" " alt="" coords="200,89,297,89,297,94,200,94"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#a627884124505b8c816228d512673be7e" title=" " alt="" coords="248,128,468,153"/>
-<area shape="poly" title=" " alt="" coords="170,101,279,123,278,128,169,107"/>
-<area shape="poly" title=" " alt="" coords="317,80,308,70,313,60,330,54,358,52,394,56,404,61,408,66,403,69,400,65,392,61,358,57,331,59,316,64,313,70,321,77"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_a9f0ef1ee48947cd640d772814c7e5140_cgraph.svg" width="474" height="159"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd0/namespaceDebugActions_a9f0ef1ee48947cd640d772814c7e5140_icgraph.png" border="0" usemap="#ad9/dd0/namespaceDebugActions_a9f0ef1ee48947cd640d772814c7e5140_icgraph" alt=""/></div>
-<map name="ad9/dd0/namespaceDebugActions_a9f0ef1ee48947cd640d772814c7e5140_icgraph" id="ad9/dd0/namespaceDebugActions_a9f0ef1ee48947cd640d772814c7e5140_icgraph">
-<area shape="rect" title=" " alt="" coords="477,13,672,38"/>
-<area shape="rect" href="../../d9/dd0/namespaceDebugActions.html#ab01b32376c3f2c27c176777985893ccd" title=" " alt="" coords="208,5,429,45"/>
-<area shape="poly" title=" " alt="" coords="464,28,430,28,430,23,464,23"/>
-<area shape="rect" href="../../d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dd0/namespaceDebugActions_a9f0ef1ee48947cd640d772814c7e5140_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

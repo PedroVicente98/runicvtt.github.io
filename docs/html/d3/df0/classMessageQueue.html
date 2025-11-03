@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../RunicVTTIcon_64.png"/></td>
   <td id="projectalign">
-   <div id="projectname">RunicVTT
+   <div id="projectname">RunicVTT<span id="projectnumber">&#160;Open Source Virtual Tabletop for TTRPG using P2P</span>
    </div>
   </td>
  </tr>
@@ -103,12 +103,14 @@ $(function(){initNavTree('d3/df0/classMessageQueue.html','../../'); initResizabl
 
 <p><code>#include &lt;<a class="el" href="../../de/dd6/MessageQueue_8h_source.html">MessageQueue.h</a>&gt;</code></p>
 <div class="dynheader">
+Inheritance diagram for MessageQueue&lt; T &gt;:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d8d/classMessageQueue__inherit__graph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
 Collaboration diagram for MessageQueue&lt; T &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d75/classMessageQueue__coll__graph.png" border="0" usemap="#aMessageQueue_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
-<map name="aMessageQueue_3_01T_01_4_coll__map" id="aMessageQueue_3_01T_01_4_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,191,165"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d75/classMessageQueue__coll__graph.svg" width="343" height="244"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -160,7 +162,18 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dd6/MessageQueue_8h_source.html#l00024">24</a> of file <a class="el" href="../../de/dd6/MessageQueue_8h_source.html">MessageQueue.h</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   25</span>    {</div>
+<div class="line"><span class="lineno">   26</span>        std::unique_lock&lt;std::mutex&gt; lock(<a class="code hl_variable" href="#ae630743e15bc99c9bf23926552b60da6">mutex_</a>);</div>
+<div class="line"><span class="lineno">   27</span>        <a class="code hl_variable" href="#a72b3c4d994a3d8a3656c497c09c1848e">condition_</a>.wait(lock, [<span class="keyword">this</span>]</div>
+<div class="line"><span class="lineno">   28</span>                        { <span class="keywordflow">return</span> !<a class="code hl_variable" href="#a486a19c694e812507eb95493d88eb5f2">queue_</a>.empty(); });</div>
+<div class="line"><span class="lineno">   29</span>        T value = std::move(<a class="code hl_variable" href="#a486a19c694e812507eb95493d88eb5f2">queue_</a>.front());</div>
+<div class="line"><span class="lineno">   30</span>        <a class="code hl_variable" href="#a486a19c694e812507eb95493d88eb5f2">queue_</a>.pop();</div>
+<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">return</span> value;</div>
+<div class="line"><span class="lineno">   32</span>    }</div>
+<div class="ttc" id="aclassMessageQueue_html_a486a19c694e812507eb95493d88eb5f2"><div class="ttname"><a href="#a486a19c694e812507eb95493d88eb5f2">MessageQueue::queue_</a></div><div class="ttdeci">std::queue&lt; T &gt; queue_</div><div class="ttdef"><b>Definition</b> <a href="../../de/dd6/MessageQueue_8h_source.html#l00011">MessageQueue.h:11</a></div></div>
+<div class="ttc" id="aclassMessageQueue_html_a72b3c4d994a3d8a3656c497c09c1848e"><div class="ttname"><a href="#a72b3c4d994a3d8a3656c497c09c1848e">MessageQueue::condition_</a></div><div class="ttdeci">std::condition_variable condition_</div><div class="ttdef"><b>Definition</b> <a href="../../de/dd6/MessageQueue_8h_source.html#l00013">MessageQueue.h:13</a></div></div>
+<div class="ttc" id="aclassMessageQueue_html_ae630743e15bc99c9bf23926552b60da6"><div class="ttname"><a href="#ae630743e15bc99c9bf23926552b60da6">MessageQueue::mutex_</a></div><div class="ttdeci">std::mutex mutex_</div><div class="ttdef"><b>Definition</b> <a href="../../de/dd6/MessageQueue_8h_source.html#l00012">MessageQueue.h:12</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae18e8febb6e78fadd1fc56332a4b7ba2" name="ae18e8febb6e78fadd1fc56332a4b7ba2"></a>
@@ -189,63 +202,16 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dd6/MessageQueue_8h_source.html#l00016">16</a> of file <a class="el" href="../../de/dd6/MessageQueue_8h_source.html">MessageQueue.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   17</span>    {</div>
+<div class="line"><span class="lineno">   18</span>        std::unique_lock&lt;std::mutex&gt; lock(<a class="code hl_variable" href="#ae630743e15bc99c9bf23926552b60da6">mutex_</a>);</div>
+<div class="line"><span class="lineno">   19</span>        <a class="code hl_variable" href="#a486a19c694e812507eb95493d88eb5f2">queue_</a>.push(std::move(value));</div>
+<div class="line"><span class="lineno">   20</span>        lock.unlock();</div>
+<div class="line"><span class="lineno">   21</span>        <a class="code hl_variable" href="#a72b3c4d994a3d8a3656c497c09c1848e">condition_</a>.notify_one();</div>
+<div class="line"><span class="lineno">   22</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/df0/classMessageQueue_ae18e8febb6e78fadd1fc56332a4b7ba2_icgraph.png" border="0" usemap="#ad3/df0/classMessageQueue_ae18e8febb6e78fadd1fc56332a4b7ba2_icgraph" alt=""/></div>
-<map name="ad3/df0/classMessageQueue_ae18e8febb6e78fadd1fc56332a4b7ba2_icgraph" id="ad3/df0/classMessageQueue_ae18e8febb6e78fadd1fc56332a4b7ba2_icgraph">
-<area shape="rect" title=" " alt="" coords="1175,407,1336,432"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a91ae6eaae32ae463c033547f74080e36" title=" " alt="" coords="308,306,525,346"/>
-<area shape="poly" title=" " alt="" coords="1250,393,1244,329,1224,245,1208,202,1187,161,1160,124,1125,93,1052,50,984,23,919,10,855,11,790,23,723,47,652,80,575,122,547,140,522,163,480,214,449,266,429,307,424,305,444,263,476,211,518,159,544,136,572,117,649,75,721,42,788,18,854,5,919,5,985,18,1055,45,1128,89,1163,120,1192,158,1213,200,1230,244,1249,328,1256,393"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a870fdbf3fcb748380d4bac60d0c619ae" title=" " alt="" coords="588,434,797,474"/>
-<area shape="poly" title=" " alt="" coords="1161,428,798,450,797,445,1160,422"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a106790c77d0d8c6b9428a2fbd842286b" title=" " alt="" coords="588,498,797,538"/>
-<area shape="poly" title=" " alt="" coords="1186,438,1127,450,798,505,797,500,1126,445,1185,433"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a0466594f0db8b90c31d5bce0c862d4a7" title=" " alt="" coords="588,562,797,602"/>
-<area shape="poly" title=" " alt="" coords="1228,442,1182,472,1128,499,1043,527,956,548,798,575,797,569,954,543,1041,522,1126,494,1180,467,1225,438"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a95cfe12e2425d77d25a332548694f340" title=" " alt="" coords="580,626,805,666"/>
-<area shape="poly" title=" " alt="" coords="1242,446,1197,509,1165,542,1128,570,1089,589,1049,605,964,629,881,642,806,649,805,643,880,637,963,624,1047,600,1087,584,1125,565,1162,538,1193,505,1238,443"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a5974165ef6da3b0a8e954c3219310212" title=" " alt="" coords="887,657,1100,697"/>
-<area shape="poly" title=" " alt="" coords="1248,446,1231,486,1205,536,1171,587,1128,632,1105,647,1080,659,1078,654,1103,643,1125,628,1167,584,1201,534,1226,484,1243,444"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#af738f6e90613a669cab5551f672e7c6b" title=" " alt="" coords="878,103,1109,143"/>
-<area shape="poly" title=" " alt="" coords="1246,394,1233,344,1210,280,1174,214,1152,184,1125,159,1105,146,1108,141,1128,155,1156,181,1179,211,1215,277,1238,342,1252,393"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#afc9a1534cbb3b4b950796094d4e97775" title=" " alt="" coords="860,737,1127,763"/>
-<area shape="poly" title=" " alt="" coords="1252,446,1240,501,1217,572,1181,646,1157,681,1128,711,1103,728,1074,740,1072,735,1100,723,1125,707,1153,677,1176,644,1212,570,1235,500,1247,445"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a4e57df88fc7446d22630aacb5a31dfc1" title=" " alt="" coords="878,169,1109,209"/>
-<area shape="poly" title=" " alt="" coords="1242,395,1225,357,1200,311,1167,265,1125,225,1099,211,1102,206,1128,221,1171,261,1205,308,1230,355,1247,393"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#ac5d3c0e4fbaccd780b59519e714541b0" title=" " alt="" coords="878,235,1109,275"/>
-<area shape="poly" title=" " alt="" coords="1235,398,1189,346,1158,318,1125,295,1087,278,1089,273,1128,290,1162,314,1192,342,1239,394"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a4f87c47c2317b51690a0947bc8ad88b7" title=" " alt="" coords="885,305,1101,345"/>
-<area shape="poly" title=" " alt="" coords="1218,403,1175,381,1126,361,1084,347,1085,342,1128,356,1177,376,1220,398"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#abdacab45fd438391b9fa75a6c6d3a421" title=" " alt="" coords="888,370,1099,410"/>
-<area shape="poly" title=" " alt="" coords="1160,411,1099,404,1099,399,1161,406"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#ad3605b8b33fa44492458d0aaffb4dec8" title=" " alt="" coords="5,349,260,375"/>
-<area shape="poly" title=" " alt="" coords="295,344,234,352,233,347,294,339"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a3289708df965193b6ec0287eb069b276" title=" " alt="" coords="33,399,233,439"/>
-<area shape="poly" title=" " alt="" coords="327,353,309,360,285,375,261,390,227,402,226,397,259,385,283,371,307,356,325,348"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a53df93ad0cb0498c82f866a921e7b285" title=" " alt="" coords="308,370,525,410"/>
-<area shape="poly" title=" " alt="" coords="592,433,503,413,504,407,593,428"/>
-<area shape="poly" title=" " alt="" coords="294,381,260,377,261,372,294,375"/>
-<area shape="poly" title=" " alt="" coords="295,405,233,412,232,406,294,400"/>
-<area shape="poly" title=" " alt="" coords="581,494,572,488,555,472,547,455,539,439,524,424,503,412,505,408,527,420,543,436,552,453,560,469,575,484,584,490"/>
-<area shape="poly" title=" " alt="" coords="577,557,571,552,558,536,551,519,546,487,543,454,536,439,524,424,508,412,511,408,527,420,541,436,548,453,552,486,556,518,562,533,575,548,580,552"/>
-<area shape="poly" title=" " alt="" coords="575,620,571,616,554,592,546,567,544,542,546,518,548,494,547,470,540,447,523,424,509,412,513,408,527,420,545,445,552,470,554,494,552,519,550,542,551,566,558,589,575,612,579,616"/>
-<area shape="poly" title=" " alt="" coords="925,703,845,723,800,730,752,733,703,731,656,723,612,706,572,680,547,651,537,619,537,587,542,554,548,521,550,488,544,456,523,424,509,412,513,408,527,420,548,454,556,488,554,522,548,555,542,587,542,619,551,648,575,676,614,701,658,717,704,726,752,728,799,725,844,718,924,698"/>
-<area shape="poly" title=" " alt="" coords="864,107,791,106,714,114,677,124,640,137,606,155,575,177,558,198,550,219,548,242,550,265,551,312,544,336,527,360,512,372,509,368,523,356,539,334,546,311,545,265,543,242,545,218,553,195,572,173,603,150,638,132,675,119,713,109,791,101,864,102"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#adea6a8bf4c034a65775aa7a8f9d2e8a2" title=" " alt="" coords="308,434,525,474"/>
-<area shape="poly" title=" " alt="" coords="930,768,853,781,760,785,711,782,663,774,616,759,572,738,537,711,508,678,483,642,463,604,434,530,420,475,425,474,439,529,468,601,488,639,512,675,541,707,575,733,618,754,664,769,712,777,760,780,853,775,929,763"/>
-<area shape="poly" title=" " alt="" coords="323,432,307,424,283,406,259,390,221,377,223,372,261,385,286,402,309,420,325,427"/>
-<area shape="poly" title=" " alt="" coords="294,442,232,434,233,429,295,436"/>
-<area shape="poly" title=" " alt="" coords="870,170,797,166,719,172,681,179,643,191,608,207,575,228,561,242,554,257,550,290,548,325,541,343,527,360,511,372,508,368,523,356,536,340,542,324,545,290,549,256,557,239,572,224,605,202,641,186,679,174,719,166,797,161,870,164"/>
-<area shape="poly" title=" " alt="" coords="896,235,821,226,738,225,695,229,653,238,612,252,575,271,564,280,557,290,551,312,545,336,538,349,527,360,508,372,506,368,524,356,534,345,540,334,545,311,552,288,560,276,572,266,610,247,651,233,694,224,737,220,822,221,897,230"/>
-<area shape="poly" title=" " alt="" coords="872,305,788,293,702,285,627,285,597,289,575,296,559,310,551,325,543,343,527,360,505,372,503,368,524,356,538,340,546,323,554,306,572,292,596,284,626,280,703,280,789,288,873,300"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a4cb4b93a437c7da00771f5cc9488384e" title=" " alt="" coords="573,370,812,410"/>
-<area shape="poly" title=" " alt="" coords="874,393,812,393,812,387,874,387"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a4b09485e1d33303ed11454b605fd740c" title=" " alt="" coords="573,306,812,346"/>
-<area shape="poly" title=" " alt="" coords="885,370,787,349,788,343,886,365"/>
-<area shape="poly" title=" " alt="" coords="559,393,526,393,526,387,559,387"/>
-<area shape="poly" title=" " alt="" coords="593,352,504,373,503,367,592,347"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/df0/classMessageQueue_ae18e8febb6e78fadd1fc56332a4b7ba2_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -276,23 +242,20 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/dd6/MessageQueue_8h_source.html#l00034">34</a> of file <a class="el" href="../../de/dd6/MessageQueue_8h_source.html">MessageQueue.h</a>.</p>
-<div class="dynheader">
+<div class="fragment"><div class="line"><span class="lineno">   35</span>    {</div>
+<div class="line"><span class="lineno">   36</span>        std::unique_lock&lt;std::mutex&gt; lock(<a class="code hl_variable" href="#ae630743e15bc99c9bf23926552b60da6">mutex_</a>);</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a486a19c694e812507eb95493d88eb5f2">queue_</a>.empty())</div>
+<div class="line"><span class="lineno">   38</span>        {</div>
+<div class="line"><span class="lineno">   39</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   40</span>        }</div>
+<div class="line"><span class="lineno">   41</span>        value = std::move(<a class="code hl_variable" href="#a486a19c694e812507eb95493d88eb5f2">queue_</a>.front());</div>
+<div class="line"><span class="lineno">   42</span>        <a class="code hl_variable" href="#a486a19c694e812507eb95493d88eb5f2">queue_</a>.pop();</div>
+<div class="line"><span class="lineno">   43</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   44</span>    }</div>
+</div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/df0/classMessageQueue_a45c62cbd04f8dfdfae9606276168951b_icgraph.png" border="0" usemap="#ad3/df0/classMessageQueue_a45c62cbd04f8dfdfae9606276168951b_icgraph" alt=""/></div>
-<map name="ad3/df0/classMessageQueue_a45c62cbd04f8dfdfae9606276168951b_icgraph" id="ad3/df0/classMessageQueue_a45c62cbd04f8dfdfae9606276168951b_icgraph">
-<area shape="rect" title=" " alt="" coords="308,112,487,137"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a9211bd133aed2e5ec776b4d4308b30c4" title=" " alt="" coords="23,5,242,31"/>
-<area shape="poly" title=" " alt="" coords="367,106,318,74,259,44,222,33,223,28,261,40,321,69,370,102"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#ad3605b8b33fa44492458d0aaffb4dec8" title=" " alt="" coords="5,55,260,80"/>
-<area shape="poly" title=" " alt="" coords="330,111,259,95,199,83,200,77,261,90,331,106"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a3289708df965193b6ec0287eb069b276" title=" " alt="" coords="33,105,233,145"/>
-<area shape="poly" title=" " alt="" coords="294,127,233,127,233,122,294,122"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a3f670cc0d1dd5c59de24e3ae421cf12b" title=" " alt="" coords="27,169,239,209"/>
-<area shape="poly" title=" " alt="" coords="331,143,217,171,216,166,330,138"/>
-<area shape="rect" href="../../d6/d6f/classNetworkManager.html#a27c7cfac9b696de6e1a04d9d3e1d226e" title=" " alt="" coords="20,233,245,273"/>
-<area shape="poly" title=" " alt="" coords="373,149,323,187,261,223,230,235,228,230,259,218,320,182,370,144"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/df0/classMessageQueue_a45c62cbd04f8dfdfae9606276168951b_icgraph.svg" width="520" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

@@ -1,5 +1,9 @@
 <map id="Texture" name="Texture">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,133,233,463"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="94,5,145,71"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,71,122,117,117,117,117,71"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="43,177,277,412"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,48,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="33,71,40,110,54,152,59,161,54,164,50,154,35,112,27,72"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="145,5,175,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,71,163,161,157,161,157,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="264,5,315,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="287,71,278,112,262,154,258,164,253,162,258,152,273,110,282,70"/>
 </map>

@@ -1,9 +1,9 @@
 <map id="NetworkManager::sendBoard" name="NetworkManager::sendBoard">
-<area shape="rect" id="Node000001" title=" " alt="" coords="527,45,737,70"/>
-<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#ac5104e38077637eeeab41e078fa51a5b" title=" " alt="" coords="273,5,477,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="516,46,477,41,478,35,517,40"/>
-<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#a8104f62e2e6c3197832dbfe7753853de" title=" " alt="" coords="272,69,479,109"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="517,74,479,79,479,74,516,69"/>
-<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a9211bd133aed2e5ec776b4d4308b30c4" title=" " alt="" coords="5,13,224,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,28,224,28,224,23,259,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="603,31,813,56"/>
+<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#ac5104e38077637eeeab41e078fa51a5b" title=" " alt="" coords="272,5,555,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="589,36,555,33,555,28,589,30"/>
+<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#a8104f62e2e6c3197832dbfe7753853de" title=" " alt="" coords="291,55,535,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="589,56,536,60,536,55,589,50"/>
+<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a9211bd133aed2e5ec776b4d4308b30c4" title=" " alt="" coords="5,5,224,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="258,21,224,21,224,15,258,15"/>
 </map>

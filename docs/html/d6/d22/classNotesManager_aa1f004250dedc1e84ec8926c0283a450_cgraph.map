@@ -1,13 +1,15 @@
 <map id="NotesManager::loadFromGlobal" name="NotesManager::loadFromGlobal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,60,233,85"/>
-<area shape="rect" id="Node000002" href="$d6/d22/classNotesManager.html#ab3b787865dc553f59e3e5d8c6cd44402" title=" " alt="" coords="281,23,476,63"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,57,267,53,268,59,232,63"/>
-<area shape="rect" id="Node000006" href="$d6/d22/classNotesManager.html#ac80d118ff9b4d60588936093c67766bf" title=" " alt="" coords="287,88,470,113"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="234,82,274,87,273,92,233,88"/>
-<area shape="rect" id="Node000003" href="$d6/d22/classNotesManager.html#a037463bcba85b07e00958d45ba6dbd60" title=" " alt="" coords="524,31,776,56"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="476,41,510,41,510,46,476,46"/>
-<area shape="rect" id="Node000004" href="$d6/d22/classNotesManager.html#ad0d8672d88e2eef61fb90dfce9bc18d9" title=" " alt="" coords="824,5,1055,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="776,30,810,27,811,32,776,35"/>
-<area shape="rect" id="Node000005" href="$d6/d22/classNotesManager.html#aafac8c0a547a63f95440d0ab7bdbe4ef" title=" " alt="" coords="831,55,1048,80"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="776,51,817,55,817,60,776,56"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,233,80"/>
+<area shape="rect" id="Node000002" href="$d6/d22/classNotesManager.html#ab3b787865dc553f59e3e5d8c6cd44402" title=" " alt="" coords="281,29,524,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,54,268,51,268,57,234,60"/>
+<area shape="rect" id="Node000007" href="$d6/d22/classNotesManager.html#ac80d118ff9b4d60588936093c67766bf" title=" " alt="" coords="311,79,494,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="234,74,298,80,297,85,233,80"/>
+<area shape="rect" id="Node000003" href="$d0/d2a/NotesManager_8cpp.html#a96ca1040c499819ef9fc0891872c1dc8" title=" " alt="" coords="637,5,759,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="524,29,623,21,623,27,525,35"/>
+<area shape="rect" id="Node000004" href="$d6/d22/classNotesManager.html#a037463bcba85b07e00958d45ba6dbd60" title=" " alt="" coords="572,55,824,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="525,50,559,53,558,58,524,55"/>
+<area shape="rect" id="Node000005" href="$d6/d22/classNotesManager.html#ad0d8672d88e2eef61fb90dfce9bc18d9" title=" " alt="" coords="872,29,1103,55"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="824,54,858,51,859,56,824,59"/>
+<area shape="rect" id="Node000006" href="$d6/d22/classNotesManager.html#aafac8c0a547a63f95440d0ab7bdbe4ef" title=" " alt="" coords="879,79,1096,104"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="824,75,865,79,865,84,824,80"/>
 </map>

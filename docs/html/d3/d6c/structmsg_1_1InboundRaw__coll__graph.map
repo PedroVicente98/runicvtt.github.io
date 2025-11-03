@@ -1,5 +1,7 @@
 <map id="msg::InboundRaw" name="msg::InboundRaw">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,148,151,228"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="53,5,103,71"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,71,81,131,75,131,75,71"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="23,148,153,213"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,56,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="32,71,35,97,42,123,48,133,43,136,38,125,30,98,27,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="80,5,211,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,72,118,125,115,134,110,132,114,123,133,70"/>
 </map>

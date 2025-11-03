@@ -1,5 +1,5 @@
 <map id="GameTableManager::findMarkerInBoard" name="GameTableManager::findMarkerInBoard">
-<area shape="rect" id="Node000001" title=" " alt="" coords="264,5,493,45"/>
-<area shape="rect" id="Node000002" href="$da/d28/classGameTableManager.html#a8967546a2319d4f7a8e51c58bee4e469" title=" " alt="" coords="5,5,216,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,28,216,28,216,23,250,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="388,5,667,31"/>
+<area shape="rect" id="Node000002" href="$da/d28/classGameTableManager.html#a8967546a2319d4f7a8e51c58bee4e469" title=" " alt="" coords="5,5,340,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="374,21,340,21,340,15,374,15"/>
 </map>

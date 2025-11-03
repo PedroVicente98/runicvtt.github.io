@@ -1,8 +1,5 @@
 <map id="SignalingServer::disconnectAllClients" name="SignalingServer::disconnectAllClients">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,208,75"/>
-<area shape="rect" id="Node000002" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="256,5,385,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,35,242,29,243,34,209,40"/>
-<area shape="rect" id="Node000003" href="$db/d67/classLogger.html#ab77a9a6a08954192b47c39f359b5d370" title=" " alt="" coords="273,79,368,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,70,260,78,259,84,208,75"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="286,80,278,70,282,60,297,54,321,52,350,56,362,65,359,69,348,61,321,57,298,59,286,64,283,70,290,77"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,269,31"/>
+<area shape="rect" id="Node000002" href="$db/d67/classLogger.html#aebb248e608f8e2724de20b482cb2a15f" title=" " alt="" coords="317,5,447,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,15,304,15,304,21,270,21"/>
 </map>

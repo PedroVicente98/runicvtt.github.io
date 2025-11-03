@@ -1,5 +1,5 @@
 <map id="DebugActions::RegisterAllDefaultToggles" name="DebugActions::RegisterAllDefaultToggles">
-<area shape="rect" id="Node000001" title=" " alt="" coords="208,5,399,45"/>
-<area shape="rect" id="Node000002" href="$d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,160,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="332,5,620,31"/>
+<area shape="rect" id="Node000002" href="$d8/d43/classApplicationHandler.html#a5488b63e5eb5617c18e2a85c0e2d8703" title=" " alt="" coords="5,5,284,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="319,21,284,21,284,15,319,15"/>
 </map>

@@ -1,3 +1,9 @@
 <map id="MessageQueue&lt; T &gt;" name="MessageQueue&lt; T &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,191,165"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="61,133,239,239"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,97,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,70,90,108,97,119,93,122,85,111,63,72"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="122,5,178,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,71,153,117,147,117,147,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="203,5,337,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="247,73,216,111,207,122,203,119,212,108,243,69"/>
 </map>

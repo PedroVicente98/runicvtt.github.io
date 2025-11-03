@@ -1,9 +1,9 @@
 <map id="NotesManager::scanFolderForMd_" name="NotesManager::scanFolderForMd_">
-<area shape="rect" id="Node000001" title=" " alt="" coords="285,47,480,87"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="285,55,528,80"/>
 <area shape="rect" id="Node000002" href="$d6/d22/classNotesManager.html#ad27f8593eb58d8f778818bf4921574f3" title=" " alt="" coords="5,5,237,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="271,49,189,33,190,28,272,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="318,55,195,33,196,28,319,50"/>
 <area shape="rect" id="Node000003" href="$d6/d22/classNotesManager.html#aa1f004250dedc1e84ec8926c0283a450" title=" " alt="" coords="7,55,235,80"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="272,70,236,70,236,65,272,65"/>
 <area shape="rect" id="Node000004" href="$d6/d22/classNotesManager.html#af4a6dd97ecee332425ca422fb84bfc1f" title=" " alt="" coords="11,104,231,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="272,91,190,107,189,101,271,86"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="319,85,196,107,195,101,318,80"/>
 </map>

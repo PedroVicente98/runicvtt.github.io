@@ -1,3 +1,7 @@
 <map id="VertexBufferLayout" name="VertexBufferLayout">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,199,328"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="47,133,333,333"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,225,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,70,148,117,143,119,125,72"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="249,5,280,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,72,237,119,232,117,250,70"/>
 </map>

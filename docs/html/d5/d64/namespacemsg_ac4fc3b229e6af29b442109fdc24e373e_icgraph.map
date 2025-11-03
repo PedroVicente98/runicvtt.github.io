@@ -1,5 +1,5 @@
 <map id="msg::makeAnswer" name="msg::makeAnswer">
-<area shape="rect" id="Node000001" title=" " alt="" coords="275,13,417,38"/>
-<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#a70a4b940a6ceb973e2d8e4ffeeb62fe9" title=" " alt="" coords="5,5,227,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,28,227,28,227,23,261,23"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="348,5,491,31"/>
+<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#a70a4b940a6ceb973e2d8e4ffeeb62fe9" title=" " alt="" coords="5,5,300,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,21,300,21,300,15,334,15"/>
 </map>

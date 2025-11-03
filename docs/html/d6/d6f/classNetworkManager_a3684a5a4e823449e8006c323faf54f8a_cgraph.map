@@ -1,24 +1,24 @@
 <map id="NetworkManager::sendFogUpdate" name="NetworkManager::sendFogUpdate">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,97,248,123"/>
-<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#aeb0d7937d1d825d09dc8c7b13e35a962" title=" " alt="" coords="296,29,503,69"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,95,296,69,297,74,185,100"/>
-<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#a22a74f98b0c9341e369396bd22685055" title=" " alt="" coords="301,122,498,162"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="235,120,287,126,286,131,235,125"/>
-<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a8f97d83ec35ea68c1e37d6837c1c8b4c" title=" " alt="" coords="551,5,777,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="502,34,541,30,541,35,503,39"/>
-<area shape="rect" id="Node000005" href="$db/d4b/classSerializer.html#a9552a2e71fe480af903507fb148c8964" title=" " alt="" coords="565,55,763,80"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="454,119,550,89,583,80,585,86,551,94,456,124"/>
-<area shape="rect" id="Node000007" href="$db/d4b/classSerializer.html#a6be006b0cf99a37c2146723395013b76" title=" " alt="" coords="577,104,751,129"/>
-<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="498,130,563,124,564,129,498,135"/>
-<area shape="rect" id="Node000008" href="$db/d4b/classSerializer.html#a60889622ee4e36ea28a284e99bbdf4e5" title=" " alt="" coords="569,153,759,179"/>
-<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="498,148,556,154,555,159,498,154"/>
-<area shape="rect" id="Node000009" href="$db/d4b/classSerializer.html#a3c3d58eaacc5f3c6f19cfde75424e9cc" title=" " alt="" coords="573,203,755,228"/>
-<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="460,159,551,187,589,197,588,202,550,193,458,165"/>
-<area shape="rect" id="Node000010" href="$db/d4b/classSerializer.html#adf940baab7d143611e19fb957725a80a" title=" " alt="" coords="563,252,765,277"/>
-<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="427,160,482,199,552,237,577,246,575,251,550,242,480,204,424,164"/>
-<area shape="rect" id="Node000006" href="$db/d4b/classSerializer.html#a92ffe65857abd6eea6a393056a9bb533" title=" " alt="" coords="825,80,1004,105"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="764,75,812,80,812,85,763,80"/>
-<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="750,106,811,100,812,105,751,111"/>
-<area shape="rect" id="Node000011" href="$db/d4b/classSerializer.html#a2a407c3a379b680296ee190ed625f05f" title=" " alt="" coords="827,252,1002,277"/>
-<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="765,262,813,262,813,267,765,267"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,248,131"/>
+<area shape="rect" id="Node000002" href="$d6/d6f/classNetworkManager.html#aeb0d7937d1d825d09dc8c7b13e35a962" title=" " alt="" coords="296,43,583,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,103,361,68,362,73,191,108"/>
+<area shape="rect" id="Node000004" href="$d6/d6f/classNetworkManager.html#a22a74f98b0c9341e369396bd22685055" title=" " alt="" coords="297,129,582,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="249,125,283,127,283,133,248,130"/>
+<area shape="rect" id="Node000003" href="$d6/d6f/classNetworkManager.html#a8f97d83ec35ea68c1e37d6837c1c8b4c" title=" " alt="" coords="631,5,857,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="543,40,626,30,627,35,544,45"/>
+<area shape="rect" id="Node000005" href="$db/d4b/classSerializer.html#a9552a2e71fe480af903507fb148c8964" title=" " alt="" coords="645,55,843,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="485,127,630,89,667,80,668,86,631,94,486,132"/>
+<area shape="rect" id="Node000007" href="$db/d4b/classSerializer.html#a6be006b0cf99a37c2146723395013b76" title=" " alt="" coords="657,104,831,129"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="582,127,644,122,644,128,583,133"/>
+<area shape="rect" id="Node000008" href="$db/d4b/classSerializer.html#a60889622ee4e36ea28a284e99bbdf4e5" title=" " alt="" coords="649,153,839,179"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="583,151,636,155,635,160,582,156"/>
+<area shape="rect" id="Node000009" href="$db/d4b/classSerializer.html#a3c3d58eaacc5f3c6f19cfde75424e9cc" title=" " alt="" coords="653,203,835,228"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="490,152,631,187,672,197,671,202,630,193,489,157"/>
+<area shape="rect" id="Node000010" href="$db/d4b/classSerializer.html#adf940baab7d143611e19fb957725a80a" title=" " alt="" coords="643,252,845,277"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="463,153,536,194,632,237,662,246,660,251,630,242,534,198,460,157"/>
+<area shape="rect" id="Node000006" href="$db/d4b/classSerializer.html#a92ffe65857abd6eea6a393056a9bb533" title=" " alt="" coords="905,80,1084,105"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="844,75,892,80,892,85,843,80"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="830,106,891,100,892,105,831,111"/>
+<area shape="rect" id="Node000011" href="$db/d4b/classSerializer.html#a2a407c3a379b680296ee190ed625f05f" title=" " alt="" coords="907,252,1082,277"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="845,262,893,262,893,267,845,267"/>
 </map>

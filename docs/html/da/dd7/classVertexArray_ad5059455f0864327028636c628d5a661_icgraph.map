@@ -1,13 +1,5 @@
 <map id="VertexArray::Bind" name="VertexArray::Bind">
-<area shape="rect" id="Node000001" title=" " alt="" coords="580,31,715,56"/>
-<area shape="rect" id="Node000002" href="$da/dd7/classVertexArray.html#a994a9dc780ecc0c725b0814a9e7ab532" title=" " alt="" coords="361,5,532,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="566,36,532,31,533,26,566,30"/>
-<area shape="rect" id="Node000005" href="$d1/d52/classRenderer.html#aed7ac4a042cf7c73ef53a0488531fc3e" title=" " alt="" coords="385,55,508,80"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="566,56,509,63,508,57,566,50"/>
-<area shape="rect" id="Node000003" href="$d8/d43/classApplicationHandler.html#afaf00f4f20eca3fec59f8f02f76ef2ce" title=" " alt="" coords="123,5,298,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="347,21,298,21,298,15,347,15"/>
-<area shape="rect" id="Node000004" href="$df/d0a/main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="110,21,60,21,60,15,110,15"/>
-<area shape="rect" id="Node000006" href="$d9/dff/classBoardManager.html#a211d671937d1b0b2494b1d2810f0ad23" title=" " alt="" coords="108,55,313,80"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="372,70,314,70,314,65,372,65"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="224,5,359,31"/>
+<area shape="rect" id="Node000002" href="$da/dd7/classVertexArray.html#a994a9dc780ecc0c725b0814a9e7ab532" title=" " alt="" coords="5,5,176,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,21,176,21,176,15,210,15"/>
 </map>
